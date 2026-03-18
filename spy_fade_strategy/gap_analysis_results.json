@@ -1,0 +1,731 @@
+{
+  "generated_at": "2026-03-17T12:31:43.496676",
+  "source": "trades_data.json \u2014 real Polygon market prices",
+  "risk_budget": 100000,
+  "n_trades": 437,
+  "date_range": "2022-01-24 to 2026-03-09",
+  "commission_analysis": {
+    "ibkr_tiered": {
+      "label": "IBKR Tiered",
+      "n_trades": 437,
+      "raw_sharpe": 0.1861,
+      "adj_sharpe": -0.1014,
+      "sharpe_delta": -0.2875,
+      "raw_wr": 79.4,
+      "adj_wr": 20.1,
+      "total_raw_pnl": 258078.75,
+      "total_commission": 394217.52,
+      "total_adj_pnl": -136138.77,
+      "comm_pct_of_raw_pnl": 152.8,
+      "avg_comm_pct_of_credit": 114.0,
+      "by_strategy": {
+        "spy_bull_put_0.5x_030_020": {
+          "n": 148,
+          "raw_sharpe": 0.1532,
+          "adj_sharpe": -0.3103,
+          "sharpe_delta": -0.4635,
+          "raw_wr": 75.0,
+          "adj_wr": 23.0,
+          "total_commission": 130964.92,
+          "avg_commission_per_trade": 884.9,
+          "avg_comm_pct_of_credit": 103.3,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.5x_025_015": {
+          "n": 120,
+          "raw_sharpe": 0.2377,
+          "adj_sharpe": -0.4249,
+          "sharpe_delta": -0.6626,
+          "raw_wr": 82.5,
+          "adj_wr": 10.8,
+          "total_commission": 105812.04,
+          "avg_commission_per_trade": 881.77,
+          "avg_comm_pct_of_credit": 131.3,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.6x_020_010": {
+          "n": 66,
+          "raw_sharpe": 0.2846,
+          "adj_sharpe": -0.4273,
+          "sharpe_delta": -0.7119,
+          "raw_wr": 80.3,
+          "adj_wr": 12.1,
+          "total_commission": 58843.84,
+          "avg_commission_per_trade": 891.57,
+          "avg_comm_pct_of_credit": 129.2,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.7x_020_010": {
+          "n": 48,
+          "raw_sharpe": 0.1263,
+          "adj_sharpe": -0.0664,
+          "sharpe_delta": -0.1926,
+          "raw_wr": 77.1,
+          "adj_wr": 25.0,
+          "total_commission": 42196.92,
+          "avg_commission_per_trade": 879.1,
+          "avg_comm_pct_of_credit": 112.9,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bear_call_0.5x_025_015": {
+          "n": 35,
+          "raw_sharpe": 0.2951,
+          "adj_sharpe": 0.1528,
+          "sharpe_delta": -0.1423,
+          "raw_wr": 85.7,
+          "adj_wr": 34.3,
+          "total_commission": 36085.36,
+          "avg_commission_per_trade": 1031.01,
+          "avg_comm_pct_of_credit": 86.5,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bear_call_0.7x_025_015": {
+          "n": 20,
+          "raw_sharpe": 0.4648,
+          "adj_sharpe": 0.2937,
+          "sharpe_delta": -0.1711,
+          "raw_wr": 85.0,
+          "adj_wr": 45.0,
+          "total_commission": 20314.44,
+          "avg_commission_per_trade": 1015.72,
+          "avg_comm_pct_of_credit": 89.7,
+          "verdict_change": "SURVIVES"
+        }
+      }
+    },
+    "ibkr_fixed": {
+      "label": "IBKR Fixed",
+      "n_trades": 437,
+      "raw_sharpe": 0.1861,
+      "adj_sharpe": -0.069,
+      "sharpe_delta": -0.2551,
+      "raw_wr": 79.4,
+      "adj_wr": 21.1,
+      "total_raw_pnl": 258078.75,
+      "total_commission": 351015.6,
+      "total_adj_pnl": -92936.85,
+      "comm_pct_of_raw_pnl": 136.0,
+      "avg_comm_pct_of_credit": 101.5,
+      "by_strategy": {
+        "spy_bull_put_0.5x_030_020": {
+          "n": 148,
+          "raw_sharpe": 0.1532,
+          "adj_sharpe": -0.2584,
+          "sharpe_delta": -0.4116,
+          "raw_wr": 75.0,
+          "adj_wr": 24.3,
+          "total_commission": 116612.6,
+          "avg_commission_per_trade": 787.92,
+          "avg_comm_pct_of_credit": 91.9,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.5x_025_015": {
+          "n": 120,
+          "raw_sharpe": 0.2377,
+          "adj_sharpe": -0.3508,
+          "sharpe_delta": -0.5885,
+          "raw_wr": 82.5,
+          "adj_wr": 12.5,
+          "total_commission": 94216.2,
+          "avg_commission_per_trade": 785.14,
+          "avg_comm_pct_of_credit": 116.9,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.6x_020_010": {
+          "n": 66,
+          "raw_sharpe": 0.2846,
+          "adj_sharpe": -0.3476,
+          "sharpe_delta": -0.6323,
+          "raw_wr": 80.3,
+          "adj_wr": 12.1,
+          "total_commission": 52395.2,
+          "avg_commission_per_trade": 793.87,
+          "avg_comm_pct_of_credit": 115.1,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.7x_020_010": {
+          "n": 48,
+          "raw_sharpe": 0.1263,
+          "adj_sharpe": -0.045,
+          "sharpe_delta": -0.1712,
+          "raw_wr": 77.1,
+          "adj_wr": 25.0,
+          "total_commission": 37572.6,
+          "avg_commission_per_trade": 782.76,
+          "avg_comm_pct_of_credit": 100.6,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bear_call_0.5x_025_015": {
+          "n": 35,
+          "raw_sharpe": 0.2951,
+          "adj_sharpe": 0.1688,
+          "sharpe_delta": -0.1263,
+          "raw_wr": 85.7,
+          "adj_wr": 34.3,
+          "total_commission": 32130.8,
+          "avg_commission_per_trade": 918.02,
+          "avg_comm_pct_of_credit": 77.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bear_call_0.7x_025_015": {
+          "n": 20,
+          "raw_sharpe": 0.4648,
+          "adj_sharpe": 0.3134,
+          "sharpe_delta": -0.1514,
+          "raw_wr": 85.0,
+          "adj_wr": 45.0,
+          "total_commission": 18088.2,
+          "avg_commission_per_trade": 904.41,
+          "avg_comm_pct_of_credit": 79.9,
+          "verdict_change": "SURVIVES"
+        }
+      }
+    },
+    "schwab": {
+      "label": "Schwab/TDA",
+      "n_trades": 437,
+      "raw_sharpe": 0.1861,
+      "adj_sharpe": -0.069,
+      "sharpe_delta": -0.2551,
+      "raw_wr": 79.4,
+      "adj_wr": 21.1,
+      "total_raw_pnl": 258078.75,
+      "total_commission": 351015.6,
+      "total_adj_pnl": -92936.85,
+      "comm_pct_of_raw_pnl": 136.0,
+      "avg_comm_pct_of_credit": 101.5,
+      "by_strategy": {
+        "spy_bull_put_0.5x_030_020": {
+          "n": 148,
+          "raw_sharpe": 0.1532,
+          "adj_sharpe": -0.2584,
+          "sharpe_delta": -0.4116,
+          "raw_wr": 75.0,
+          "adj_wr": 24.3,
+          "total_commission": 116612.6,
+          "avg_commission_per_trade": 787.92,
+          "avg_comm_pct_of_credit": 91.9,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.5x_025_015": {
+          "n": 120,
+          "raw_sharpe": 0.2377,
+          "adj_sharpe": -0.3508,
+          "sharpe_delta": -0.5885,
+          "raw_wr": 82.5,
+          "adj_wr": 12.5,
+          "total_commission": 94216.2,
+          "avg_commission_per_trade": 785.14,
+          "avg_comm_pct_of_credit": 116.9,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.6x_020_010": {
+          "n": 66,
+          "raw_sharpe": 0.2846,
+          "adj_sharpe": -0.3476,
+          "sharpe_delta": -0.6323,
+          "raw_wr": 80.3,
+          "adj_wr": 12.1,
+          "total_commission": 52395.2,
+          "avg_commission_per_trade": 793.87,
+          "avg_comm_pct_of_credit": 115.1,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bull_put_0.7x_020_010": {
+          "n": 48,
+          "raw_sharpe": 0.1263,
+          "adj_sharpe": -0.045,
+          "sharpe_delta": -0.1712,
+          "raw_wr": 77.1,
+          "adj_wr": 25.0,
+          "total_commission": 37572.6,
+          "avg_commission_per_trade": 782.76,
+          "avg_comm_pct_of_credit": 100.6,
+          "verdict_change": "KILLED BY COMMISSIONS"
+        },
+        "spy_bear_call_0.5x_025_015": {
+          "n": 35,
+          "raw_sharpe": 0.2951,
+          "adj_sharpe": 0.1688,
+          "sharpe_delta": -0.1263,
+          "raw_wr": 85.7,
+          "adj_wr": 34.3,
+          "total_commission": 32130.8,
+          "avg_commission_per_trade": 918.02,
+          "avg_comm_pct_of_credit": 77.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bear_call_0.7x_025_015": {
+          "n": 20,
+          "raw_sharpe": 0.4648,
+          "adj_sharpe": 0.3134,
+          "sharpe_delta": -0.1514,
+          "raw_wr": 85.0,
+          "adj_wr": 45.0,
+          "total_commission": 18088.2,
+          "avg_commission_per_trade": 904.41,
+          "avg_comm_pct_of_credit": 79.9,
+          "verdict_change": "SURVIVES"
+        }
+      }
+    },
+    "zero_comm": {
+      "label": "Zero Commission (baseline)",
+      "n_trades": 437,
+      "raw_sharpe": 0.1861,
+      "adj_sharpe": 0.1861,
+      "sharpe_delta": 0.0,
+      "raw_wr": 79.4,
+      "adj_wr": 79.4,
+      "total_raw_pnl": 258078.75,
+      "total_commission": 0.0,
+      "total_adj_pnl": 258078.75,
+      "comm_pct_of_raw_pnl": 0.0,
+      "avg_comm_pct_of_credit": 0.0,
+      "by_strategy": {
+        "spy_bull_put_0.5x_030_020": {
+          "n": 148,
+          "raw_sharpe": 0.1532,
+          "adj_sharpe": 0.1532,
+          "sharpe_delta": 0.0,
+          "raw_wr": 75.0,
+          "adj_wr": 75.0,
+          "total_commission": 0.0,
+          "avg_commission_per_trade": 0.0,
+          "avg_comm_pct_of_credit": 0.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bull_put_0.5x_025_015": {
+          "n": 120,
+          "raw_sharpe": 0.2377,
+          "adj_sharpe": 0.2377,
+          "sharpe_delta": 0.0,
+          "raw_wr": 82.5,
+          "adj_wr": 82.5,
+          "total_commission": 0.0,
+          "avg_commission_per_trade": 0.0,
+          "avg_comm_pct_of_credit": 0.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bull_put_0.6x_020_010": {
+          "n": 66,
+          "raw_sharpe": 0.2846,
+          "adj_sharpe": 0.2846,
+          "sharpe_delta": 0.0,
+          "raw_wr": 80.3,
+          "adj_wr": 80.3,
+          "total_commission": 0.0,
+          "avg_commission_per_trade": 0.0,
+          "avg_comm_pct_of_credit": 0.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bull_put_0.7x_020_010": {
+          "n": 48,
+          "raw_sharpe": 0.1263,
+          "adj_sharpe": 0.1263,
+          "sharpe_delta": 0.0,
+          "raw_wr": 77.1,
+          "adj_wr": 77.1,
+          "total_commission": 0.0,
+          "avg_commission_per_trade": 0.0,
+          "avg_comm_pct_of_credit": 0.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bear_call_0.5x_025_015": {
+          "n": 35,
+          "raw_sharpe": 0.2951,
+          "adj_sharpe": 0.2951,
+          "sharpe_delta": 0.0,
+          "raw_wr": 85.7,
+          "adj_wr": 85.7,
+          "total_commission": 0.0,
+          "avg_commission_per_trade": 0.0,
+          "avg_comm_pct_of_credit": 0.0,
+          "verdict_change": "SURVIVES"
+        },
+        "spy_bear_call_0.7x_025_015": {
+          "n": 20,
+          "raw_sharpe": 0.4648,
+          "adj_sharpe": 0.4648,
+          "sharpe_delta": 0.0,
+          "raw_wr": 85.0,
+          "adj_wr": 85.0,
+          "total_commission": 0.0,
+          "avg_commission_per_trade": 0.0,
+          "avg_comm_pct_of_credit": 0.0,
+          "verdict_change": "SURVIVES"
+        }
+      }
+    }
+  },
+  "overlap_analysis": {
+    "total_trade_days": 177,
+    "multi_fire_days": 137,
+    "multi_fire_pct": 77.4,
+    "strategy_trade_counts": {
+      "spy_bull_put_0.5x_030_020": 148,
+      "spy_bull_put_0.5x_025_015": 120,
+      "spy_bull_put_0.6x_020_010": 66,
+      "spy_bull_put_0.7x_020_010": 48,
+      "spy_bear_call_0.5x_025_015": 35,
+      "spy_bear_call_0.7x_025_015": 20
+    },
+    "cooccurrence_pairs": {
+      "spy_bull_put_0.5x_025_015 + spy_bull_put_0.5x_030_020": 118,
+      "spy_bull_put_0.5x_030_020 + spy_bull_put_0.6x_020_010": 66,
+      "spy_bull_put_0.5x_025_015 + spy_bull_put_0.6x_020_010": 60,
+      "spy_bull_put_0.5x_030_020 + spy_bull_put_0.7x_020_010": 48,
+      "spy_bull_put_0.5x_025_015 + spy_bull_put_0.7x_020_010": 43,
+      "spy_bull_put_0.6x_020_010 + spy_bull_put_0.7x_020_010": 41,
+      "spy_bear_call_0.5x_025_015 + spy_bear_call_0.7x_025_015": 16,
+      "spy_bear_call_0.5x_025_015 + spy_bull_put_0.5x_030_020": 12,
+      "spy_bear_call_0.5x_025_015 + spy_bull_put_0.5x_025_015": 10,
+      "spy_bear_call_0.5x_025_015 + spy_bull_put_0.6x_020_010": 5,
+      "spy_bear_call_0.7x_025_015 + spy_bull_put_0.5x_030_020": 5,
+      "spy_bear_call_0.7x_025_015 + spy_bull_put_0.5x_025_015": 4,
+      "spy_bear_call_0.5x_025_015 + spy_bull_put_0.7x_020_010": 3,
+      "spy_bear_call_0.7x_025_015 + spy_bull_put_0.6x_020_010": 1,
+      "spy_bear_call_0.7x_025_015 + spy_bull_put_0.7x_020_010": 1
+    },
+    "daily_exposure": {},
+    "max_same_day_trades": 6,
+    "distribution": {
+      "1": 40,
+      "2": 59,
+      "3": 37,
+      "4": 38,
+      "5": 2,
+      "6": 1
+    }
+  },
+  "drawdown_analysis": {
+    "overall": {
+      "max_drawdown": 35918.0,
+      "max_dd_pct_of_risk": 35.92,
+      "max_consecutive_losses": 5,
+      "max_consecutive_wins": 48,
+      "worst_dd_period": "2022-01-26 to 2022-02-11",
+      "final_cum_pnl": 258078.75
+    },
+    "by_strategy": {
+      "spy_bull_put_0.5x_030_020": {
+        "max_drawdown": 13272.0,
+        "max_consecutive_losses": 3,
+        "total_pnl": 44169.75,
+        "n_trades": 148
+      },
+      "spy_bull_put_0.5x_025_015": {
+        "max_drawdown": 7000.75,
+        "max_consecutive_losses": 3,
+        "total_pnl": 38732.75,
+        "n_trades": 120
+      },
+      "spy_bull_put_0.6x_020_010": {
+        "max_drawdown": 3253.0,
+        "max_consecutive_losses": 1,
+        "total_pnl": 24025.25,
+        "n_trades": 66
+      },
+      "spy_bull_put_0.7x_020_010": {
+        "max_drawdown": 21606.0,
+        "max_consecutive_losses": 2,
+        "total_pnl": 27777.0,
+        "n_trades": 48
+      },
+      "spy_bear_call_0.5x_025_015": {
+        "max_drawdown": 25057.75,
+        "max_consecutive_losses": 1,
+        "total_pnl": 72500.5,
+        "n_trades": 35
+      },
+      "spy_bear_call_0.7x_025_015": {
+        "max_drawdown": 4554.0,
+        "max_consecutive_losses": 1,
+        "total_pnl": 50873.5,
+        "n_trades": 20
+      }
+    }
+  },
+  "yearly_analysis": {
+    "2022": {
+      "spy_bull_put_0.5x_030_020": {
+        "n": 23,
+        "sharpe": 0.1846,
+        "win_rate": 73.9,
+        "avg_pnl": 0.6465,
+        "total_pnl": 14.87,
+        "winners": 17,
+        "losers": 6
+      },
+      "spy_bull_put_0.5x_025_015": {
+        "n": 21,
+        "sharpe": 0.5318,
+        "win_rate": 90.5,
+        "avg_pnl": 0.9535,
+        "total_pnl": 20.0244,
+        "winners": 19,
+        "losers": 2
+      },
+      "spy_bull_put_0.6x_020_010": {
+        "n": 16,
+        "sharpe": 0.3893,
+        "win_rate": 81.2,
+        "avg_pnl": 0.6372,
+        "total_pnl": 10.1953,
+        "winners": 13,
+        "losers": 3
+      },
+      "spy_bull_put_0.7x_020_010": {
+        "n": 9,
+        "sharpe": 0.0286,
+        "win_rate": 77.8,
+        "avg_pnl": 0.2354,
+        "total_pnl": 2.1185,
+        "winners": 7,
+        "losers": 2
+      },
+      "spy_bear_call_0.5x_025_015": {
+        "n": 9,
+        "sharpe": 0.7416,
+        "win_rate": 100.0,
+        "avg_pnl": 6.0697,
+        "total_pnl": 54.6277,
+        "winners": 9,
+        "losers": 0
+      },
+      "spy_bear_call_0.7x_025_015": {
+        "n": 4,
+        "sharpe": 0.3965,
+        "win_rate": 50.0,
+        "avg_pnl": 2.379,
+        "total_pnl": 9.516,
+        "winners": 2,
+        "losers": 2
+      }
+    },
+    "2023": {
+      "spy_bull_put_0.5x_030_020": {
+        "n": 31,
+        "sharpe": -0.0914,
+        "win_rate": 77.4,
+        "avg_pnl": -0.1093,
+        "total_pnl": -3.3882,
+        "winners": 24,
+        "losers": 7
+      },
+      "spy_bear_call_0.5x_025_015": {
+        "n": 6,
+        "sharpe": 0.5473,
+        "win_rate": 83.3,
+        "avg_pnl": 3.049,
+        "total_pnl": 18.2941,
+        "winners": 5,
+        "losers": 1
+      },
+      "spy_bear_call_0.7x_025_015": {
+        "n": 4,
+        "sharpe": 0.8832,
+        "win_rate": 100.0,
+        "avg_pnl": 6.4945,
+        "total_pnl": 25.9779,
+        "winners": 4,
+        "losers": 0
+      },
+      "spy_bull_put_0.5x_025_015": {
+        "n": 21,
+        "sharpe": 0.1318,
+        "win_rate": 90.5,
+        "avg_pnl": 0.0698,
+        "total_pnl": 1.4666,
+        "winners": 19,
+        "losers": 2
+      },
+      "spy_bull_put_0.7x_020_010": {
+        "n": 6,
+        "sharpe": 1.6397,
+        "win_rate": 100.0,
+        "avg_pnl": 0.7802,
+        "total_pnl": 4.681,
+        "winners": 6,
+        "losers": 0
+      },
+      "spy_bull_put_0.6x_020_010": {
+        "n": 8,
+        "sharpe": -0.1279,
+        "win_rate": 75.0,
+        "avg_pnl": -0.0884,
+        "total_pnl": -0.7073,
+        "winners": 6,
+        "losers": 2
+      }
+    },
+    "2024": {
+      "spy_bull_put_0.5x_030_020": {
+        "n": 30,
+        "sharpe": -0.1588,
+        "win_rate": 56.7,
+        "avg_pnl": -0.1741,
+        "total_pnl": -5.2221,
+        "winners": 17,
+        "losers": 13
+      },
+      "spy_bull_put_0.5x_025_015": {
+        "n": 21,
+        "sharpe": -0.2625,
+        "win_rate": 61.9,
+        "avg_pnl": -0.2561,
+        "total_pnl": -5.379,
+        "winners": 13,
+        "losers": 8
+      },
+      "spy_bear_call_0.5x_025_015": {
+        "n": 7,
+        "sharpe": -0.0298,
+        "win_rate": 71.4,
+        "avg_pnl": -0.0419,
+        "total_pnl": -0.2934,
+        "winners": 5,
+        "losers": 2
+      },
+      "spy_bull_put_0.6x_020_010": {
+        "n": 10,
+        "sharpe": 0.3796,
+        "win_rate": 80.0,
+        "avg_pnl": 0.1118,
+        "total_pnl": 1.1183,
+        "winners": 8,
+        "losers": 2
+      },
+      "spy_bull_put_0.7x_020_010": {
+        "n": 10,
+        "sharpe": -0.0906,
+        "win_rate": 70.0,
+        "avg_pnl": -0.0951,
+        "total_pnl": -0.9509,
+        "winners": 7,
+        "losers": 3
+      },
+      "spy_bear_call_0.7x_025_015": {
+        "n": 4,
+        "sharpe": -0.2904,
+        "win_rate": 75.0,
+        "avg_pnl": -0.6784,
+        "total_pnl": -2.7136,
+        "winners": 3,
+        "losers": 1
+      }
+    },
+    "2025": {
+      "spy_bull_put_0.5x_030_020": {
+        "n": 51,
+        "sharpe": 0.4183,
+        "win_rate": 86.3,
+        "avg_pnl": 0.7427,
+        "total_pnl": 37.8796,
+        "winners": 44,
+        "losers": 7
+      },
+      "spy_bull_put_0.5x_025_015": {
+        "n": 46,
+        "sharpe": 0.3199,
+        "win_rate": 84.8,
+        "avg_pnl": 0.4833,
+        "total_pnl": 22.2315,
+        "winners": 39,
+        "losers": 7
+      },
+      "spy_bull_put_0.6x_020_010": {
+        "n": 24,
+        "sharpe": 0.3873,
+        "win_rate": 83.3,
+        "avg_pnl": 0.5753,
+        "total_pnl": 13.8072,
+        "winners": 20,
+        "losers": 4
+      },
+      "spy_bull_put_0.7x_020_010": {
+        "n": 19,
+        "sharpe": 0.3362,
+        "win_rate": 84.2,
+        "avg_pnl": 1.4469,
+        "total_pnl": 27.4917,
+        "winners": 16,
+        "losers": 3
+      },
+      "spy_bear_call_0.5x_025_015": {
+        "n": 12,
+        "sharpe": -0.0018,
+        "win_rate": 83.3,
+        "avg_pnl": -0.0137,
+        "total_pnl": -0.1649,
+        "winners": 10,
+        "losers": 2
+      },
+      "spy_bear_call_0.7x_025_015": {
+        "n": 5,
+        "sharpe": 0.7672,
+        "win_rate": 100.0,
+        "avg_pnl": 3.3685,
+        "total_pnl": 16.8427,
+        "winners": 5,
+        "losers": 0
+      }
+    },
+    "2026": {
+      "spy_bull_put_0.5x_030_020": {
+        "n": 13,
+        "sharpe": 0.0062,
+        "win_rate": 69.2,
+        "avg_pnl": 0.0064,
+        "total_pnl": 0.0828,
+        "winners": 9,
+        "losers": 4
+      },
+      "spy_bull_put_0.5x_025_015": {
+        "n": 11,
+        "sharpe": 0.062,
+        "win_rate": 81.8,
+        "avg_pnl": 0.0413,
+        "total_pnl": 0.4539,
+        "winners": 9,
+        "losers": 2
+      },
+      "spy_bull_put_0.6x_020_010": {
+        "n": 8,
+        "sharpe": -0.0885,
+        "win_rate": 75.0,
+        "avg_pnl": -0.0434,
+        "total_pnl": -0.3473,
+        "winners": 6,
+        "losers": 2
+      },
+      "spy_bear_call_0.5x_025_015": {
+        "n": 1,
+        "sharpe": 0,
+        "win_rate": 100.0,
+        "avg_pnl": 0.1256,
+        "total_pnl": 0.1256,
+        "winners": 1,
+        "losers": 0
+      },
+      "spy_bear_call_0.7x_025_015": {
+        "n": 3,
+        "sharpe": 1.2121,
+        "win_rate": 100.0,
+        "avg_pnl": 0.4286,
+        "total_pnl": 1.2858,
+        "winners": 3,
+        "losers": 0
+      },
+      "spy_bull_put_0.7x_020_010": {
+        "n": 4,
+        "sharpe": -1.1768,
+        "win_rate": 25.0,
+        "avg_pnl": -1.3714,
+        "total_pnl": -5.4855,
+        "winners": 1,
+        "losers": 3
+      }
+    }
+  }
+}

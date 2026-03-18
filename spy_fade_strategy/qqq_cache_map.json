@@ -1,0 +1,5282 @@
+[
+  {
+    "type": "daily",
+    "date": "2022-01-01",
+    "cache_key": "a20f4debb2885b5cc3971b30d1757cc0"
+  },
+  {
+    "type": "daily",
+    "date": "2023-01-02",
+    "cache_key": "23f99b2db7d6a3fe236e0ab7bd47d128"
+  },
+  {
+    "type": "daily",
+    "date": "2024-01-03",
+    "cache_key": "fb034f6602557f452d931aa6dea3a5ff"
+  },
+  {
+    "type": "daily",
+    "date": "2025-01-03",
+    "cache_key": "5baefb7db5c90ab3e65217e604e4a4ee"
+  },
+  {
+    "type": "daily",
+    "date": "2026-01-04",
+    "cache_key": "78cf98157c1b9e0205a90556d303e28c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-03",
+    "cache_key": "5c5c620e6c48c87530edbbf792ad7a77"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-04",
+    "cache_key": "0c183581a40283ef776936df0ca0e56b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-05",
+    "cache_key": "1ffb2e02a371aa2b49db31c23b9c65fc"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-06",
+    "cache_key": "950bc9cb8330a6e11a48da202d94b3c2"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-07",
+    "cache_key": "baaaf1729be974fed2cd4b662c325e69"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-10",
+    "cache_key": "5c9164756682b563d68eb118608f2093"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-11",
+    "cache_key": "0e28c4b9d1723e2584124de613165fd7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-12",
+    "cache_key": "9342c2b58aabe52a9f5fd4c262ddb665"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-13",
+    "cache_key": "2aa8b2b88c254e82b8618c482fb21faa"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-14",
+    "cache_key": "48c7d0eaded6d32ab08b3ce19376de63"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-18",
+    "cache_key": "92667a73759afeedab37c514849021fb"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-19",
+    "cache_key": "9c55c7e532121a0348ee0d74b35dd5f3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-20",
+    "cache_key": "9aa39e7e9784851a67a0f10494a1a1c1"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-21",
+    "cache_key": "2699d98f9eef38fda80422f00df0fc33"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-24",
+    "cache_key": "38eef90820dd85870372109e54d876ad"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-25",
+    "cache_key": "699b244f90d7ba7cce23942c1f66d66b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-26",
+    "cache_key": "4f9b7da632d08333ff58a8e25925a43a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-27",
+    "cache_key": "1e7803565a7c938584e93b51bb3d81fb"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-28",
+    "cache_key": "9b0520fea433256a93f24cc70364beca"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-01-31",
+    "cache_key": "25e3ded368ecf9f5c8d493ef505f11fd"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-01",
+    "cache_key": "47183d0456d56b4176192708e6a5ac53"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-02",
+    "cache_key": "5812939601ef02e77427e67fc6b829fd"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-03",
+    "cache_key": "78a9cc3df13610229fdb7ef03c108047"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-04",
+    "cache_key": "dafc5fe17ed9a488add8061b094d98d7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-07",
+    "cache_key": "fc039ac28ace7f9b26f1a61ac5628d95"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-08",
+    "cache_key": "90e285d87d7abc11cf4ab101f0103abc"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-09",
+    "cache_key": "a03a64e58f163207ad0786b5307cbc00"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-10",
+    "cache_key": "11733ae3087f657f35932b530660bc36"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-11",
+    "cache_key": "83f6969fbd8351ebe4611a4d6928fccf"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-14",
+    "cache_key": "8aa23e3f63eff8d534940eca7f15a359"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-15",
+    "cache_key": "4a1c9c20279be34bb041f89a7beeb61d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-16",
+    "cache_key": "48751408ca825361f2d4477a8d522f6a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-17",
+    "cache_key": "87198f09680b9ced9e92027a7db55eef"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-18",
+    "cache_key": "9c4faab6564e1233d77056866d8592d6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-22",
+    "cache_key": "03768fc7fe663625e52ddd9264a6b85c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-23",
+    "cache_key": "fc2fd56063d9ee73c68238dd36bcac9c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-24",
+    "cache_key": "7755297668f57e5a0b5a4eb5605d97cf"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-25",
+    "cache_key": "c8aa1c36794b042d5b5399eb073eca86"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-02-28",
+    "cache_key": "4aa548417a727b04b1d5b2a7ae261b5b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-01",
+    "cache_key": "a95932182eea0a86cb6cb030b5a87a86"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-02",
+    "cache_key": "0ecaef06d118f5453e4ec41a4b2ff70e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-03",
+    "cache_key": "a1aa82dd409f73c941e66fefe8c376b4"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-04",
+    "cache_key": "3704cc35c8a7eefb31177d35818ef312"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-07",
+    "cache_key": "d00534634739e3421f471c4307d06266"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-08",
+    "cache_key": "c0930825af7d2a6e0eb8006be3c61727"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-09",
+    "cache_key": "ced1cb7d880885587ad910281213ef64"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-10",
+    "cache_key": "d3afa897e52dbe0d9c74b8c978871261"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-11",
+    "cache_key": "04e6181b93a5ef4d35e9b170bd475907"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-14",
+    "cache_key": "d0b7119ceeb629b496bc4e7b1087e562"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-15",
+    "cache_key": "df196ac920f7e5554edeff1cceae8c73"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-16",
+    "cache_key": "be42cb14a66a3f1111df599a3cdb7a2a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-17",
+    "cache_key": "9515356a1d17fd2b3820c641d8b85f50"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-18",
+    "cache_key": "2a1d714d18f7e2f1f94fc5374a168407"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-21",
+    "cache_key": "75ee8ffa62499fcf9f4f521cae0b4d3d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-22",
+    "cache_key": "0e8b4ae1a006a438bf57d9dcb52173d8"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-23",
+    "cache_key": "a382eb475407f86f3c0d29422db7bbdb"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-24",
+    "cache_key": "6c50dfb9c53fc43530c9c091e6587988"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-25",
+    "cache_key": "fe7e0bef4db1fac8613ffcc99ee35934"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-28",
+    "cache_key": "520fac5b5caa329ae516cfee4d382352"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-29",
+    "cache_key": "6a5216530c3e46af9ce3425b6c859b98"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-30",
+    "cache_key": "8e7a077b0d83dcefb924837170687896"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-03-31",
+    "cache_key": "cdad8fc73e8cb9ebc8abaf0a8cf77ea7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-01",
+    "cache_key": "32a89db7282fdda33c406391d9bee0d0"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-04",
+    "cache_key": "65549d0f30595ded87eaf7958ce1d65d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-05",
+    "cache_key": "ac2b3083cacbe1d100be38d6072702a3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-06",
+    "cache_key": "071c70835e517b121d0cdb64aaf9c532"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-07",
+    "cache_key": "b40a83db86be21f8260b328beb29a9b7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-08",
+    "cache_key": "7d4c3631797ed26f74f597230ac8e222"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-11",
+    "cache_key": "f8a1b9f69013466ec652d69aa92922ac"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-12",
+    "cache_key": "d545b91e1b1415cda2529eca2f49c9a1"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-13",
+    "cache_key": "08e9ec697ea9ec486b7d14071d12244e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-14",
+    "cache_key": "4beaa7a9f64c16f212c48d6e6d164049"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-18",
+    "cache_key": "d5510ae5575c9fe1c3e4b68560ee685f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-19",
+    "cache_key": "41e0749d9c696fb80f619c835bf3147d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-20",
+    "cache_key": "93015380b62409ba73a76ac5174ac91c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-21",
+    "cache_key": "a5ec24bd7fa73ba64aa7ce359af57e20"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-22",
+    "cache_key": "70738bd79ecd790791349f849f9ac5df"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-25",
+    "cache_key": "5ac7118239b56da7303443423177f708"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-26",
+    "cache_key": "ae00d349725ccdeef52cd181cb9a496d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-27",
+    "cache_key": "ab7d37fdf59a75508a523041c0f7012d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-28",
+    "cache_key": "1fe385c53ff51e983da874cfdba02cf6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-04-29",
+    "cache_key": "2dc794edc9989006315f4139ad04fa2c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-02",
+    "cache_key": "21ad3a0b5032787d49460d26c1864ea3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-03",
+    "cache_key": "fbd91378b772f0e546b7892301d08e70"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-04",
+    "cache_key": "05f60152ffc2e5e396a38acf042d2d73"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-05",
+    "cache_key": "7155ae08eb7601d439da2bfbf25bdb45"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-06",
+    "cache_key": "52aa595ad22e3009a5bcda043540f93d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-09",
+    "cache_key": "6af32439e8da9869ed8be2502bbaff3a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-10",
+    "cache_key": "76f37f2981400a11a907709928999564"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-11",
+    "cache_key": "01d66191093fd10a4f6daafdb12af12c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-12",
+    "cache_key": "a2cb3545588cca8da950332e8655bea2"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-13",
+    "cache_key": "cd3eab664a9157e426f71df160f245da"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-16",
+    "cache_key": "cd746f4ebe9a3e04016d36b63a04c1f7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-17",
+    "cache_key": "62ef2a657ad3001916fa342cae2113bd"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-18",
+    "cache_key": "63e72d30e78e674685e9c540859ca91e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-19",
+    "cache_key": "cffa51b7e8f2b2fbb6e9bd5065ba0fea"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-20",
+    "cache_key": "7fb6c577d4951d6bba6be88c518eb4a5"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-23",
+    "cache_key": "f023ad87fc2cb9de6b5735222f8ee772"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-24",
+    "cache_key": "b20e8d538623f767778f2dbd0c1845e3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-25",
+    "cache_key": "865430382150c8eb2fa2acdbc15df728"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-26",
+    "cache_key": "946bec71cbc71f0106f7fb812d0acf5b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-27",
+    "cache_key": "4f885452548b3535d7af290eeeeb950d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-05-31",
+    "cache_key": "679fb4100a81444de8ea7bc1bf51ca2f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-01",
+    "cache_key": "36199239c9d1364ecd579b1fd181d71c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-02",
+    "cache_key": "b4fe12fc70a03ff66db0b4a97d37581a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-03",
+    "cache_key": "768ea4f8f3cb20d71e48568d836cee1b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-06",
+    "cache_key": "0589758dc660d56d4f5e967787522f7d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-07",
+    "cache_key": "84841b19db4033f04067c37571ef61b3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-08",
+    "cache_key": "dc27cdbd32a56c369eafc0ed911c8376"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-09",
+    "cache_key": "500baccc6c849afdb55fdc713f7fbbd3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-10",
+    "cache_key": "23d067354ddcc3c75f314136fe3af53f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-13",
+    "cache_key": "75edd88c06c2c8a79160c12682516d9c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-14",
+    "cache_key": "a366bced7df39678382ec3afc3f42e60"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-15",
+    "cache_key": "2c7a395bb2a1039fd42c26601900e6aa"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-16",
+    "cache_key": "fc0647851da5ebf63f1a55808cac25c1"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-17",
+    "cache_key": "686fad516029e6d1ca52830c098eae08"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-21",
+    "cache_key": "d4375eaa09ac987046b26704c4252e12"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-22",
+    "cache_key": "30219188a902b8b18cd67b361a6ea6e5"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-23",
+    "cache_key": "6cb03fa529215b3c8af47164d9f0a115"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-24",
+    "cache_key": "f1dade1ae094d84215cd134620a05eb4"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-27",
+    "cache_key": "a113b848ea86a744eb6a218a143e2afa"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-28",
+    "cache_key": "5ae7e889845c3ed1f83cdbb9eca350be"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-29",
+    "cache_key": "30ba6da2514008302ebc41715a153e8a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-06-30",
+    "cache_key": "a853b4db7ff09975123c523cb797e71f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-01",
+    "cache_key": "8c4ba42631f0021c2079a7a67dc5f18f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-05",
+    "cache_key": "c29e0420ba52a1224d77ab662e305791"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-06",
+    "cache_key": "6a78cbe1d8604a7a7ee231febfa0d5c6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-07",
+    "cache_key": "015917228d0a90079e54b016cd630b4b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-08",
+    "cache_key": "ba7e8ed79a844a35d50b2b32855a8d96"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-11",
+    "cache_key": "c6f973efd700a78cec9bbeaca53ee5c5"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-12",
+    "cache_key": "5a805a316eb13658c95a91af8ef74d22"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-13",
+    "cache_key": "04521037b8b248b5e67d7a46027d81a6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-14",
+    "cache_key": "5392b641bb136a9ba5b13719774dd633"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-15",
+    "cache_key": "9afb3d6d684ed3a9a7ac009959b36e6a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-18",
+    "cache_key": "15d963a534e9bc034aafdbae4ac5ae5e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-19",
+    "cache_key": "3df8619a333e5bf1cc0e3f8d97d962ed"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-20",
+    "cache_key": "c4850980bc53428a710c12acd22f34f7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-21",
+    "cache_key": "4c383ae184f66e598e8df8503a9ae168"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-22",
+    "cache_key": "ac20d3c469e8407f573c11246cacaf36"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-25",
+    "cache_key": "3686d04923763a015c8e0468f1aa7e46"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-26",
+    "cache_key": "78ba75d2d6d7304b45ca33b50411ae74"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-27",
+    "cache_key": "a69d9e026e50c1eab2e55b8675437487"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-28",
+    "cache_key": "4088085799fd4795890d057feb7cc79f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-07-29",
+    "cache_key": "e3f1b986820aab353c247b22c05db421"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-01",
+    "cache_key": "7541445f860a53a84740388155d83e0e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-02",
+    "cache_key": "7ab77c5f6be47a4b26418271ea854a87"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-03",
+    "cache_key": "c6cc469848cf1b3aace9acc5400fe87f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-04",
+    "cache_key": "a42fc087e4d7fff847c7e41eb8750570"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-05",
+    "cache_key": "249e3f99dd6292c89b39509462ac4e43"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-08",
+    "cache_key": "e790323a819a1974eed8853747e8deb7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-09",
+    "cache_key": "050ca949bf42fabb8a99adfd25fe35bb"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-10",
+    "cache_key": "0776bd119f732db3e72c8978323ff66b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-11",
+    "cache_key": "7709bf832c752a5ffe3195de0bb4713e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-12",
+    "cache_key": "9aa0c11d00c201a8341ca01cce55634e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-15",
+    "cache_key": "1ed2cb334446dd908e07f13d9596a6c6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-16",
+    "cache_key": "9acd475b34c153222783ce04307aca4f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-17",
+    "cache_key": "eaab7be922cab60f5431577ef7ec4e80"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-18",
+    "cache_key": "72262d598b738d4f63e44a0743d9230a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-19",
+    "cache_key": "30c37dac89a6005647d957ed60161105"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-22",
+    "cache_key": "2047dc30bc5b19e047f28edefc731601"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-23",
+    "cache_key": "e8b545db7254bdaca43b62a8f2ca8b8d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-24",
+    "cache_key": "69ec8ee260c7bfbc57d936900e694706"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-25",
+    "cache_key": "2be46d23bfa3ee66ce3a7edc8e282b81"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-26",
+    "cache_key": "8eeda6e9ce3abd8b32129234aace5c47"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-29",
+    "cache_key": "8851c97e8bc6d5ca60bbc572ac884c75"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-30",
+    "cache_key": "6fd29d79b3c79a98f2ea99d5df2cd672"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-08-31",
+    "cache_key": "5171d07f5fa6ebfe28c21836b34a5665"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-01",
+    "cache_key": "b26bf15d7888f92944a7840403b98dd0"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-02",
+    "cache_key": "30e7bf904d7e39ecdf620f38ce58901b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-06",
+    "cache_key": "0fc0bb0c85cb7f8a493604db150ed41d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-07",
+    "cache_key": "a867f1b194366dca19ac79aff857cccc"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-08",
+    "cache_key": "6d5419a55ebdd3d9d31b9e9e843c6ce4"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-09",
+    "cache_key": "e42910aeda6b5017b093479821683d15"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-12",
+    "cache_key": "308f03cf03d505353f990ff9e6b27753"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-13",
+    "cache_key": "8e8b90d73ff1bd8312dc758e7639a87f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-14",
+    "cache_key": "b568a8f9f92dfc61564caf71cb6dd7ad"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-15",
+    "cache_key": "8926c49596221a7abcba8303c80dc1af"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-16",
+    "cache_key": "ab8261b4d6264a3f98b4c4f80d18f75d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-19",
+    "cache_key": "263da13ec333fb07b6debd744d83fe2c"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-20",
+    "cache_key": "d5e18f22daa7470f94c94f834bbda492"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-21",
+    "cache_key": "30f338d9e1aff76db80a4d2e4c8a464a"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-22",
+    "cache_key": "b6c02bb107dae6d410d3e69bd13f56a5"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-23",
+    "cache_key": "994474296d2cc8cc4bb2c249d433da9e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-26",
+    "cache_key": "fa9f229cc88434b767a5ad30f7dbaba8"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-27",
+    "cache_key": "a08abf2e367a3ae01788e6c8e5faf629"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-28",
+    "cache_key": "efb477e7df147108eb847ceef02bfef5"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-29",
+    "cache_key": "786d3077b154d3df67bc5f6cfdae685d"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-09-30",
+    "cache_key": "bbac66450d2620f398328e655b91cfd8"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-03",
+    "cache_key": "d7c71086a7c9f4c0fffddbaf484a2dec"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-04",
+    "cache_key": "eabe8bff1dcfc0d0b108c8c85318369b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-05",
+    "cache_key": "59e9a0d447ff83f6eeb7244c51a9f2ef"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-06",
+    "cache_key": "6a92ff60eb9f716a0b51df0084b76912"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-07",
+    "cache_key": "579d213d4f7ea13c244fffe1a6b24249"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-10",
+    "cache_key": "87d61b53bc50ad1e39b872876af8d746"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-11",
+    "cache_key": "415691e8bf5686e95c59521bf9cec5f6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-12",
+    "cache_key": "523503a121cc03b6840d77da633f2d27"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-13",
+    "cache_key": "a30aaca052e662aa4c9c388aec76cb7b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-14",
+    "cache_key": "5700e5678bede90fbd52b7c1aaaefc6e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-17",
+    "cache_key": "4b37e832e3ac2569bd8576d20102adee"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-18",
+    "cache_key": "ea6afb24dc320d7f056913994d114695"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-19",
+    "cache_key": "93aaf830490a757d2f566079d6d7b77e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-20",
+    "cache_key": "12f554aef9c0468c4b91713e21926cc1"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-21",
+    "cache_key": "7746c941d7a6ee927318090fdbf70fa8"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-24",
+    "cache_key": "2135f2f6e1d4c0b53d7dd79985736bb7"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-25",
+    "cache_key": "cad0bab9e26e9cb0f00aae4fe147441f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-26",
+    "cache_key": "d101e37bc941677e33c384c5023b39c6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-27",
+    "cache_key": "0be0636d24a5717f8bec9ae0eab1b829"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-28",
+    "cache_key": "7699264c60a7ba24ed34652bd48ed145"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-10-31",
+    "cache_key": "f307981033e02d17a2e56f40210c99a4"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-01",
+    "cache_key": "ce0c008528d873cded240b85f8e46539"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-02",
+    "cache_key": "06cb0970cbe71ea9e68765ede0ed281e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-03",
+    "cache_key": "e4ac9ff6e94ce371292d5f04e1c844d3"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-04",
+    "cache_key": "d2f8e21930dfa970046d177be7056022"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-07",
+    "cache_key": "c76fee41471d0cf2a6ca64fc09176352"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-08",
+    "cache_key": "32563135652468efb15a51ceaaa8faf0"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-09",
+    "cache_key": "30634bd0b705ed9f7dc1878e531de791"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-10",
+    "cache_key": "24cc5040a382172aff70e4f5c88016d9"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-11",
+    "cache_key": "29b3dd75b80d9873296e0606cf844805"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-14",
+    "cache_key": "099df890862e65d6d5fe07aff498ab3b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-15",
+    "cache_key": "4cc57b64bbd0aff1b9bd147cd836d370"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-16",
+    "cache_key": "4b480dc9f8d53a8c1f3c1920d4eaad54"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-17",
+    "cache_key": "194bb03d582129bd6c5668392b1cc846"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-18",
+    "cache_key": "c7fecc6d36dfe0bbce82de17f9c3a84b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-21",
+    "cache_key": "28c20ffa5e3ed2baa408654892e63144"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-22",
+    "cache_key": "3a116d3d074fc578799ac98b4e37b546"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-23",
+    "cache_key": "5256c05530199d1f36f61fe2e802f064"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-25",
+    "cache_key": "8abcd851180506100800863350277633"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-28",
+    "cache_key": "9ba2ad4c1efa64939b7cb528151c2645"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-29",
+    "cache_key": "27587cb57873f0df83f244940ad42a82"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-11-30",
+    "cache_key": "1f1a53d01c18262cf53e4bda7d4c61fc"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-01",
+    "cache_key": "58836d07da8c71ddaeff9ceb5743db73"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-02",
+    "cache_key": "3a29a3f5e515881f47f0de50f771761e"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-05",
+    "cache_key": "7f8720b0ccdde1110359c479a5db6662"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-06",
+    "cache_key": "8a41462aeff6fdf095c389a654ab90a8"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-07",
+    "cache_key": "cfb61a78b0e7a107db378f4125e79a18"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-08",
+    "cache_key": "cb1bbc5e9864ed69911d7287d6bd6062"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-09",
+    "cache_key": "2d3faec88d3bcd0526000e19fdd866dc"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-12",
+    "cache_key": "7f5678b571d7f7d2fa304486fd254784"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-13",
+    "cache_key": "afa23e6e4ba92a0ccfdd0876a01b1bed"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-14",
+    "cache_key": "333f7a09d4e5191e40b12dc0a682bdeb"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-15",
+    "cache_key": "a0ede931201865555466c6f5e894ff0f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-16",
+    "cache_key": "27bdf227c7f4f2f6eb094b2425afd59f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-19",
+    "cache_key": "c74191a30b170fd6a7fa9964ad509fd0"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-20",
+    "cache_key": "b7340367c9a65f2af0bfb410feead7d6"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-21",
+    "cache_key": "8e55b5ce299822a2bc4553b00e45aae8"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-22",
+    "cache_key": "b7ea0aa1976909c305c259b342646d05"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-23",
+    "cache_key": "7c3b730e86b4ba9523b24a4d6c77634f"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-27",
+    "cache_key": "2d56af0a2dcb5f06277b012252d69a33"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-28",
+    "cache_key": "f2875e71563422348d58dd13b8edf32b"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-29",
+    "cache_key": "d6567c41826f59ef8b62c64acd339dce"
+  },
+  {
+    "type": "intraday",
+    "date": "2022-12-30",
+    "cache_key": "6b0650f90612e20c8e238ad8b0b8c067"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-03",
+    "cache_key": "3933c04e19c3285bd040f14413b8843a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-04",
+    "cache_key": "3246aa117bf3d8f254d212c9df261001"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-05",
+    "cache_key": "5342ee321351fe6e3aa1da335e34fc83"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-06",
+    "cache_key": "32971d0fa63e0db07a3dbe7ad76318c1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-09",
+    "cache_key": "06acc0c19b1e18bd04f3d034db5e9521"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-10",
+    "cache_key": "d11f5d30b30b60a128c0dac7dafb03e4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-11",
+    "cache_key": "d931002a79b1393abc850405e33a8d55"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-12",
+    "cache_key": "516b15405364656fc382f35971837ae8"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-13",
+    "cache_key": "282efc71816711cfabf8957e134f6971"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-17",
+    "cache_key": "a5d77f1a52b3c4c2ea69a149388da59f"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-18",
+    "cache_key": "16cbbb7bfc5001be17bf01024398aa50"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-19",
+    "cache_key": "00591008d377d4b87b08209b8d6a89fc"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-20",
+    "cache_key": "462550e0658cf90df5ceb17e3aee0da6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-23",
+    "cache_key": "ac91c15e9ba16a1646745617bc2d3011"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-24",
+    "cache_key": "d18839cac254ef0d869de5ee32a19836"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-25",
+    "cache_key": "44f8f5c8d962d9df4def536593592462"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-26",
+    "cache_key": "ae9f776eabcd5b7226fab6e57bc24ec4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-27",
+    "cache_key": "fedf6254c853d515bfa0a32d670ac8a7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-30",
+    "cache_key": "8628efb80597d006ccf77c122dea8dea"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-01-31",
+    "cache_key": "fcb122b8ccfd4b821acbf1fb58a9b9f7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-01",
+    "cache_key": "64d49377f67ab39033a709fc387c0f2d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-02",
+    "cache_key": "e3db691be736daa996eb4574ef3d0151"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-03",
+    "cache_key": "2d3b8f38f67136ab4727a8e8edb92504"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-06",
+    "cache_key": "f776f452f8a1d7fef4eecfcc376b6a1d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-07",
+    "cache_key": "b0ede4bc10f72615aa35c6e563c62931"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-08",
+    "cache_key": "2cc488574bea0e6106dc4e110f3275f0"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-09",
+    "cache_key": "c03dce5c048242f149e543bde1448f16"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-10",
+    "cache_key": "30c6b705b53cb6ac1ed67012d8100954"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-13",
+    "cache_key": "db03be651bd8f1fa1b5ccb4ae52dd143"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-14",
+    "cache_key": "6cdc64da358172305ad388ed5352fb94"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-15",
+    "cache_key": "b5288c4930520bcd6928db1efa274181"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-16",
+    "cache_key": "ee1dcf80d2e061b41343e45af4300311"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-17",
+    "cache_key": "2a99bcbe97a140484f13cdf6aed71535"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-21",
+    "cache_key": "5d136f0193234a98c1c14342f372bc34"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-22",
+    "cache_key": "97ea8755de098dcffa041365600971cb"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-23",
+    "cache_key": "1156d06173cf644b120de26888694724"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-24",
+    "cache_key": "9cf9deb027edfa53a49bb409ff0cc043"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-27",
+    "cache_key": "e1ef74788346a60166c86a63891b2941"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-02-28",
+    "cache_key": "86cdca38c4485b2609f14f47253f4133"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-01",
+    "cache_key": "414802d625e068360e8e96d536d40414"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-02",
+    "cache_key": "cc714f3298aca7f755da965164dad92e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-03",
+    "cache_key": "a04dfe6e48575eca6a488c46869b1856"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-06",
+    "cache_key": "61d0a484d41cb92250d5afdfef7702a7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-07",
+    "cache_key": "0ea6f6ed06ec9b184245a7c1de83403b"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-08",
+    "cache_key": "409a2a0841188071d070ee4f4e20b464"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-09",
+    "cache_key": "a7a3f252ebfef5c6596d3fdc1bb0e5f8"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-10",
+    "cache_key": "2ee525b3a583183f6ebff0304059d1b6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-13",
+    "cache_key": "23411e1b41b9ce41a6d938fb70ef0050"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-14",
+    "cache_key": "34aecfc2b7c0f56e31b6b8447ae842c6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-15",
+    "cache_key": "0f9645d410b4ec3ea71e3b9bf81b1708"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-16",
+    "cache_key": "c04aca8396e848518b67ee0b414848b3"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-17",
+    "cache_key": "2725aee1fd730fa24215740cec0b399e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-20",
+    "cache_key": "25c0f03507a4dcf1b52e4d0b21689647"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-21",
+    "cache_key": "6efa45596b45e290ff243fc79cb17be6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-22",
+    "cache_key": "2dbd40c66bea16565c0c1ddeae7651af"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-23",
+    "cache_key": "1a870cf818524130ea05ca0abaaa951e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-24",
+    "cache_key": "511e28e5befe5c48ddb9cae7f87b2b03"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-27",
+    "cache_key": "08266b29d39cea549df622e355409822"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-28",
+    "cache_key": "5afba1c651badcedf6c225e75bfa12e6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-29",
+    "cache_key": "43380b993ae9d4a42b55b7cb89a12db5"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-30",
+    "cache_key": "89b720daa0da27d053f4728981ce85c0"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-03-31",
+    "cache_key": "ec5672b2df638f8186396cc5cce56c44"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-03",
+    "cache_key": "56fc1157d891c967ecd359ec92e4c93d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-04",
+    "cache_key": "4cade4f6979ec319056e38e8cd89d7b8"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-05",
+    "cache_key": "e16a26079e1fa5d405a703026b8f710c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-06",
+    "cache_key": "19dfffefbd048b829b3f16ac3e66ca1f"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-10",
+    "cache_key": "f9c998ad1e496c6c624e03b3a6109410"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-11",
+    "cache_key": "18ffb344ef4fb3c4e56e2b2cf3bce53c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-12",
+    "cache_key": "7389e9b7a883f90e732256bf978a5579"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-13",
+    "cache_key": "7f9e5f34a5a4a5b971c5e4284036b569"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-14",
+    "cache_key": "ab2d9024db73364f885d4fdcc3d9b5f9"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-17",
+    "cache_key": "58f8701aebf7c856ce60c9c92544c1e5"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-18",
+    "cache_key": "15a41ca440932d1d6f97fa643f780992"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-19",
+    "cache_key": "961eeedf4a5dde361e39b4e5d485bcf9"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-20",
+    "cache_key": "595bbf9d562ae78d2c7c99353b04c517"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-21",
+    "cache_key": "cd7565730bb1cdabdc0ef719546b3952"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-24",
+    "cache_key": "232f96b47a4417786b86695e699036a7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-25",
+    "cache_key": "b5c0861f557e3205a821ebe7dc1866ce"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-26",
+    "cache_key": "eb7adcc2dcbac1ac4d1d704cf11d92a1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-27",
+    "cache_key": "4290d9cb16b63ef10817760cc54be0f4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-04-28",
+    "cache_key": "2c45a0c304449618f6ae8dc52355c8c3"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-01",
+    "cache_key": "613e0764f0fb4a7c169f90cfd8fc55a7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-02",
+    "cache_key": "f9653f85dcea6b759e14118354cebd91"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-03",
+    "cache_key": "0e6252e7a16cf8595d08895e331c97cf"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-04",
+    "cache_key": "52c075ef8ce8767edf390856297f73c4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-05",
+    "cache_key": "1674bad18183a8b9e0dc459d860f1d82"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-08",
+    "cache_key": "d83e164e9dc98c26b11f1c04cef03bc6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-09",
+    "cache_key": "5ea82ce7961e91039cee852e97f0290b"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-10",
+    "cache_key": "a33f3eb9ff54ede4b9704ac5c1cb6b37"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-11",
+    "cache_key": "2a33f8e3eb28d55fb7843a0ecb43765e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-12",
+    "cache_key": "6636423ef68699e1e6113c11a4795b65"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-15",
+    "cache_key": "0a2f765effd6bf6d16ec38080f900d9d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-16",
+    "cache_key": "0d5d869da91dee760c87efcd6389c0cb"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-17",
+    "cache_key": "31f9cc66785561dbd58b2a36f8c0a653"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-18",
+    "cache_key": "c2041cfd915d27558a55a8c806d3b7c1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-19",
+    "cache_key": "c316ad66733b4c83ee53d7b0656b9d5c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-22",
+    "cache_key": "1bf2cd1a56cc3287fe47f937c1895d89"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-23",
+    "cache_key": "cd8bc87d856acc146fd364c43149c14c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-24",
+    "cache_key": "74ce07ee7f5bea32e18c39d1f5ebadbe"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-25",
+    "cache_key": "a83af2d49735f972e7e733fd38c7be91"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-26",
+    "cache_key": "304c66c9769b782d2dc059d5015f1c97"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-30",
+    "cache_key": "5ad14c568378461d2faa55a764a74160"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-05-31",
+    "cache_key": "658f8b084a1523e29230e2ae3b0bb674"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-01",
+    "cache_key": "eed340dba1b1295c4bedd12ae3e2136b"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-02",
+    "cache_key": "87b51ac38194e8bd3801ef6808bab2bd"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-05",
+    "cache_key": "fa22f165af2af7be8939b15472697596"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-06",
+    "cache_key": "d03c4a7307bdbf24e4d2505a4c042b06"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-07",
+    "cache_key": "f383b504e449b1e79233dc55b3e6fcc2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-08",
+    "cache_key": "ba671d5dff219ec9bcf6486542fe167c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-09",
+    "cache_key": "42a4dc7b2f74a754eda09a5a4a6270ca"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-12",
+    "cache_key": "b78addb19f55ded5a69ef4b12d1ab6ab"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-13",
+    "cache_key": "f4fa66b693f5983a75a4802d24cd1279"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-14",
+    "cache_key": "fbd11c36dca5c28bc315c8b05eadbcd9"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-15",
+    "cache_key": "b5a728ab750d14a3ca075561d710ffad"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-16",
+    "cache_key": "e3280fa2ae29f3c30415f76ba75121fa"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-20",
+    "cache_key": "a83f29893fde3a7d862c37e05c003daa"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-21",
+    "cache_key": "51ccd1df723b246607a918212ecd1a64"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-22",
+    "cache_key": "c3a2839c43c3fefd86824d529064ad81"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-23",
+    "cache_key": "c870476bb94b6c4e54fab96438eb55d0"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-26",
+    "cache_key": "1b208981eb09925a4fdaa9a94b70c5a5"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-27",
+    "cache_key": "38f1a1cfb694bd87c3ac3c0ca9fc30f2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-28",
+    "cache_key": "36cd71d0e4b4bf72f90074c0657439af"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-29",
+    "cache_key": "10136e1973d55074677ad88111311519"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-06-30",
+    "cache_key": "ea857af9062513879fd553c86f72c00c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-03",
+    "cache_key": "69e494f37c5aa070d2e2b9e3e7af2cf4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-05",
+    "cache_key": "27010cd55bd738162510dd82a233d0b4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-06",
+    "cache_key": "d1a345822352b5a622767674d80c16fd"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-07",
+    "cache_key": "abaa1b560e685e7ad1678154f4b7ecd1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-10",
+    "cache_key": "f681ba14bbff6e78dcd7687e6f270e18"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-11",
+    "cache_key": "77ddafb0befc1ef917b9191ce0ceb81a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-12",
+    "cache_key": "9a88a3c9f62855f63733067ad0810110"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-13",
+    "cache_key": "fe3a541431d04e9467ea1c6c2bbc1dea"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-14",
+    "cache_key": "907143fc845f3911ad5f98aa2263baa6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-17",
+    "cache_key": "c19ae34469c88b845c9790f1af9af2c5"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-18",
+    "cache_key": "7cbba7ab5c1e759d7825b6d508322e00"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-19",
+    "cache_key": "c4389bfaec17fd2a2a67f312689c0af6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-20",
+    "cache_key": "50be484b5cf961e99de2df6e08d11c3e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-21",
+    "cache_key": "af18db799f361de1e2805a48a7c1526d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-24",
+    "cache_key": "8fa8e8d82dfa5bdb4d7c7a5f13973fcc"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-25",
+    "cache_key": "75fe75ec7d55d298a3a797e3f5f2c89b"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-26",
+    "cache_key": "ced3d0cbeb4aed44253084d5fec0161c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-27",
+    "cache_key": "4ddea9eb662a6be6d30e4ee99080b045"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-28",
+    "cache_key": "5e394e4e21618dcf4e934a775b38cd70"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-07-31",
+    "cache_key": "b03599a8bdec1781ece221381a4d6a7a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-01",
+    "cache_key": "ab4bff2a89e1c402d41016ae25216957"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-02",
+    "cache_key": "16d6e0ac34bb689eae0f3ce3e8e461dd"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-03",
+    "cache_key": "e0657aec3aad4070e8d8d39ed30828e6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-04",
+    "cache_key": "20cbb944a6ca62fbeda79974da91587d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-07",
+    "cache_key": "b617d43d0874f65aa9b67b4613c9edf7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-08",
+    "cache_key": "302bca2200684a3cef22c0d3a3888579"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-09",
+    "cache_key": "95233e2aa91f44f59e6f640de0533ab9"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-10",
+    "cache_key": "b560caf7ed7d11454f84e8a71f1c5594"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-11",
+    "cache_key": "7609553818dcd6e5a7e43cb6ad87a897"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-14",
+    "cache_key": "fbb0bb28d171d0f0024eb95b1f22f72c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-15",
+    "cache_key": "290d19bbbf330a7886cecc39a576ae10"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-16",
+    "cache_key": "eac696a29a0b608e68e4be8a6f61cae6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-17",
+    "cache_key": "19f3e9df1a4c08a626da342beaef3349"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-18",
+    "cache_key": "48cfa60a7c00241a9ad44d169f6707f7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-21",
+    "cache_key": "c0ab23e240fd8bcbd69d61740b2707bd"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-22",
+    "cache_key": "7dff49cce243843f3f155a7663c9fa11"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-23",
+    "cache_key": "42221f4373ed138497dca4fb912b4011"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-24",
+    "cache_key": "1fcdc93a8a1aaad3b0605bb3a49c45c1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-25",
+    "cache_key": "98cc11445ee6900a23d4ea802db7c2be"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-28",
+    "cache_key": "b4f2df65b43517691dcd6ca98183656f"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-29",
+    "cache_key": "16e4d019e0e0ba56eb0e3f26597b45c6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-30",
+    "cache_key": "0a9d2d60665a29e16416f80ffbd6fe65"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-08-31",
+    "cache_key": "2e4727c2c972e8066b73d25a274a0ad7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-01",
+    "cache_key": "13765445c875c3070b88188083b4b42a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-05",
+    "cache_key": "40214a8a559cacd98ee43eb80dda0f61"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-06",
+    "cache_key": "9a5876b078dea35506dff66dd38978c2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-07",
+    "cache_key": "edad4ec4f094e6557e714f8551ec7272"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-08",
+    "cache_key": "812b789b86d155f3a7a1d428e24fc37e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-11",
+    "cache_key": "eea968eaa3f2aec675608eb9649d99c1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-12",
+    "cache_key": "146c85bb238b94507e3d4df50c85e579"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-13",
+    "cache_key": "ba145168eb1f27a9db0ccbe74142dadc"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-14",
+    "cache_key": "75ad08cb1a1992bcfda6c1350e21a3f3"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-15",
+    "cache_key": "483d322416469114c0b53fa4fd46e2ef"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-18",
+    "cache_key": "d997f0f6875b068e1fdc1a5a1b864096"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-19",
+    "cache_key": "62c92c893e71b85ba5b40ca7b1d82cb8"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-20",
+    "cache_key": "edae309d1bcd7d097fa92857e7ba16b2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-21",
+    "cache_key": "ea83b3576244b3df8aed0cba1566def5"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-22",
+    "cache_key": "7a25b7cce04022c8822c427e4a6782c3"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-25",
+    "cache_key": "e1cb34d88cb7eebd83489885f6a43d00"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-26",
+    "cache_key": "7300741d1f805529c90a80f8d54bf109"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-27",
+    "cache_key": "a8c31aac0dda31a3ae8ea49ea5d27dd3"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-28",
+    "cache_key": "eccf00f1134730944a9b6a6b410a77f5"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-09-29",
+    "cache_key": "bc241e48e5a1cf774207b7ae25658613"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-02",
+    "cache_key": "17e6a12456df1108054ac3acfb035f23"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-03",
+    "cache_key": "6a2b2d233bac06c9750389915a99bb8e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-04",
+    "cache_key": "44fdbd31082462affd24969c3d797843"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-05",
+    "cache_key": "71737397e5adec2dedd4f5ead0b37a27"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-06",
+    "cache_key": "224b81bd750801e3302edaa5551a7060"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-09",
+    "cache_key": "98719287f447ef41031ad223024074d6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-10",
+    "cache_key": "d4d658b9a9ac8467ca2bd356f23d05af"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-11",
+    "cache_key": "4df27fe5cbf56dec185bc6db548b1aa0"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-12",
+    "cache_key": "b74c40b503e446ad2f34c701fdda6d79"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-13",
+    "cache_key": "bf79205d85be0e19f914a641ad722b41"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-16",
+    "cache_key": "e9903846c682fdf504e7f988eb4aeba1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-17",
+    "cache_key": "28612732718c05966a8c6156fab2ddb1"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-18",
+    "cache_key": "10e64f2258ae34b1cc13a466ef0d4e4a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-19",
+    "cache_key": "c7c95701a4ed975578cde44a55884eb0"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-20",
+    "cache_key": "a86326c5d12e9feb9f89ccd1359087d3"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-23",
+    "cache_key": "23c0c80f0ddbf1a489146a9dda134eac"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-24",
+    "cache_key": "b022fe71739d7973fa8dbf9c570181d4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-25",
+    "cache_key": "906d531e828ecfe4e9180acd3868b473"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-26",
+    "cache_key": "1c5c20036d3f8941988c0350b20b955a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-27",
+    "cache_key": "b0cb91232346159619412ed1ef80aa7d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-30",
+    "cache_key": "7f1d22fbea8c6507a230fb74b55fa325"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-10-31",
+    "cache_key": "2f15eed5fc4a9955c81249879f219ef6"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-01",
+    "cache_key": "eb69958a25d2e918b8c8e22e0915cc73"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-02",
+    "cache_key": "29ab11e57ef89c664e9dbe751902a901"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-03",
+    "cache_key": "74f6a9e9f2e00976747a911e0801eec4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-06",
+    "cache_key": "cbaa1a9f79b275acbc5fa52868abfc0a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-07",
+    "cache_key": "cb12984193ab7f53d366ce0486c102e2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-08",
+    "cache_key": "51466a01134212aa4ce7f0abd780c7b8"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-09",
+    "cache_key": "f599342c563bd9df9070976b3acab7e7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-10",
+    "cache_key": "a8b19e1358c1f092ce0d310927ef8e42"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-13",
+    "cache_key": "a4eb78d17d3d8ab1679a2906ede4bf2d"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-14",
+    "cache_key": "3613ba171d32b2a30fcf97b2c9332f28"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-15",
+    "cache_key": "83f2e17a6c8f1782ae7dee57a4833344"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-16",
+    "cache_key": "6ef6192acb0907c21e3e38ebdb91ac7a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-17",
+    "cache_key": "acc6940037ed30645f78ff2ca49fec11"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-20",
+    "cache_key": "9371d0e71259bedd08032e92f1c2c87a"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-21",
+    "cache_key": "b37bdcdb384852ee92027fadeab41bae"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-22",
+    "cache_key": "4ea411dd4b529c304b4f69c087207465"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-24",
+    "cache_key": "318d027df15b773db9f123e48f0859d7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-27",
+    "cache_key": "8d55da8e710de3d583027722ff573837"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-28",
+    "cache_key": "69261faec6ce52d54d8280dcc037e3c2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-29",
+    "cache_key": "b70b3962f3de2904d90d07cad5e98a8e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-11-30",
+    "cache_key": "9d6043b67f3dce0d417c21e072255001"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-01",
+    "cache_key": "21991b30f46a76f0f299c582955e1129"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-04",
+    "cache_key": "9b067543a083af1bb90ac9ed97afa800"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-05",
+    "cache_key": "fd9fb37f27022f6cfb9cb18bc7adbb4b"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-06",
+    "cache_key": "72e9e855b99fc99749224b8b4fba49df"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-07",
+    "cache_key": "8c13eb1b7217ad1373367f8a4b72e4df"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-08",
+    "cache_key": "3272b385b9a645e6427bc1734410adb9"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-11",
+    "cache_key": "18fc32c4938a2e6164aa8c6590e6542e"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-12",
+    "cache_key": "13fd16aeeafaaa8cb3c8389cfcf42059"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-13",
+    "cache_key": "3565d2e819acebe5201ee92d511f6eb2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-14",
+    "cache_key": "fcfcefc601741d36139cc9680cf9e80c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-15",
+    "cache_key": "cd3fe3ffad387c187de0e8da2cada947"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-18",
+    "cache_key": "3e783436a5f626593771939c2e0cb607"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-19",
+    "cache_key": "5a06eaa346548ee69183bb74203b7d77"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-20",
+    "cache_key": "8ec3bb3ad63f6ee7477ddbf3a2ef49b7"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-21",
+    "cache_key": "a4650737f692901dcf30efca2708b717"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-22",
+    "cache_key": "40cfd8bdb8ed9532ec5438b54ca635e4"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-26",
+    "cache_key": "248405e7011b9fcbae11d12b5fbe21fe"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-27",
+    "cache_key": "636f62a15559f8906c51dc129117ce7c"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-28",
+    "cache_key": "9d1bcf4f916e2cfab8ff9fb2afd7c3b2"
+  },
+  {
+    "type": "intraday",
+    "date": "2023-12-29",
+    "cache_key": "07be9ac164c220cb890558a5f9aed6d2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-02",
+    "cache_key": "50d2390581ebd53964aca99e20f6f362"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-03",
+    "cache_key": "dd818a86c08d7f6a1558f7fb74f449c4"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-04",
+    "cache_key": "1da047acb3e692f2da5af47c81036009"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-05",
+    "cache_key": "f567203b6e615ff789cdc83adb790aed"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-08",
+    "cache_key": "f2b55f7bb35fd6f57d178ee29b75aac5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-09",
+    "cache_key": "c815244bad86906f48c3808695049f3a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-10",
+    "cache_key": "f524d5bf1d106ba2af40a62c6f54eb79"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-11",
+    "cache_key": "94e43bf18d5d52c6f2ade6b271ac843c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-12",
+    "cache_key": "6480b8e86ebfeaf8c9688b90959bb46e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-16",
+    "cache_key": "8f37f75b27b094a819d057fe490dc1be"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-17",
+    "cache_key": "90dc2d74693781e2caf5e4f373e63c47"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-18",
+    "cache_key": "00842f4544d69932c2375c3527ab212b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-19",
+    "cache_key": "c8faa7b22c1559b04a3c475e8d2fb119"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-22",
+    "cache_key": "bb10ab3f4ec47c657f6dd20b14fc3ae2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-23",
+    "cache_key": "84869171168a298a8424f1db35fbee28"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-24",
+    "cache_key": "26aef8285dbc45b5dbdee31ca67ccdca"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-25",
+    "cache_key": "45cf3b0c1056907a65ae2eb19b5aedc4"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-26",
+    "cache_key": "1bd4c7299dd984f0d1d595b5bf68f33a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-29",
+    "cache_key": "8ba53b904b27679f5c907a1d0c2a92e3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-30",
+    "cache_key": "c8f71f3cfc7eb35fb85dad31547f455f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-01-31",
+    "cache_key": "b55d06feae264122caec87cb7258c730"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-01",
+    "cache_key": "2d662968fcca60bb13f243b00ef6584a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-02",
+    "cache_key": "ed984907845f026e71904d03bf1c5ad5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-05",
+    "cache_key": "45cafd974c2470d860a4e9b483ce3ff8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-06",
+    "cache_key": "a2642d132e511e22e4dcdb7b84bc991b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-07",
+    "cache_key": "63395abd4cce933c9a3a813d804eef32"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-08",
+    "cache_key": "2abc7d64fc2cba785e1c507839df7265"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-09",
+    "cache_key": "b8e611feeb01c9580b873f92767863e6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-12",
+    "cache_key": "5e68c74e825a33e3790a2f39fb957594"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-13",
+    "cache_key": "f5e8dcb2c6b97d2b3737e37b09dbc19f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-14",
+    "cache_key": "3a5b54aeb3a9ce5f034b01f4a0321f3a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-15",
+    "cache_key": "6d413ea6eb0e17478c563672b5ea223e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-16",
+    "cache_key": "cebb51ddeff7eef0e331c5b4e1aa868f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-20",
+    "cache_key": "749e72b01bd3437cbaf0d7e2f82830e6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-21",
+    "cache_key": "7eb176f78bae1858ff479cddaa37e473"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-22",
+    "cache_key": "c0aaee043cf73db326ac7f5b40c4c514"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-23",
+    "cache_key": "23d0b201f573b041c24f3342bf1a7714"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-26",
+    "cache_key": "b77949c2266b744578eb1b55000542d7"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-27",
+    "cache_key": "a366b2e65468446431b1f6f9becc812d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-28",
+    "cache_key": "38a0713e924042e6eb0704211627ce85"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-02-29",
+    "cache_key": "7d28072e92d1ff66186aa95587b66798"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-01",
+    "cache_key": "9c15c21735f543155453972e816c9b6f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-04",
+    "cache_key": "0cd5b77cabf1beefb0b51eca5e7fd2a1"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-05",
+    "cache_key": "05d50ed2f932b7f2437fd2c5d87457d3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-06",
+    "cache_key": "9da0fc0d64eeae9b95d80d0a7b7c23cb"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-07",
+    "cache_key": "88126b608e120af5bc63a8d21dcab9ff"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-08",
+    "cache_key": "1c4820a0bf9d4e9a6c3b70df1a0d5c51"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-11",
+    "cache_key": "30f01cfc86fccbfde588316725fda97e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-12",
+    "cache_key": "09add99d08abf027a020e67e46834502"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-13",
+    "cache_key": "eafa4facba77790e62fe004d203f269c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-14",
+    "cache_key": "4a03a12e02eab050b7f847fbec09c828"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-15",
+    "cache_key": "cef6779e9fc65eec6e16e8978f5e1391"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-18",
+    "cache_key": "6962b167e497ee275b4bec6891710651"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-19",
+    "cache_key": "2964d1de9aa3d3ae7efb612f65d9f32b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-20",
+    "cache_key": "478696bbdf3360aee8d5cee10d7459ed"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-21",
+    "cache_key": "970e5564e37ddcbda02dd3b2c8d8f0cb"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-22",
+    "cache_key": "318431b25198c34e336d8353380c9357"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-25",
+    "cache_key": "d3d319f01cc0f0c6ebe0f8495a9b4f3f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-26",
+    "cache_key": "31223f8fee3fb929b582dd2f0ce0af9b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-27",
+    "cache_key": "ee475c83aad480084f028f9286134a56"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-03-28",
+    "cache_key": "8bbf3734a51988b015b0af5c890b21f5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-01",
+    "cache_key": "850e31faa42ded3d64366484d88473e8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-02",
+    "cache_key": "f0c84249d3092056328905f62f96cd89"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-03",
+    "cache_key": "f9a8926a4fb916739a42fb829320ee12"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-04",
+    "cache_key": "8753d1b921d86bf6ebb652fa86b769f6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-05",
+    "cache_key": "127fc677dc2a434e04cfa9a269d1ca6e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-08",
+    "cache_key": "d4c94b124ee4ac041ccf662410e04681"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-09",
+    "cache_key": "f737e50d3b8f08e11f64a1f725b2d6af"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-10",
+    "cache_key": "0116e26f5f659c6df578f0c302987d4e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-11",
+    "cache_key": "5b7637b1580c8e7f77b6d87b4b04e46b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-12",
+    "cache_key": "a5c3c2fee553ed3d1837e8dbdc2fe7ee"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-15",
+    "cache_key": "75d000994e084033aa649892a59c1f11"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-16",
+    "cache_key": "9d361f28a0d626769713be7680890815"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-17",
+    "cache_key": "37c50a163aa896abad014339a2d6ca9a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-18",
+    "cache_key": "0cf508e45f16e5778ba4873f0b7acfdf"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-19",
+    "cache_key": "5ee080af700adb7d6007d66e6990bbc2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-22",
+    "cache_key": "7677182dd3a12088cb1d1d45f63ee293"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-23",
+    "cache_key": "e4593c7983a713c676067a3c350ca4fd"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-24",
+    "cache_key": "215e996b0b342d0630af9ae0c4c0fb30"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-25",
+    "cache_key": "e1eaec09679e33c12c162e59be8a1c32"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-26",
+    "cache_key": "1b8e9216396f839251230cf793a1359a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-29",
+    "cache_key": "f21947edf818649b9ed9b0abe0e24f6d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-04-30",
+    "cache_key": "09ca9ea359bedc65d4627eb4f9d54dcf"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-01",
+    "cache_key": "24b8e61aac34368e987ea7c0107b4160"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-02",
+    "cache_key": "b46a0e0dbeb28268a88e038b323d33fa"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-03",
+    "cache_key": "11b6f9a18bda28c561fffad52700d532"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-06",
+    "cache_key": "70dfbe7eb1bf70cb936fb81465e93913"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-07",
+    "cache_key": "e6688a0308b99594a51e5a27011d1b18"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-08",
+    "cache_key": "13631c6626bdcc230e3c463073c42f08"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-09",
+    "cache_key": "a76d8c70b4edae2423db2fdf775afea5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-10",
+    "cache_key": "e9ac256c287fb6f8e874bf2de5f7d47f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-13",
+    "cache_key": "ed15bbc0aa3abf74b4e1df780dad6ddd"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-14",
+    "cache_key": "8f16a3b408fca7cd70d096c6a4a51371"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-15",
+    "cache_key": "07228b758cfa6f385ee28a14ad54b7cd"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-16",
+    "cache_key": "3a8ca3b423ede7ba34fdaa6c61fcda03"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-17",
+    "cache_key": "7cdeaa24d49e1f7a3dfab7830ad9cbf0"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-20",
+    "cache_key": "b1281a6c44ab71596ad2b99303b0c155"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-21",
+    "cache_key": "bc0d7c010ca3f7f428a59e86837bedd6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-22",
+    "cache_key": "0d7829e21c0a98b969d3c89a956196da"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-23",
+    "cache_key": "5d121751a062f21382d6bab52af8dfa8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-24",
+    "cache_key": "d992c8f46070489bae8fe47c693e0dda"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-28",
+    "cache_key": "5dca7fec9d412a01a6eb4cbe9d3233cb"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-29",
+    "cache_key": "4e97302334f133bb298108062a9830ca"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-30",
+    "cache_key": "f926092ae08c1f59b980c867105b3428"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-05-31",
+    "cache_key": "6723564db3c6707cdb4a0e978806be5f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-03",
+    "cache_key": "0f05bb0360a9717ee8568a077cdaccef"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-04",
+    "cache_key": "57aeafbd0776e193e2c8b7205a170dd1"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-05",
+    "cache_key": "d0ddfd8d97b44022e7d164e7b4141632"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-06",
+    "cache_key": "e84b88f71e23c0ce0717370ab388aec8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-07",
+    "cache_key": "ec8bc014c5f0bdae48eaefe9185b82ec"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-10",
+    "cache_key": "bdaca55ba24c709722ee9484913c0429"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-11",
+    "cache_key": "957be65a2c522b11f9f9fb149b59b2ec"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-12",
+    "cache_key": "abd4808147adb6497d795026ea9ee582"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-13",
+    "cache_key": "44f40bf330742bae0defd4d8025a1cd2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-14",
+    "cache_key": "003fe19a5cb6dc5240dfbba08c42047f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-17",
+    "cache_key": "f4958b30eca7209e25f42509f29abab3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-18",
+    "cache_key": "ae17b346170f98dcd70ef9e236610807"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-20",
+    "cache_key": "9cf9a126076fe7cba8d89201c72a2ada"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-21",
+    "cache_key": "68386477411a9a8a92f509b96231d567"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-24",
+    "cache_key": "2575b43b649865fbcac21bbfb408b055"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-25",
+    "cache_key": "f40f4e876e495fd8595e45da7d3dcf80"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-26",
+    "cache_key": "067091e6c0c6b084c049cd5498efa015"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-27",
+    "cache_key": "a5ce60827408739b302107a89ca9929c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-06-28",
+    "cache_key": "1cbaaabd992a451faab4b8e9df6fae61"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-01",
+    "cache_key": "a3bdf53a62b3b5098c91b225df773f02"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-02",
+    "cache_key": "d0b9f8879936c32c6b6eacd5b536936c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-03",
+    "cache_key": "deded0b5f98772db3e8c17d3123233ed"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-05",
+    "cache_key": "e22c8e33a76f578ddba01c7030094dce"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-08",
+    "cache_key": "ee59c85fa3434887aabe5796976fdc0b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-09",
+    "cache_key": "72498002ab663ec2ea296a7eba10918b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-10",
+    "cache_key": "6847b07c46defc81aadf6096591ec5f3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-11",
+    "cache_key": "be5d54faa5c4c90fdb6e6582f8016384"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-12",
+    "cache_key": "651fe4bb963a15f78de9c7eb2b507f8e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-15",
+    "cache_key": "da05515f1d1f0a67884993f344e2b72f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-16",
+    "cache_key": "7e293c32e3d39b3460f2e9765db08d91"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-17",
+    "cache_key": "16e2e67fc4cb90c9096919e67085d6e1"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-18",
+    "cache_key": "26f8d9128aa79673c0c93826e87cacee"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-19",
+    "cache_key": "6fc40584645dad2fc6b87f74a937ed61"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-22",
+    "cache_key": "3d9fa02155b0d71b481d86e6f8d4215b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-23",
+    "cache_key": "2a2f1539a4bd03df7654fbf7bca7c755"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-24",
+    "cache_key": "d873b77d76855025223839ef58877f3b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-25",
+    "cache_key": "d32816977a6e49d47e97f249fe584440"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-26",
+    "cache_key": "ab708e7c59e62665203e83462a781da3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-29",
+    "cache_key": "468619c3b32fbf9aa210e8fbc8c28874"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-30",
+    "cache_key": "5b4e188f7f0e27e12c0658cc1373269e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-07-31",
+    "cache_key": "b47baca5c2b5ff4e61761f07840ce10e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-01",
+    "cache_key": "6ea64fdb26b23059972407a6b172b933"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-02",
+    "cache_key": "57c0dfea8857a291eadf7fdf8e5c8744"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-05",
+    "cache_key": "d2d5ca33ba9f6f19a9edb1486f89dd0a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-06",
+    "cache_key": "b99b250efc49d2906e5f4cb70ed4cc5b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-07",
+    "cache_key": "fec016871209fc1cd4a284c4cd88da19"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-08",
+    "cache_key": "a6cefa3252160181e1c7fbc7fbe33cc3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-09",
+    "cache_key": "9b3005b66dc6f4b870eeaae79d29eb69"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-12",
+    "cache_key": "2798c2eca63b5ec652ca05a80765130d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-13",
+    "cache_key": "db7ec910c2c66879d016b47a9210efb0"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-14",
+    "cache_key": "f95445d90530820a3bd0192ce23c25e3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-15",
+    "cache_key": "0d4026ce45c87a65e554e416a21a062e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-16",
+    "cache_key": "28865903c2e37022d6fc0c0cbd40bee5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-19",
+    "cache_key": "b6e27e0966bfaeb38ef3d2e970f7ec9a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-20",
+    "cache_key": "b31fe433aedd43c76c789772727e0729"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-21",
+    "cache_key": "3285b33ca829a979b48b300110844460"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-22",
+    "cache_key": "0140b92a63bc9476112df41c807d28dd"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-23",
+    "cache_key": "ddfedee578a63e46ba798b72daaae74b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-26",
+    "cache_key": "b1b50587a0c2f1b83501e67e536e9d35"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-27",
+    "cache_key": "33e2dd12fd1c52554c2a4b9c1ab871ba"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-28",
+    "cache_key": "0c9a6d64a88926d9c189fc984682e764"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-29",
+    "cache_key": "b075a936f7e34525624035b97a6dd8e4"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-08-30",
+    "cache_key": "c77e4840c11a6333602772d0b3fd6f70"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-03",
+    "cache_key": "270032a686d9554789f2e7e55882ebc6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-04",
+    "cache_key": "2d4b21ecd420f861349d54eb2a4bf93b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-05",
+    "cache_key": "2db5a5f0f4f42c72f6ebd2d17a2ef8f6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-06",
+    "cache_key": "f7c32beace0f3b544776d94a69f834fe"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-09",
+    "cache_key": "32eab57284173b410a3e491e807aa7b3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-10",
+    "cache_key": "bbb52cb42a17746d83d8c1bfcdc65b47"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-11",
+    "cache_key": "287315000fbaa51f0afd6faf27d0d9a2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-12",
+    "cache_key": "6f3d23f3b75e627a7af6d79a690ec9f2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-13",
+    "cache_key": "dfeda9d0df1a2fc9bbb9e747e1c25c36"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-16",
+    "cache_key": "6d8e0a125024910045237689c36b9b94"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-17",
+    "cache_key": "708789c65999cb4cd7cc71c7fa7e2d5c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-18",
+    "cache_key": "e97c7d0a872555d20611f3eda77d1315"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-19",
+    "cache_key": "5b638e999a29c921e2a688805f4b26c5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-20",
+    "cache_key": "c21916e1e20617df8bcdaf1c8bae6ccf"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-23",
+    "cache_key": "a7cea3a2958b256fbf07cde082178b73"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-24",
+    "cache_key": "c13daf46e67d9b158483b1b83f9b9ee2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-25",
+    "cache_key": "fb370f66066e1ad2ae0b959aba716a69"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-26",
+    "cache_key": "454c63dae2736659a7641ca9cf52abde"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-27",
+    "cache_key": "2a4a0897f15064e8ae4b8b47d04aa15a"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-09-30",
+    "cache_key": "fdd04d7bef0048c8d3a42e64bf4266bf"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-01",
+    "cache_key": "74fea694ebc7e54b417826db3fa27ba7"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-02",
+    "cache_key": "a6023211daa31c19512d27965036c967"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-03",
+    "cache_key": "833a43d075b62630a70e04d2986ea9b4"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-04",
+    "cache_key": "664122450c76426a9d005e17d95f76f3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-07",
+    "cache_key": "06b5d31b17c2113da2e39c98cc26cab3"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-08",
+    "cache_key": "8e3cc3cfd1247c642c54bb824f551386"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-09",
+    "cache_key": "4956adde5e5aca78326287c4dc7fe68f"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-10",
+    "cache_key": "94a03e37fb6c4e04cc5a8c47270ed7fb"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-11",
+    "cache_key": "2a5d94fd8a6a07723bbd7a0482fe9367"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-14",
+    "cache_key": "2139a9e37c4fbe52cdc5582aad462109"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-15",
+    "cache_key": "1a5652d8b2ad928c6fb4f92b0c7228f2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-16",
+    "cache_key": "360fdf36b5c221a561d79ee15e2441d2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-17",
+    "cache_key": "c6eb7d09dbd35bd5aef67aba09f5a3a2"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-18",
+    "cache_key": "207954dcb3faf6909ff21cb2bd332a87"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-21",
+    "cache_key": "fcc909df2002f87aec454e366b3d4ad0"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-22",
+    "cache_key": "3873db5c87a20fee15a3cb6c6aa48225"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-23",
+    "cache_key": "e39a146941410669d193467b5bd7648d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-24",
+    "cache_key": "37fd74d7fdb27a3f84f96b6e60116893"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-25",
+    "cache_key": "5abea603802999eb750bad7f19023ebc"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-28",
+    "cache_key": "c7dc29eae993a10e70d1d60b5fe13ca8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-29",
+    "cache_key": "d8a3a29c4ba2ff82764e21616aa98b06"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-30",
+    "cache_key": "72d65af1b4c9d6fe86987b4934780707"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-10-31",
+    "cache_key": "812cd7cfca2843466336dc543d31156b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-01",
+    "cache_key": "7ce9b73c08f0635265eade66761c1a6d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-04",
+    "cache_key": "8f95213843bb1f660875fd68716800e6"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-05",
+    "cache_key": "13659ec7c892dbbf9817159dac95f3c8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-06",
+    "cache_key": "4c5a032b18f07148769c0e2a7f102193"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-07",
+    "cache_key": "f2139eb16d240702d22a13d33d346090"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-08",
+    "cache_key": "3cf8a0598d5fd5dcc8e28a8058336544"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-11",
+    "cache_key": "5bb8a6aef4aad4067a81b4057eb81686"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-12",
+    "cache_key": "28d110ca7ca9ba65cb399918611c1b6b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-13",
+    "cache_key": "ea1595a126d7336264a3e5748df61bac"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-14",
+    "cache_key": "04e83e65a3bc087ddda759557d791ff1"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-15",
+    "cache_key": "670202ab22fbc76432e935641df9c54d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-18",
+    "cache_key": "696ba848aa05ac23c26d635445fd19be"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-19",
+    "cache_key": "d041715d56c029c11bd24e0c7eed65c5"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-20",
+    "cache_key": "0e9775136c7790919a07019d9726c683"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-21",
+    "cache_key": "1b7fae2fed362eea6c094f238316c962"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-22",
+    "cache_key": "6bb5ae64a765d1a8be9a43ad48a657be"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-25",
+    "cache_key": "5911888ebf4101b38fdf3feddd2ef792"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-26",
+    "cache_key": "f251c55eec5c795e241c978d42d9e80c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-27",
+    "cache_key": "ec26f8bebe31fb6ae20e146219bb893c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-11-29",
+    "cache_key": "7c6aaecb06e9c916b527adea6b9d176b"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-02",
+    "cache_key": "047aa8f97b20575100a57bb323925379"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-03",
+    "cache_key": "16d8d6ed2667f1b4ebfcfe83f5394155"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-04",
+    "cache_key": "af102997cf24a5b16ce7ea268097e7dd"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-05",
+    "cache_key": "35a573f4868b6e292553aaeda78ea5ac"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-06",
+    "cache_key": "2c6149457be6a18dc5c65931899f1468"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-09",
+    "cache_key": "a7f0769287fba37bfdcc54a5fcac5234"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-10",
+    "cache_key": "d22bba9a7393cc90d4599720e6c9befb"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-11",
+    "cache_key": "39c9a56d4aeb5f3284d688a2adf96893"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-12",
+    "cache_key": "e6457387ed0672b4ac861c667ac452f8"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-13",
+    "cache_key": "05cc556d22f30df0c168c51a424d0f6d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-16",
+    "cache_key": "72f9989a67773f5852a48ec3ba4cdaa9"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-17",
+    "cache_key": "37a4d9f86c2c44c188f81d2d0402691c"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-18",
+    "cache_key": "32417fb686a3cc6f1d7b2d1d1d8239c4"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-19",
+    "cache_key": "d26b1437bed562a84a99c35315e1794d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-20",
+    "cache_key": "5afcb95a8bba6ab10d806c62970c8d6d"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-23",
+    "cache_key": "39c37a91c52b5e5b71e6efabce0b1b1e"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-24",
+    "cache_key": "b3562350457120c1c8eb22b3ce13a142"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-26",
+    "cache_key": "984f26a559004f402252c535033ab744"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-27",
+    "cache_key": "2a1c52af26e2b46b2f0ba156c850b9bc"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-30",
+    "cache_key": "3cbe4934f3ce1cc2fc2b2e3ac936c353"
+  },
+  {
+    "type": "intraday",
+    "date": "2024-12-31",
+    "cache_key": "235af66e0e907ff0baa9c0251a0dd769"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-02",
+    "cache_key": "b42cd1e4b1b702889529e609221c2f14"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-03",
+    "cache_key": "aed7486ecf74954460ab7cd662159f9a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-06",
+    "cache_key": "94241f1bfc555e14a9c876de2e55dba6"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-07",
+    "cache_key": "92fa0e6f34c4627d19a32b0fc5426ab0"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-08",
+    "cache_key": "00839085e1d465a8d095b1052ad349bd"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-10",
+    "cache_key": "4c853b012e321ba13693e78e43f4db52"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-13",
+    "cache_key": "386f8d0d6d0f4af015551b8a82835dac"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-14",
+    "cache_key": "d319966e80993bcb135998f3c999091f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-15",
+    "cache_key": "a238e24acf6dd0bd53243976dc2cdc3e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-16",
+    "cache_key": "3c2bbc2b7c175b6d78b44c66ff8cdd81"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-17",
+    "cache_key": "571f168b8e5576e80a131c1aed2cca9f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-21",
+    "cache_key": "6681bc65c420b41c6206e84061e03aa9"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-22",
+    "cache_key": "31c60f37e10b79aba6d6874d1b4731fa"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-23",
+    "cache_key": "30e9a4b56cf50d8042de379b85aef13d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-24",
+    "cache_key": "c59d6b0115ba4f889a5f242a6cca773b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-27",
+    "cache_key": "97e3ca2c59e2df05b2b4161aadd601be"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-28",
+    "cache_key": "2df3eb11b44704cf4566652447ade53d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-29",
+    "cache_key": "5d7487ebf6c0ddf422242a9f77c15782"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-30",
+    "cache_key": "c35cf8a4d14dbe334eb69110e1ce7080"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-01-31",
+    "cache_key": "4eacc6c975b5b64a06144062e3408d66"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-03",
+    "cache_key": "ae43e14b6c0c348eb37c7dc9980b3fba"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-04",
+    "cache_key": "804950a326ceb1a57b9299b2461fb34c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-05",
+    "cache_key": "5ec871ca036398ee2377a4ab1bff4d74"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-06",
+    "cache_key": "28cadfe69cc4c6eaf464a528bbc70f67"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-07",
+    "cache_key": "3bdfd89326d8a7a6c84b612b4b3cffb9"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-10",
+    "cache_key": "c1936e84229c91b9ae99446d507870d9"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-11",
+    "cache_key": "9605473fc565de9870e91794d1f14449"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-12",
+    "cache_key": "78725bf5f0e866306c3dcaa711f5220b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-13",
+    "cache_key": "e384ebd1c80b067a9da5dc6de831dda6"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-14",
+    "cache_key": "2d1c3c03a2031215acf538fce470f112"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-18",
+    "cache_key": "b0e77acd850206007d1174b370b655bf"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-19",
+    "cache_key": "5b3e6c2dacd46fa94297ba5799c92b4c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-20",
+    "cache_key": "9915ae0fe11ee35d364d8c447a8c3ff2"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-21",
+    "cache_key": "23b31ccba293eed4309f357d0a931dae"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-24",
+    "cache_key": "d8f3756d1d51c1222ebfd26dfa92f7a0"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-25",
+    "cache_key": "b77fc1b4bc40a7f875735e847fdb9cc5"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-26",
+    "cache_key": "efe5348b074ca94c1186baf7a93fcf01"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-27",
+    "cache_key": "8cc3eb6d9ed7f589e2f4c806a44cfbae"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-02-28",
+    "cache_key": "41f7de055217b4443e7d4a9cbbc8a255"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-03",
+    "cache_key": "e45eb4de639c3c5dcf1b94e21107d05f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-04",
+    "cache_key": "87a1844e65814fdd7e8d8a9ff9eae42d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-05",
+    "cache_key": "278b291a2d346c6069b45c0f8aba9936"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-06",
+    "cache_key": "ae1c01302861ce0364735de3f0d892f5"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-07",
+    "cache_key": "f7f0d0adff8a4409680e82dc48c60c4e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-10",
+    "cache_key": "510637b128276db67c1bc4af0551af9c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-11",
+    "cache_key": "e19ec69b45f240310012a01d1840f289"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-12",
+    "cache_key": "982bdae371f44875a31850c187ccb760"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-13",
+    "cache_key": "1d721516ca873bab4bd8d2a045c7f799"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-14",
+    "cache_key": "6f9419e56710d6155bcb1806b09fd882"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-17",
+    "cache_key": "c8105df141a245960ba0034360cc2d23"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-18",
+    "cache_key": "5ddbec96b6b2cd5adfc378c4824f1a57"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-19",
+    "cache_key": "bd113e2ab2ce6c730102c0fc5d12d6ca"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-20",
+    "cache_key": "175da4562f3ddeb17df7d1a421e9294f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-21",
+    "cache_key": "3149854761a6d57dd1182763a9e55354"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-24",
+    "cache_key": "bb07c716fdf7db7c21f92fcce969a7c4"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-25",
+    "cache_key": "30a57a625dc50aa8656f825a4ecb6e50"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-26",
+    "cache_key": "6cae38535d45b338338e1823bd257b1a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-27",
+    "cache_key": "d9d9e9e69f6138e7b367432891712926"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-28",
+    "cache_key": "7ce671b7c8182ff889944d457d308c4c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-03-31",
+    "cache_key": "6818288abb24b70cafb99459ce7c6247"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-01",
+    "cache_key": "9cef2d72a328e32ede6c5d3c4076c64d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-02",
+    "cache_key": "6c5e61155c603023d5a210c42a5e881e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-03",
+    "cache_key": "b0f89eda3b16ba7352824dc04eb49668"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-04",
+    "cache_key": "00b6e5b6f0dc95cd562c6eef777c6158"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-07",
+    "cache_key": "723446f50956a6053a2650cf912339d5"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-08",
+    "cache_key": "cf532c63b2663ed7fc776e5d32f0bf7a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-09",
+    "cache_key": "254dc02195b71d500ae85d229bc7228c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-10",
+    "cache_key": "779d34d334f0f5d26c934cc469325004"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-11",
+    "cache_key": "bbb4a45dd7c84596f5bd994c34133a7b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-14",
+    "cache_key": "355893bac8bbdf917a3a7be5e8def0b3"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-15",
+    "cache_key": "f9ea734b13bf3ed446602d94c0773e9a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-16",
+    "cache_key": "cae306b29ff4669e08073455a9a9c5f8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-17",
+    "cache_key": "1c9ef84e1b4fa5cf7638b7a9e4ff36c6"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-21",
+    "cache_key": "6184be2913bba188b63dab65609f5dc2"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-22",
+    "cache_key": "85908e6f1508fcac30e2bd48c5500c71"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-23",
+    "cache_key": "a61738ebd390295559a377688c131cbc"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-24",
+    "cache_key": "1aed4d38d481a9581d79644ceecb520a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-25",
+    "cache_key": "5254b87386b61cf0e235f67e4cccd294"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-28",
+    "cache_key": "6bc5e08cb5b0d2d1b8f5b1bc6befe59c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-29",
+    "cache_key": "92abdd4d04c6f786655f509e35783994"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-04-30",
+    "cache_key": "fe3a052d710f3389b8082ca86a73c642"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-01",
+    "cache_key": "24056d60f141918868c58a5515dc748b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-02",
+    "cache_key": "5765e4d40861e799f62575b8721b2d3c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-05",
+    "cache_key": "2198db7a773abb1595309c2c31d1cb1b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-06",
+    "cache_key": "c3d82721bab358c6f2cbcc766ef80959"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-07",
+    "cache_key": "25f824424c8ea053a7eed5f50b947edc"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-08",
+    "cache_key": "330e90a04e6ad5f9bccaf45e72980e1d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-09",
+    "cache_key": "a467a1b134cd105ce07add103cda7941"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-12",
+    "cache_key": "94674b2efa424081e035f3521fe8fb6e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-13",
+    "cache_key": "65ac389473962e32e7c6a7912b863fcb"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-14",
+    "cache_key": "55036d30ecb1c59f75e8e6d489270349"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-15",
+    "cache_key": "db718ab9f9158d79c55a62e35afaf18d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-16",
+    "cache_key": "4264034643e9f0975cfe627a0f418e08"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-19",
+    "cache_key": "4458277116da53e320640965e9fa9861"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-20",
+    "cache_key": "f89980e50e8557319713df2c05bd79b8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-21",
+    "cache_key": "f2678b83ec0ed619bf43c62a4d9b9070"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-22",
+    "cache_key": "7d284cf316791c5a7846e5c6e47220a8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-23",
+    "cache_key": "91cfb313744dec342c88c8dd88512de0"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-27",
+    "cache_key": "901b8c0610b0bf97eb8927b8f18d7c16"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-28",
+    "cache_key": "06c9a63f7c4deb336531dfbe932dec0f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-29",
+    "cache_key": "2aa476115fe845194dbbba5d4693c9dc"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-05-30",
+    "cache_key": "b45eb169210a1ded56dca3e00d5134c2"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-02",
+    "cache_key": "a89cc0ccc0a1d688025c15ee0b394cd3"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-03",
+    "cache_key": "629972d48a6131792b26c66f239ced7e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-04",
+    "cache_key": "ae595fc9c35a720b9af88ced35234cda"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-05",
+    "cache_key": "29ea83a752b03ce920793e705ea8fb06"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-06",
+    "cache_key": "c4020d2c56a8482536241f1f102346b5"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-09",
+    "cache_key": "3d4cc778fdd17ae59133ab947bb0bbea"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-10",
+    "cache_key": "bd16b85bb786c15c06b3d04b5a80be5f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-11",
+    "cache_key": "04deb04e72840fd396962731eefdbc74"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-12",
+    "cache_key": "ebab9ef9d4adaad400c96edb1a4f3284"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-13",
+    "cache_key": "7a80108c06dcf9d389f7610796618e16"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-16",
+    "cache_key": "88114db5fb263ae60b9a7105deb2038f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-17",
+    "cache_key": "bddac40172397b121bf393fe6f19b97e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-18",
+    "cache_key": "6f8bd9f2e21df63f142230956a391a76"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-20",
+    "cache_key": "9c8fbb9b58da614b000072243f2baa74"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-23",
+    "cache_key": "ada7f6f675500ba2fd1b9a4a39b80337"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-24",
+    "cache_key": "c17320ff88b3c0e85591cd18c4546b10"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-25",
+    "cache_key": "fc7a848bc0b8cb50ab20d241ae4b13e1"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-26",
+    "cache_key": "77f688a91ffde92b5e470664c3420426"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-27",
+    "cache_key": "40db5694306e9383fccc8be766a00870"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-06-30",
+    "cache_key": "b24a84ca5825d328a083d9a80d7f044c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-01",
+    "cache_key": "e00059f09cbd2ac4659d0ea416f953c8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-02",
+    "cache_key": "358f81502698d92f1ba91d3aec7a6463"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-03",
+    "cache_key": "810f52a44d34175931bcdaf6d6a321c8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-07",
+    "cache_key": "b5b8bac2e305996e4b08ee1df5e37333"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-08",
+    "cache_key": "34b7c071ffe023fea76e2359f8694326"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-09",
+    "cache_key": "4bb2816066c7e31d71f36b0734749d9e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-10",
+    "cache_key": "87b61d1db17227933eef2053fba50da7"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-11",
+    "cache_key": "383a0903ca9d9d9fac39b51418a3ea7e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-14",
+    "cache_key": "0f0a02190678a9eca02faadf21d4e274"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-15",
+    "cache_key": "86ecffb575b8494ee246de03b3ffa14a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-16",
+    "cache_key": "cb37fcfd966b386055b166a1934eb266"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-17",
+    "cache_key": "064bbb0a7aec96ce87addf1ccbb45b44"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-18",
+    "cache_key": "0d87ab9020b701c34d415d07bf242798"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-21",
+    "cache_key": "4a021beb60c9c6aac7c5babad4ad7813"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-22",
+    "cache_key": "a78ce677f137ebcef2691d0ffceaf6b8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-23",
+    "cache_key": "29c17aff22f5a5cd88ce5be0231145f4"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-24",
+    "cache_key": "6bd5543be7f3e45aff788d5851f62b53"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-25",
+    "cache_key": "1fd18125efe82e104e3a4fd905ec9ccd"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-28",
+    "cache_key": "32ef4ecd777acaf5fe68488008445a76"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-29",
+    "cache_key": "f3e2dc24a8090d012ef055794b29e049"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-30",
+    "cache_key": "3631ced4f435e870605fa45c9822129c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-07-31",
+    "cache_key": "09f73d563eda27d24f69b1c90fc86bb1"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-01",
+    "cache_key": "9e6c64a52f4b22e3a75ea1167ed14ccd"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-04",
+    "cache_key": "f1b97b2d62d9967a956969c3fa9cf903"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-05",
+    "cache_key": "2871bad4b901db64dd751ece1cdecd1a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-06",
+    "cache_key": "53f9aef768f76b11639e8331a726685e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-07",
+    "cache_key": "e1a80aa9a0302aa7603b86b626eb24b5"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-08",
+    "cache_key": "ef92222e6dd2a37456849b9b23266af4"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-11",
+    "cache_key": "8a034aabd1e384f484434eaa0699b52c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-12",
+    "cache_key": "d830b16a43cfc1bf18c9bc03ce81a8a4"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-13",
+    "cache_key": "498631dcc71ad65c78c313a2c947b733"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-14",
+    "cache_key": "40a38fc7f35fe9aef0445095d4cab394"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-15",
+    "cache_key": "a49b6337b4c2ab13a4db9de37fd9655b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-18",
+    "cache_key": "7680f0cdb120b3433fb47d7698a3e0bc"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-19",
+    "cache_key": "876872a1c24f964e4dad7210eb0a0cf0"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-20",
+    "cache_key": "13c6866fd0fde6c17d0882a6865d055a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-21",
+    "cache_key": "5041294be3e0913ec53adf0c5843173e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-22",
+    "cache_key": "12a6345af1e7ec59e8c931b79c1f1d0a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-25",
+    "cache_key": "b515a73aa56387f5dbbf7e85f3ae9e69"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-26",
+    "cache_key": "96db8953041b7a08a881b5148c2c3628"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-27",
+    "cache_key": "083030ac2f3aed0842e3ad121489bf07"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-28",
+    "cache_key": "5dff4382783c0d49b2c2c3ad93c055e7"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-08-29",
+    "cache_key": "8832bb6891cd0cf0827b960ab8035deb"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-02",
+    "cache_key": "68dd4ed61f467498c54966a6e5645192"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-03",
+    "cache_key": "087d961c60bd8dd0429a6ab8cf0259d4"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-04",
+    "cache_key": "a1d41f4eea91533edbc0bf008f10645c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-05",
+    "cache_key": "f43e24e666d960aefbb6807c2323c48f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-08",
+    "cache_key": "b0c463e4e872d72af368803ad0091aca"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-09",
+    "cache_key": "9d33be4244653dda1e71abfad28e7436"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-10",
+    "cache_key": "76f53bfa05f15cfe98022d05c9471184"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-11",
+    "cache_key": "ed41f2657e54dfeaff58e1af6992d11f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-12",
+    "cache_key": "b44349ecc3a49f0f853b2c17054b2e9e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-15",
+    "cache_key": "cdac20b17bda328bcd1805ab67a4f905"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-16",
+    "cache_key": "30b8290224068688b343dee9be85202e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-17",
+    "cache_key": "2bef94796c4d2d8d5ab7e320b19af24e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-18",
+    "cache_key": "ec0a9aa38bc70f1d083ce0c2a16aaaa9"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-19",
+    "cache_key": "792c7441adb880d1342cdf96b0535395"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-22",
+    "cache_key": "66bcf5b29d72fd4afe6e3196c4fb386b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-23",
+    "cache_key": "a0d22fdc02bdcc097ebe70148dfaecd7"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-24",
+    "cache_key": "2c88928b32a2de6ff48e8cf71e3a8394"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-25",
+    "cache_key": "75519e9b6c6a7f34d22f2f05b21bb60e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-26",
+    "cache_key": "cf25e8f8bad80c8889168525afdeb9a6"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-29",
+    "cache_key": "732d651ba0430313c3622371ac910ace"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-09-30",
+    "cache_key": "a2f0c74d2d7be251d8a4296248e6caad"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-01",
+    "cache_key": "31e05e6c1367b112ef730dc8d0aa531f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-02",
+    "cache_key": "67b12a6ef6c4350f31b9759c5f988cd1"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-03",
+    "cache_key": "717a403bead1c51f33d4e7560c30aa26"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-06",
+    "cache_key": "e6a67a19c6f728b9c33017d2a6a51147"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-07",
+    "cache_key": "ae999c4c6c2a637b77745b4e01d9916d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-08",
+    "cache_key": "15d90ae348a636873088e04d8f5061d7"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-09",
+    "cache_key": "2316f977c2d02c04b5bae433d44b2a38"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-10",
+    "cache_key": "853214d1b012bca1f7eb9f0865ab63d8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-13",
+    "cache_key": "440eeca6ffba06807992bc33f70d6a79"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-14",
+    "cache_key": "846742953146749b8c967d1269eaf8a3"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-15",
+    "cache_key": "19b1d6884bacc680e0ed59cb84d66b0f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-16",
+    "cache_key": "c0dd7d8738df87e9574eabbc5ccabaf3"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-17",
+    "cache_key": "12da841de50301d7690d1a4ea5029315"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-20",
+    "cache_key": "b904aee66d4879670ae72264412a39ba"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-21",
+    "cache_key": "504bef10b8a32cb2a0b764127000ebf6"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-22",
+    "cache_key": "0bcf8fd69e1404f7e9976835d65a7d93"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-23",
+    "cache_key": "9e88bdcd5ffeeb7a2c9c0121d9aeb3e8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-24",
+    "cache_key": "d14dfb0d3572b83781cc639f522e5978"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-27",
+    "cache_key": "1df5a0ad0cb02772f230f617c2851687"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-28",
+    "cache_key": "d7df96a94e1bf5afeb0a657bafe6b42c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-29",
+    "cache_key": "2dcad2d85023861c3a38a6c9f1faa107"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-30",
+    "cache_key": "26ff2886e0c30dfff92da725e74cd1f5"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-10-31",
+    "cache_key": "e06af162e36b3fd7e1fdd10e071bab5f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-03",
+    "cache_key": "7b81b87d9a67ae0c0cfa1b8a97dc82a0"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-04",
+    "cache_key": "2b270416d47c59c6a3db2a4f826e2234"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-05",
+    "cache_key": "7f10a516d37b04476cce987b33c3fe4a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-06",
+    "cache_key": "87eb2d163d84ab6a3bfe9be2f752d048"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-07",
+    "cache_key": "6c74e2dfa9a3cab803921005cdb7e925"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-10",
+    "cache_key": "e54dca1f140bae4552443d978d32f4fa"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-11",
+    "cache_key": "ff28c6139d793633da712b96d8607068"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-12",
+    "cache_key": "f5ecfd3364edb4d4035242538a84975e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-13",
+    "cache_key": "cdd1c2aec3a0b92fcdc6511fd9144c92"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-14",
+    "cache_key": "ed5f0cdb130bdfbb601a066b733a055b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-17",
+    "cache_key": "8382a447affe9d92add10368d779eb33"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-18",
+    "cache_key": "944d1db4b7226b766697cab1995ddd21"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-19",
+    "cache_key": "6a743136af44fa09d37daa09661d486d"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-20",
+    "cache_key": "0742650127578bbb701bd3d6e38f4316"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-21",
+    "cache_key": "c06f9869d54da8442ec630680cc205fa"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-24",
+    "cache_key": "3bed2577b79202520df48b55c58e3881"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-25",
+    "cache_key": "edd0fc833f88dedf427214e7354dfedd"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-26",
+    "cache_key": "5d1b03a9f6cc70001f487508f10f6ba0"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-11-28",
+    "cache_key": "304b6e2f00778339bfa0f745420d473a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-01",
+    "cache_key": "f0c1d4ab4edca5d8bcd2e1af8478d571"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-02",
+    "cache_key": "ef5a6776a0e1363323f39d038f064c3e"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-03",
+    "cache_key": "5ad73e40b047a30779c299d63bb14a27"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-04",
+    "cache_key": "c9af857320332532b51ca8f87fb8ff0c"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-05",
+    "cache_key": "9dc33d3bcf5f68828d127fd60b2b0445"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-08",
+    "cache_key": "d521e05600ecf35649cf7cee85e1dc2b"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-09",
+    "cache_key": "e3522614f82ae60302b71b55f00e0cbd"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-10",
+    "cache_key": "fa534665606699bf0f65fadee43c2639"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-11",
+    "cache_key": "789a261cd80dca97b06a0bdac3ffef3f"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-12",
+    "cache_key": "2b968a65ac3dffa715ab53069565f743"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-15",
+    "cache_key": "a11ebbe14192a3daabcc7b4ce855e9e8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-16",
+    "cache_key": "070cb2554f4717481cc383adb99006a1"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-17",
+    "cache_key": "036c342c988752a02947cd8e4fa3b57a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-18",
+    "cache_key": "7751b86c3cb600ea69b62dc14a1341de"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-19",
+    "cache_key": "4bc6479181c2e1bc35d80add9d5204c8"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-22",
+    "cache_key": "0d3a25cb5e5699401b1ef4ad26d204ec"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-23",
+    "cache_key": "cdcd868f4024abb995d24ff93e170fef"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-24",
+    "cache_key": "9057b320f09c6213a47c2e916078a21a"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-26",
+    "cache_key": "1c3acd6ae56b5352ffde38124670c557"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-29",
+    "cache_key": "1de35f540b37813067d3d27f4c5bfd87"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-30",
+    "cache_key": "3a57c6549ed297001e3f2537e22bfb49"
+  },
+  {
+    "type": "intraday",
+    "date": "2025-12-31",
+    "cache_key": "33ab888e1b5a13814af47526bd42e765"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-02",
+    "cache_key": "0a28345f6e9a6e702f8532c9925e5764"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-05",
+    "cache_key": "b7d2612a7c4a2652b08cba72c6717b8f"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-06",
+    "cache_key": "8044d7eed9a6ff06637584ed3c020c42"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-07",
+    "cache_key": "3ce2aeedcada49e23755d27a98b1aa9f"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-08",
+    "cache_key": "04ed38ff63ecca8cf5e460237628b680"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-09",
+    "cache_key": "c46f6383641e6f888cb730b62b34b59b"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-12",
+    "cache_key": "ab3a9ea0138d10763a1e87a7483ec5a5"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-13",
+    "cache_key": "28d207c6ed571934734d54b98f5c639e"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-14",
+    "cache_key": "dc79cf395f10099be071b8af8ea40d8b"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-15",
+    "cache_key": "e32ad0b8ebbcceab0a3a864fb9c0e953"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-16",
+    "cache_key": "460791e65cb825b127a9a79308a88597"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-20",
+    "cache_key": "ba7cdebcb0295b8ed74383d38c0192cc"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-21",
+    "cache_key": "dc19468905738e093c425191b4e282ab"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-22",
+    "cache_key": "746eb596a87423ef3be48cc63d901db5"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-23",
+    "cache_key": "e58d444b26183d9e9b73b50af052f038"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-26",
+    "cache_key": "e72943548bc1c7b27d9c8c451a5c0382"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-27",
+    "cache_key": "c45621a67231ed048d34d2676874ad59"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-28",
+    "cache_key": "66108dc1c270e879b1e2a10e82ba02f0"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-29",
+    "cache_key": "0610d802ac3aa7b0874e37ce9d3def92"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-01-30",
+    "cache_key": "fdf638eb267097e3907831df602f6307"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-02",
+    "cache_key": "1cdcd5948b3bd0148176790e602ee08d"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-03",
+    "cache_key": "81f88c139a4bfb5c5039a49027f24e5b"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-04",
+    "cache_key": "e10da3016e324b16fef1fb2403a34d19"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-05",
+    "cache_key": "0d263a61ca8a8a38fc655415740c19f3"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-06",
+    "cache_key": "1d8f7b7f4815e66f53baffd737752324"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-09",
+    "cache_key": "0d4a23cf68fcf9b517af1699db3f0828"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-10",
+    "cache_key": "c5f859a1f02e65a2e2b68f322eaa5288"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-11",
+    "cache_key": "4bf7c10010601eb02b4fba933a54955d"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-12",
+    "cache_key": "c61b16f58ff25003dfe5a045a60f0df6"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-13",
+    "cache_key": "7217ed6384b819a9dd9aaa9b86ec0259"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-17",
+    "cache_key": "69acbc8ebdc5fe5c594f9e3e9b7a9bc7"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-18",
+    "cache_key": "c5b2f7b21a5d372aa19eeec65aeea037"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-19",
+    "cache_key": "9612c89f48c8c0f597c271d9cf67c492"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-20",
+    "cache_key": "df17f7a9f993afac5bd1ce2aa0824bd9"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-23",
+    "cache_key": "461544289d74f761372a6f971220866d"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-24",
+    "cache_key": "0d5ba072ce17cacf68834913d1467329"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-25",
+    "cache_key": "5c48070291aa479024b5ebb439c31496"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-26",
+    "cache_key": "fd36d41a95c0f528d0221db1e42031f4"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-02-27",
+    "cache_key": "6f53e23ceb15e13e852e0dfecc41955f"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-02",
+    "cache_key": "82be3d26f70a31314cfd8e5f5aeb7d70"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-03",
+    "cache_key": "9b8c90d370ae299aee62c42ac74a9eb8"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-04",
+    "cache_key": "60b2ea946696f64a7a0b746ce5656012"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-05",
+    "cache_key": "6c272aeb80819171dd0f7c526345aa8a"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-06",
+    "cache_key": "7be13d837e044726d58f799f186c9dbe"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-09",
+    "cache_key": "ffcdac638c9bcb285faf7640550da4f4"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-10",
+    "cache_key": "2b68c9bb1b9b08c4adc3556a8d10c729"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-11",
+    "cache_key": "2bca66c34b2d705fbd2c9f95f27656b3"
+  },
+  {
+    "type": "intraday",
+    "date": "2026-03-12",
+    "cache_key": "e4ba5b1852c955bd21b72793689f2f76"
+  }
+]

@@ -1,0 +1,450 @@
+Total configs to test: 8448
+======================================================================
+  TARGETED COMMISSION-AWARE SEARCH
+  8448 configs to test
+======================================================================
+Fetching daily bars for SPY (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for SPY
+Fetching daily bars for TLT (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for TLT
+Fetching VIX data (2022-01-01 to 2026-03-12)...
+  Got 1071 VIX daily bars via I:VIX
+Fetching intraday bars for SPY across 1038 dates...
+  Progress: 50/1038 dates...
+  Progress: 100/1038 dates...
+  Progress: 150/1038 dates...
+  Progress: 200/1038 dates...
+  Progress: 250/1038 dates...
+  Progress: 300/1038 dates...
+  Progress: 350/1038 dates...
+  Progress: 400/1038 dates...
+  Progress: 450/1038 dates...
+  Progress: 500/1038 dates...
+  Progress: 550/1038 dates...
+  Progress: 600/1038 dates...
+  Progress: 650/1038 dates...
+  Progress: 700/1038 dates...
+  Progress: 750/1038 dates...
+  Progress: 800/1038 dates...
+  Progress: 850/1038 dates...
+  Progress: 900/1038 dates...
+  Progress: 950/1038 dates...
+  Progress: 1000/1038 dates...
+  Got intraday data for 1038/1038 dates
+Scanning 1038 days for signals (2 directions, 6 ATR levels)...
+  Progress: 100/1038 days...
+  Progress: 200/1038 days...
+  Progress: 300/1038 days...
+  Progress: 400/1038 days...
+  Progress: 500/1038 days...
+  Progress: 600/1038 days...
+  Progress: 700/1038 days...
+  Progress: 800/1038 days...
+  Progress: 900/1038 days...
+  Progress: 1000/1038 days...
+
+  Signal Summary:
+
+  ABOVE VWAP (fade/short):
+    0.5x ATR: 127 signals
+    0.6x ATR: 71 signals
+    0.7x ATR: 41 signals
+    0.8x ATR: 26 signals
+    0.9x ATR: 20 signals
+    1.0x ATR: 13 signals
+
+  BELOW VWAP (buy/long):
+    0.5x ATR: 197 signals
+    0.6x ATR: 113 signals
+    0.7x ATR: 75 signals
+    0.8x ATR: 50 signals
+    0.9x ATR: 27 signals
+    1.0x ATR: 15 signals
+
+  Loading options for 306 signal days...
+  2022-01-24: Got 8 put deltas, 8 call deltas (spot=431.26)
+  2022-01-25: No 0DTE contracts found
+  2022-01-26: Got 8 put deltas, 8 call deltas (spot=435.88)
+  2022-01-27: No 0DTE contracts found
+  2022-01-28: Got 8 put deltas, 8 call deltas (spot=435.47)
+  2022-02-10: No 0DTE contracts found
+  2022-02-11: Got 8 put deltas, 8 call deltas (spot=442.84)
+  2022-02-22: Got 8 put deltas, 8 call deltas (spot=427.40)
+  2022-02-23: Got 8 put deltas, 8 call deltas (spot=423.92)
+  2022-02-24: No 0DTE contracts found
+  2022-03-08: No 0DTE contracts found
+  2022-03-16: Got 8 put deltas, 8 call deltas (spot=426.70)
+  2022-04-05: No 0DTE contracts found
+  2022-04-07: No 0DTE contracts found
+  2022-04-12: No 0DTE contracts found
+  2022-04-21: No 0DTE contracts found
+  2022-04-22: Got 8 put deltas, 8 call deltas (spot=428.94)
+  2022-04-25: Got 8 put deltas, 8 call deltas (spot=426.06)
+  2022-04-26: No 0DTE contracts found
+  2022-04-28: No 0DTE contracts found
+  2022-04-29: Got 8 put deltas, 8 call deltas (spot=416.02)
+  2022-05-02: Got 8 put deltas, 8 call deltas (spot=406.29)
+  2022-05-04: Got 8 put deltas, 8 call deltas (spot=421.49)
+  2022-05-05: No 0DTE contracts found
+  2022-05-06: Got 8 put deltas, 8 call deltas (spot=414.65)
+  2022-05-10: No 0DTE contracts found
+  2022-05-11: Got 8 put deltas, 8 call deltas (spot=394.63)
+  2022-05-18: Got 8 put deltas, 8 call deltas (spot=392.98)
+  2022-05-20: Got 8 put deltas, 8 call deltas (spot=382.61)
+  2022-06-09: No 0DTE contracts found
+  2022-06-15: Got 8 put deltas, 8 call deltas (spot=383.15)
+  2022-06-28: No 0DTE contracts found
+  2022-06-30: Got 8 put deltas, 8 call deltas (spot=380.22)
+  2022-07-05: Got 8 put deltas, 8 call deltas (spot=380.00)
+  2022-07-12: No 0DTE contracts found
+  2022-07-14: No 0DTE contracts found
+  2022-07-18: Got 8 put deltas, 8 call deltas (spot=382.49)
+  2022-07-27: Got 8 put deltas, 8 call deltas (spot=400.70)
+  2022-07-28: No 0DTE contracts found
+  2022-08-26: Got 8 put deltas, 8 call deltas (spot=414.56)
+  2022-08-30: No 0DTE contracts found
+  2022-09-01: No 0DTE contracts found
+  2022-09-02: Got 8 put deltas, 8 call deltas (spot=395.90)
+  2022-09-07: Got 8 put deltas, 8 call deltas (spot=396.97)
+  2022-09-13: No 0DTE contracts found
+  2022-09-21: Got 8 put deltas, 8 call deltas (spot=388.54)
+  2022-09-27: No 0DTE contracts found
+  2022-09-28: Got 8 put deltas, 8 call deltas (spot=371.61)
+  2022-10-03: Got 8 put deltas, 7 call deltas (spot=368.49)
+    [50/306]...
+  2022-10-05: Got 8 put deltas, 8 call deltas (spot=378.81)
+  2022-10-13: No 0DTE contracts found
+  2022-10-14: Got 8 put deltas, 8 call deltas (spot=360.92)
+  2022-10-21: Got 8 put deltas, 8 call deltas (spot=373.98)
+  2022-11-02: Got 8 put deltas, 8 call deltas (spot=387.06)
+  2022-11-04: Got 8 put deltas, 8 call deltas (spot=371.04)
+  2022-11-08: No 0DTE contracts found
+  2022-11-10: No 0DTE contracts found
+  2022-11-15: Got 8 put deltas, 8 call deltas (spot=395.80)
+  2022-11-30: Got 8 put deltas, 8 call deltas (spot=398.38)
+  2022-12-06: Got 7 put deltas, 8 call deltas (spot=391.75)
+  2022-12-13: Got 8 put deltas, 8 call deltas (spot=404.84)
+  2022-12-14: Got 8 put deltas, 8 call deltas (spot=400.23)
+  2022-12-22: Got 8 put deltas, 8 call deltas (spot=375.60)
+  2023-01-06: Got 8 put deltas, 8 call deltas (spot=387.99)
+  2023-01-18: Got 8 put deltas, 8 call deltas (spot=394.35)
+  2023-01-20: Got 8 put deltas, 8 call deltas (spot=394.82)
+  2023-01-25: Got 8 put deltas, 8 call deltas (spot=399.34)
+  2023-02-01: Got 8 put deltas, 8 call deltas (spot=408.36)
+  2023-02-07: Got 8 put deltas, 8 call deltas (spot=413.05)
+  2023-02-09: Got 8 put deltas, 8 call deltas (spot=407.55)
+  2023-02-23: Got 8 put deltas, 8 call deltas (spot=396.90)
+  2023-03-02: Got 8 put deltas, 8 call deltas (spot=396.86)
+  2023-03-07: Got 8 put deltas, 8 call deltas (spot=398.30)
+  2023-03-09: Got 8 put deltas, 8 call deltas (spot=396.45)
+  2023-03-10: Got 8 put deltas, 8 call deltas (spot=392.75)
+  2023-03-13: Got 8 put deltas, 8 call deltas (spot=385.57)
+  2023-03-14: Got 8 put deltas, 8 call deltas (spot=388.14)
+  2023-03-16: Got 8 put deltas, 8 call deltas (spot=391.93)
+  2023-03-22: Got 8 put deltas, 8 call deltas (spot=395.45)
+  2023-03-23: Got 8 put deltas, 8 call deltas (spot=392.80)
+  2023-04-12: Got 8 put deltas, 8 call deltas (spot=407.55)
+  2023-04-25: Got 8 put deltas, 8 call deltas (spot=407.26)
+  2023-04-27: Got 8 put deltas, 8 call deltas (spot=410.74)
+  2023-05-02: Got 8 put deltas, 8 call deltas (spot=410.18)
+  2023-05-03: Got 8 put deltas, 8 call deltas (spot=408.96)
+  2023-05-05: Got 8 put deltas, 8 call deltas (spot=413.51)
+  2023-05-10: Got 8 put deltas, 8 call deltas (spot=409.54)
+  2023-05-17: Got 8 put deltas, 8 call deltas (spot=414.48)
+  2023-05-18: Got 8 put deltas, 6 call deltas (spot=419.05)
+  2023-05-19: Got 8 put deltas, 8 call deltas (spot=417.39)
+  2023-05-23: Got 8 put deltas, 8 call deltas (spot=414.25)
+  2023-05-25: Got 8 put deltas, 8 call deltas (spot=415.86)
+  2023-06-01: Got 8 put deltas, 8 call deltas (spot=421.05)
+  2023-06-12: Got 8 put deltas, 7 call deltas (spot=433.60)
+  2023-06-14: Got 8 put deltas, 8 call deltas (spot=435.55)
+  2023-06-15: Got 8 put deltas, 7 call deltas (spot=441.80)
+  2023-06-27: Got 8 put deltas, 8 call deltas (spot=435.65)
+  2023-07-07: Got 8 put deltas, 8 call deltas (spot=442.43)
+  2023-07-18: Got 8 put deltas, 5 call deltas (spot=454.79)
+    [100/306]...
+  2023-07-20: Got 8 put deltas, 8 call deltas (spot=451.51)
+  2023-07-26: Got 8 put deltas, 7 call deltas (spot=456.85)
+  2023-07-27: Got 8 put deltas, 8 call deltas (spot=456.26)
+  2023-08-02: Got 7 put deltas, 8 call deltas (spot=449.37)
+  2023-08-04: Got 8 put deltas, 8 call deltas (spot=448.81)
+  2023-08-08: Got 8 put deltas, 7 call deltas (spot=449.05)
+  2023-08-09: Got 8 put deltas, 8 call deltas (spot=445.24)
+  2023-08-10: Got 8 put deltas, 8 call deltas (spot=447.64)
+  2023-08-16: Got 7 put deltas, 8 call deltas (spot=440.14)
+  2023-08-17: Got 8 put deltas, 8 call deltas (spot=437.19)
+  2023-08-21: Got 8 put deltas, 8 call deltas (spot=439.90)
+  2023-08-24: Got 8 put deltas, 8 call deltas (spot=440.52)
+  2023-08-25: Got 8 put deltas, 8 call deltas (spot=440.68)
+  2023-08-29: Got 8 put deltas, 8 call deltas (spot=448.42)
+  2023-09-06: Got 8 put deltas, 8 call deltas (spot=443.89)
+  2023-09-15: Got 8 put deltas, 8 call deltas (spot=443.38)
+  2023-09-20: Got 8 put deltas, 8 call deltas (spot=440.90)
+  2023-09-21: Got 8 put deltas, 8 call deltas (spot=431.89)
+  2023-09-27: Got 8 put deltas, 8 call deltas (spot=422.96)
+  2023-09-28: Got 8 put deltas, 8 call deltas (spot=429.52)
+  2023-09-29: Got 8 put deltas, 8 call deltas (spot=427.92)
+  2023-10-03: Got 8 put deltas, 8 call deltas (spot=421.57)
+  2023-10-04: Got 8 put deltas, 8 call deltas (spot=425.25)
+  2023-10-06: Got 8 put deltas, 8 call deltas (spot=425.77)
+  2023-10-09: Got 8 put deltas, 8 call deltas (spot=431.50)
+  2023-10-12: Got 8 put deltas, 8 call deltas (spot=433.04)
+  2023-10-13: Got 8 put deltas, 8 call deltas (spot=431.90)
+  2023-10-17: Got 8 put deltas, 8 call deltas (spot=437.39)
+  2023-10-18: Got 8 put deltas, 8 call deltas (spot=429.49)
+  2023-10-19: Got 8 put deltas, 8 call deltas (spot=427.20)
+  2023-10-23: Got 8 put deltas, 8 call deltas (spot=424.01)
+  2023-11-09: Got 8 put deltas, 8 call deltas (spot=433.51)
+  2023-11-10: Got 8 put deltas, 8 call deltas (spot=439.00)
+  2023-12-01: Got 8 put deltas, 8 call deltas (spot=458.72)
+  2023-12-06: Got 5 put deltas, 6 call deltas (spot=454.35)
+  2023-12-13: Got 8 put deltas, 8 call deltas (spot=467.09)
+  2023-12-14: Got 8 put deltas, 8 call deltas (spot=470.11)
+  2023-12-20: Got 8 put deltas, 8 call deltas (spot=472.72)
+  2023-12-22: Got 8 put deltas, 8 call deltas (spot=472.01)
+  2023-12-29: Got 8 put deltas, 8 call deltas (spot=473.33)
+  2024-01-05: Got 8 put deltas, 8 call deltas (spot=466.71)
+  2024-01-08: Got 8 put deltas, 8 call deltas (spot=472.45)
+  2024-01-11: Got 8 put deltas, 6 call deltas (spot=476.82)
+  2024-01-18: Got 6 put deltas, 4 call deltas (spot=476.60)
+  2024-01-19: Got 8 put deltas, 7 call deltas (spot=480.65)
+  2024-01-29: Got 8 put deltas, 8 call deltas (spot=490.23)
+  2024-01-31: Got 8 put deltas, 8 call deltas (spot=484.95)
+  2024-02-01: Got 8 put deltas, 8 call deltas (spot=487.58)
+  2024-02-02: Got 8 put deltas, 8 call deltas (spot=493.23)
+  2024-02-13: Got 8 put deltas, 8 call deltas (spot=492.24)
+    [150/306]...
+  2024-02-22: Got 8 put deltas, 8 call deltas (spot=507.44)
+  2024-03-01: Got 8 put deltas, 8 call deltas (spot=512.90)
+  2024-03-05: Got 6 put deltas, 8 call deltas (spot=505.85)
+  2024-03-08: Got 8 put deltas, 8 call deltas (spot=513.52)
+  2024-03-12: Got 8 put deltas, 8 call deltas (spot=515.39)
+  2024-03-14: Got 7 put deltas, 8 call deltas (spot=511.92)
+  2024-03-20: Got 8 put deltas, 7 call deltas (spot=519.07)
+  2024-04-04: Got 8 put deltas, 8 call deltas (spot=520.82)
+  2024-04-05: Got 8 put deltas, 8 call deltas (spot=518.71)
+  2024-04-09: Got 8 put deltas, 8 call deltas (spot=516.80)
+  2024-04-11: Got 8 put deltas, 7 call deltas (spot=516.90)
+  2024-04-12: Got 8 put deltas, 8 call deltas (spot=511.11)
+  2024-04-15: Got 8 put deltas, 8 call deltas (spot=509.96)
+  2024-04-17: Got 8 put deltas, 8 call deltas (spot=501.04)
+  2024-04-19: Got 8 put deltas, 8 call deltas (spot=495.20)
+  2024-04-22: Got 8 put deltas, 8 call deltas (spot=500.65)
+  2024-04-25: Got 8 put deltas, 8 call deltas (spot=502.58)
+  2024-04-30: Got 7 put deltas, 8 call deltas (spot=502.91)
+  2024-05-01: Got 8 put deltas, 8 call deltas (spot=505.03)
+  2024-05-22: Got 8 put deltas, 8 call deltas (spot=528.06)
+  2024-05-23: Got 8 put deltas, 8 call deltas (spot=528.22)
+  2024-05-31: Got 8 put deltas, 8 call deltas (spot=523.63)
+  2024-06-03: Got 8 put deltas, 8 call deltas (spot=524.83)
+  2024-06-11: Got 8 put deltas, 6 call deltas (spot=536.48)
+  2024-06-17: Got 8 put deltas, 8 call deltas (spot=545.60)
+  2024-06-20: Got 8 put deltas, 8 call deltas (spot=546.50)
+  2024-06-28: Got 8 put deltas, 8 call deltas (spot=545.97)
+  2024-07-10: Got 7 put deltas, 3 call deltas (spot=560.73)
+  2024-07-11: Got 8 put deltas, 8 call deltas (spot=558.57)
+  2024-07-12: Got 8 put deltas, 8 call deltas (spot=561.06)
+  2024-07-15: Got 7 put deltas, 5 call deltas (spot=560.04)
+  2024-07-18: Got 8 put deltas, 8 call deltas (spot=555.30)
+  2024-07-19: Got 8 put deltas, 8 call deltas (spot=547.99)
+  2024-07-24: Got 8 put deltas, 8 call deltas (spot=542.75)
+  2024-07-25: Got 8 put deltas, 8 call deltas (spot=543.15)
+  2024-07-26: Got 8 put deltas, 8 call deltas (spot=546.84)
+  2024-07-30: Got 8 put deltas, 8 call deltas (spot=542.36)
+  2024-08-01: Got 8 put deltas, 8 call deltas (spot=549.21)
+  2024-08-02: Got 8 put deltas, 8 call deltas (spot=531.21)
+  2024-08-05: Got 8 put deltas, 8 call deltas (spot=519.80)
+  2024-08-06: Got 8 put deltas, 8 call deltas (spot=526.12)
+  2024-08-07: Got 8 put deltas, 8 call deltas (spot=523.87)
+  2024-08-22: Got 8 put deltas, 8 call deltas (spot=555.30)
+  2024-08-28: Got 8 put deltas, 8 call deltas (spot=555.15)
+  2024-08-29: Got 8 put deltas, 8 call deltas (spot=557.58)
+  2024-09-03: Got 6 put deltas, 8 call deltas (spot=551.62)
+  2024-09-06: Got 8 put deltas, 8 call deltas (spot=545.09)
+  2024-09-11: Got 8 put deltas, 8 call deltas (spot=547.26)
+  2024-09-18: Got 8 put deltas, 8 call deltas (spot=567.25)
+  2024-10-07: Got 8 put deltas, 8 call deltas (spot=567.51)
+    [200/306]...
+  2024-10-15: Got 7 put deltas, 6 call deltas (spot=579.18)
+  2024-10-23: Got 8 put deltas, 8 call deltas (spot=576.92)
+  2024-10-25: Got 8 put deltas, 8 call deltas (spot=579.87)
+  2024-10-31: Got 8 put deltas, 8 call deltas (spot=570.51)
+  2024-11-06: Got 8 put deltas, 6 call deltas (spot=591.47)
+  2024-11-19: Got 8 put deltas, 8 call deltas (spot=590.58)
+  2024-11-20: Got 8 put deltas, 5 call deltas (spot=590.62)
+  2024-11-21: Got 8 put deltas, 6 call deltas (spot=594.04)
+  2024-11-25: Got 8 put deltas, 7 call deltas (spot=595.53)
+  2024-12-13: Got 8 put deltas, 8 call deltas (spot=603.19)
+  2024-12-18: Got 8 put deltas, 8 call deltas (spot=602.76)
+  2024-12-19: Got 8 put deltas, 8 call deltas (spot=586.20)
+  2024-12-20: Got 8 put deltas, 8 call deltas (spot=585.94)
+  2024-12-27: Got 8 put deltas, 8 call deltas (spot=590.89)
+  2024-12-30: Got 8 put deltas, 8 call deltas (spot=590.08)
+  2025-01-02: Got 8 put deltas, 8 call deltas (spot=584.49)
+  2025-01-07: Got 8 put deltas, 8 call deltas (spot=588.72)
+  2025-01-14: Got 8 put deltas, 8 call deltas (spot=578.63)
+  2025-01-31: Got 8 put deltas, 8 call deltas (spot=603.95)
+  2025-02-03: Got 8 put deltas, 8 call deltas (spot=596.78)
+  2025-02-07: Got 8 put deltas, 8 call deltas (spot=601.82)
+  2025-02-12: Got 8 put deltas, 5 call deltas (spot=604.42)
+  2025-02-21: Got 8 put deltas, 8 call deltas (spot=603.84)
+  2025-02-24: Got 8 put deltas, 8 call deltas (spot=596.83)
+  2025-02-25: Got 8 put deltas, 8 call deltas (spot=591.60)
+  2025-02-26: Got 8 put deltas, 8 call deltas (spot=593.92)
+  2025-02-27: Got 8 put deltas, 8 call deltas (spot=591.20)
+  2025-02-28: Got 8 put deltas, 8 call deltas (spot=589.79)
+  2025-03-03: Got 8 put deltas, 8 call deltas (spot=589.62)
+  2025-03-04: Got 8 put deltas, 8 call deltas (spot=580.41)
+  2025-03-05: Got 8 put deltas, 8 call deltas (spot=581.91)
+  2025-03-06: Got 8 put deltas, 8 call deltas (spot=571.59)
+  2025-03-07: Got 8 put deltas, 8 call deltas (spot=575.24)
+  2025-03-10: Got 8 put deltas, 8 call deltas (spot=559.70)
+  2025-03-11: Got 8 put deltas, 8 call deltas (spot=562.10)
+  2025-03-12: Got 8 put deltas, 8 call deltas (spot=554.89)
+  2025-03-19: Got 8 put deltas, 8 call deltas (spot=570.23)
+  2025-03-31: Got 8 put deltas, 8 call deltas (spot=556.75)
+  2025-04-02: Got 8 put deltas, 8 call deltas (spot=565.66)
+  2025-04-04: Got 8 put deltas, 8 call deltas (spot=514.98)
+  2025-04-07: Got 8 put deltas, 8 call deltas (spot=494.13)
+  2025-04-08: Got 8 put deltas, 8 call deltas (spot=512.21)
+  2025-04-09: Got 8 put deltas, 8 call deltas (spot=512.80)
+  2025-04-10: Got 8 put deltas, 8 call deltas (spot=517.13)
+  2025-05-21: Got 8 put deltas, 8 call deltas (spot=584.69)
+  2025-06-05: Got 8 put deltas, 8 call deltas (spot=591.74)
+  2025-06-23: Got 8 put deltas, 4 call deltas (spot=600.38)
+  2025-06-27: Got 8 put deltas, 8 call deltas (spot=611.13)
+  2025-07-07: Got 8 put deltas, 8 call deltas (spot=618.14)
+  2025-07-16: Got 8 put deltas, 8 call deltas (spot=618.86)
+    [250/306]...
+  2025-07-29: Got 8 put deltas, 8 call deltas (spot=634.79)
+  2025-07-30: Got 8 put deltas, 8 call deltas (spot=633.56)
+  2025-07-31: Got 8 put deltas, 8 call deltas (spot=636.06)
+  2025-08-01: Got 8 put deltas, 8 call deltas (spot=620.32)
+  2025-08-05: Got 8 put deltas, 8 call deltas (spot=627.56)
+  2025-08-07: Got 8 put deltas, 8 call deltas (spot=630.48)
+  2025-08-19: Got 8 put deltas, 7 call deltas (spot=639.36)
+  2025-08-20: Got 7 put deltas, 6 call deltas (spot=638.71)
+  2025-08-22: Got 8 put deltas, 8 call deltas (spot=642.74)
+  2025-09-02: Got 6 put deltas, 5 call deltas (spot=640.40)
+  2025-09-05: Got 8 put deltas, 8 call deltas (spot=647.72)
+  2025-09-17: Got 8 put deltas, 8 call deltas (spot=656.89)
+  2025-09-23: Got 8 put deltas, 7 call deltas (spot=663.18)
+  2025-09-24: Got 8 put deltas, 7 call deltas (spot=660.25)
+  2025-09-25: Got 8 put deltas, 8 call deltas (spot=654.75)
+  2025-09-30: Got 8 put deltas, 7 call deltas (spot=665.68)
+  2025-10-01: Got 8 put deltas, 8 call deltas (spot=668.35)
+  2025-10-03: Got 8 put deltas, 6 call deltas (spot=668.59)
+  2025-10-07: Got 8 put deltas, 7 call deltas (spot=668.91)
+  2025-10-10: Got 8 put deltas, 8 call deltas (spot=669.77)
+  2025-10-14: Got 8 put deltas, 8 call deltas (spot=659.82)
+  2025-10-15: Got 8 put deltas, 8 call deltas (spot=664.09)
+  2025-10-16: Got 8 put deltas, 8 call deltas (spot=662.40)
+  2025-10-17: Got 8 put deltas, 8 call deltas (spot=664.99)
+  2025-10-22: Got 8 put deltas, 8 call deltas (spot=665.11)
+  2025-10-29: Got 8 put deltas, 8 call deltas (spot=683.55)
+  2025-11-06: Got 8 put deltas, 8 call deltas (spot=669.66)
+  2025-11-07: Got 8 put deltas, 8 call deltas (spot=668.38)
+  2025-11-13: Got 8 put deltas, 8 call deltas (spot=672.89)
+  2025-11-14: Got 8 put deltas, 8 call deltas (spot=671.87)
+  2025-11-17: Got 8 put deltas, 8 call deltas (spot=666.66)
+  2025-11-18: Got 8 put deltas, 8 call deltas (spot=664.11)
+  2025-11-19: Got 8 put deltas, 8 call deltas (spot=659.02)
+  2025-11-20: Got 8 put deltas, 8 call deltas (spot=669.10)
+  2025-11-21: Got 8 put deltas, 8 call deltas (spot=659.49)
+  2025-11-25: Got 8 put deltas, 8 call deltas (spot=674.31)
+  2025-12-10: Got 8 put deltas, 5 call deltas (spot=687.57)
+  2025-12-12: Got 8 put deltas, 8 call deltas (spot=681.63)
+  2025-12-17: Got 8 put deltas, 8 call deltas (spot=673.71)
+  2026-01-02: Got 8 put deltas, 8 call deltas (spot=681.87)
+  2026-01-20: Got 8 put deltas, 8 call deltas (spot=679.57)
+  2026-01-21: Got 8 put deltas, 8 call deltas (spot=684.92)
+  2026-01-29: Got 6 put deltas, 5 call deltas (spot=693.33)
+  2026-01-30: Got 8 put deltas, 8 call deltas (spot=688.99)
+  2026-02-03: Got 8 put deltas, 7 call deltas (spot=690.96)
+  2026-02-04: Got 8 put deltas, 8 call deltas (spot=685.13)
+  2026-02-05: Got 8 put deltas, 8 call deltas (spot=676.86)
+  2026-02-06: Got 8 put deltas, 7 call deltas (spot=690.61)
+  2026-02-11: Got 8 put deltas, 8 call deltas (spot=690.25)
+  2026-02-12: Got 8 put deltas, 8 call deltas (spot=688.65)
+    [300/306]...
+  2026-02-17: Got 8 put deltas, 8 call deltas (spot=684.52)
+  2026-02-20: Got 8 put deltas, 8 call deltas (spot=688.94)
+  2026-02-23: Got 8 put deltas, 8 call deltas (spot=681.76)
+  2026-02-26: Got 8 put deltas, 8 call deltas (spot=686.43)
+  2026-03-03: Got 8 put deltas, 8 call deltas (spot=678.33)
+  2026-03-05: Got 8 put deltas, 8 call deltas (spot=676.47)
+  2026-03-09: Got 8 put deltas, 8 call deltas (spot=671.50)
+  281 days with data
+
+  132 spread combos, each with 64 exit combos
+  Starting grid search...
+
+  [20/132 groups, 1216 tested, 99 passed]...
+  [40/132 groups, 2496 tested, 259 passed]...
+  [60/132 groups, 3776 tested, 516 passed]...
+  [80/132 groups, 5056 tested, 715 passed]...
+  [100/132 groups, 6336 tested, 930 passed]...
+  [120/132 groups, 7616 tested, 1458 passed]...
+
+======================================================================
+  GRID COMPLETE: 8448 tested, 1788 survive commissions
+  Time: 806s
+======================================================================
+
+  TOP 40:
+    #   Dir  ATR     Spread  Tgt   SL    T    N  AdjSh  RawSh    WR  AvgPnL       $Tot        MDD    PF   Cr$  NY
+    1 above  0.9  0.40/0.30 0.25  3.0  EOD   18  1.188  1.278 88.9% +10.159% $ +182,668 $   -4,171 33.32 $1.01   0
+    2 above  0.9  0.35/0.25 0.25  2.0   60   16  1.164  1.352 93.8% +4.845% $  +77,384 $     -297 261.40 $0.56   0
+    3 above  0.9  0.35/0.25 0.25  2.0  EOD   16  1.164  1.352 93.8% +4.845% $  +77,384 $     -297 261.40 $0.56   0
+    4 above  0.9  0.35/0.25 0.25  3.0   60   16  1.164  1.352 93.8% +4.845% $  +77,384 $     -297 261.40 $0.56   0
+    5 above  0.9  0.35/0.25 0.25  3.0  EOD   16  1.164  1.352 93.8% +4.845% $  +77,384 $     -297 261.40 $0.56   0
+    6 above  0.9  0.40/0.30 0.25  1.5   60   18  1.113  1.202 88.9% +9.954% $ +178,982 $   -8,232 20.17 $1.01   0
+    7 above  0.9  0.40/0.30 0.25  1.5  EOD   18  1.113  1.202 88.9% +9.954% $ +178,982 $   -8,232 20.17 $1.01   0
+    8 above  0.9  0.40/0.30 0.25  2.0   60   18  1.061  1.150 88.9% +9.809% $ +176,368 $  -10,721 15.76 $1.01   0
+    9 above  0.9  0.40/0.30 0.25  2.0  EOD   18  1.061  1.150 88.9% +9.809% $ +176,368 $  -10,721 15.76 $1.01   0
+   10 above  0.9  0.40/0.30 0.25  3.0   60   18  0.959  1.047 88.9% +9.518% $ +171,140 $  -15,699 10.96 $1.01   0
+   11 above  0.9  0.35/0.25 0.25  2.0   30   16  0.903  1.086 87.5% +4.385% $  +70,044 $   -5,843 12.41 $0.56   0
+   12 above  0.9  0.35/0.25 0.25  3.0   30   16  0.903  1.086 87.5% +4.385% $  +70,044 $   -5,843 12.41 $0.56   0
+   13 above  0.9  0.40/0.30 0.25  1.5   30   18  0.871  0.967 83.3% +8.972% $ +161,333 $  -12,669  8.33 $1.01   0
+   14 above  0.9  0.40/0.30 0.25  2.0   30   18  0.836  0.931 83.3% +8.827% $ +158,719 $  -12,669  7.45 $1.01   0
+   15 above  0.9  0.40/0.30 0.25  3.0   30   18  0.767  0.859 83.3% +8.536% $ +153,491 $  -15,699  6.14 $1.01   0
+   16 above  0.9  0.35/0.25 0.25  1.5   30   16  0.561  0.714 87.5% +3.719% $  +59,401 $  -16,486  4.54 $0.56   1
+   17 above  0.9  0.35/0.25 0.25  1.5   60   16  0.561  0.714 87.5% +3.719% $  +59,401 $  -16,486  4.54 $0.56   1
+   18 above  0.9  0.35/0.25 0.25  1.5  EOD   16  0.561  0.714 87.5% +3.719% $  +59,401 $  -16,486  4.54 $0.56   1
+   19 below  1.0  0.35/0.25 0.50  3.0  EOD   15  0.497  0.512 93.3% +26.535% $ +397,835 $  -19,854 21.04 $0.91   0
+   20 below  1.0  0.35/0.25 0.50  2.0  EOD   15  0.493  0.508 86.7% +26.326% $ +394,680 $  -22,116 18.85 $0.91   0
+   21 below  1.0  0.35/0.25 0.25  3.0   60   15  0.459  0.489 86.7% +12.504% $ +187,492 $  -19,913 10.42 $0.91   0
+   22 below  1.0  0.35/0.25 0.25  3.0  EOD   15  0.459  0.489 86.7% +12.504% $ +187,492 $  -19,913 10.42 $0.91   0
+   23 below  1.0  0.35/0.25 0.25  2.0   60   15  0.456  0.486 86.7% +12.359% $ +185,288 $  -22,116  9.38 $0.91   0
+   24 below  1.0  0.35/0.25 0.25  2.0  EOD   15  0.456  0.486 86.7% +12.359% $ +185,288 $  -22,116  9.38 $0.91   0
+   25 below  1.0  0.40/0.30 0.25  1.5  EOD   15  0.414  0.436 86.7% +20.366% $ +305,309 $  -71,249  5.29 $1.48   1
+   26 below  1.0  0.40/0.25 0.25  1.5  EOD   15  0.409  0.420 86.7% +21.090% $ +316,117 $  -39,244  9.06 $1.82   0
+   27 below  1.0  0.30/0.20 0.50  3.0  EOD   15  0.408  0.426 80.0% +19.182% $ +287,581 $  -10,760 27.73 $0.57   0
+   28 above  0.9  0.40/0.30 0.25  1.5   15   18  0.405  0.501 66.7% +5.067% $  +91,085 $  -25,219  2.72 $1.01   0
+   29 above  0.9  0.35/0.25 0.25  1.0   30   16  0.401  0.545 81.2% +2.903% $  +46,379 $  -21,314  2.67 $0.56   2
+   30 above  0.9  0.35/0.25 0.25  1.0   60   16  0.401  0.545 81.2% +2.903% $  +46,379 $  -21,314  2.67 $0.56   2
+   31 above  0.9  0.35/0.25 0.25  1.0  EOD   16  0.401  0.545 81.2% +2.903% $  +46,379 $  -21,314  2.67 $0.56   2
+   32 below  1.0  0.40/0.25 0.25  2.0  EOD   15  0.399  0.411 86.7% +20.712% $ +310,456 $  -44,905  7.91 $1.82   0
+   33 below  1.0  0.40/0.30 0.25  2.0  EOD   15  0.397  0.420 86.7% +19.793% $ +296,729 $  -79,829  4.72 $1.48   1
+   34 above  0.9  0.40/0.30 0.25  1.0   30   18  0.391  0.467 72.2% +5.895% $ +106,064 $  -51,557  2.50 $1.01   1
+   35 above  0.9  0.40/0.30 0.25  1.0   60   18  0.391  0.467 72.2% +5.895% $ +106,064 $  -51,557  2.50 $1.01   1
+   36 above  0.9  0.40/0.30 0.25  1.0  EOD   18  0.391  0.467 72.2% +5.895% $ +106,064 $  -51,557  2.50 $1.01   1
+   37 below  1.0  0.35/0.25 0.50  3.0   60   15  0.391  0.408 80.0% +21.232% $ +318,383 $  -38,065  9.36 $0.91   1
+   38 above  0.9  0.40/0.30 0.25  2.0   15   18  0.388  0.483 66.7% +4.921% $  +88,471 $  -25,219  2.59 $1.01   0
+   39 below  1.0  0.30/0.15 0.25  3.0   60   15  0.387  0.421 73.3% +6.378% $  +95,575 $   -7,041 14.28 $0.77   0
+   40 below  1.0  0.30/0.15 0.25  3.0  EOD   15  0.387  0.421 73.3% +6.378% $  +95,575 $   -7,041 14.28 $0.77   0
+
+======================================================================
+  WALK-FORWARD (Train < 2024-07-01 | Test >= 2024-07-01)
+======================================================================
+
+======================================================================
+  YEARLY STABILITY + FINAL VERDICTS
+======================================================================
+
+======================================================================
+  FINAL: 0 strategies
+======================================================================
+
+  Saved: 0 configs, 0 trades
+  Total time: 806s (13.4m)

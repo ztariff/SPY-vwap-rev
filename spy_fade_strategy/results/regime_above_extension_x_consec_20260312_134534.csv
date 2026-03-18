@@ -1,0 +1,4 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+1.0-1.5 ATR | 0-1 up,Extension x Consecutive,17,0.0,0.0,0.0,0,0.0,0,0,0
+1.0-1.5 ATR | 2+ up,Extension x Consecutive,2,0.0,0.0,0.0,0,0.0,0,0,0
+1.0-1.5 ATR | 3+ up,Extension x Consecutive,1,0.0,0.0,0.0,0,,0,0,0

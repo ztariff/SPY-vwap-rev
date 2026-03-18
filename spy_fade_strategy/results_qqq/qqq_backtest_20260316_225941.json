@@ -1,0 +1,331 @@
+{
+  "ticker": "QQQ",
+  "period": "2022-01-01 to 2026-03-12",
+  "elapsed_min": 0.7,
+  "daily_bars": 1051,
+  "intraday_days": 1038,
+  "directions": {
+    "above": {
+      "signal_counts_by_atr": {
+        "0.5": 125,
+        "0.6": 64,
+        "0.7": 36,
+        "0.8": 20,
+        "0.9": 15,
+        "1.0": 8,
+        "1.1": 6,
+        "1.2": 3,
+        "1.3": 2,
+        "1.4": 2,
+        "1.5": 2,
+        "1.6": 2,
+        "1.7": 1,
+        "1.8": 1,
+        "1.9": 1
+      },
+      "atr_scan": [
+        {
+          "atr_mult": 1.9,
+          "n_signals": 1,
+          "avg_pnl": 0.5000000000000029,
+          "win_rate": 100.0,
+          "total_pnl": 0.5000000000000029
+        },
+        {
+          "atr_mult": 1.7,
+          "n_signals": 1,
+          "avg_pnl": 0.5000000000000027,
+          "win_rate": 100.0,
+          "total_pnl": 0.5000000000000027
+        },
+        {
+          "atr_mult": 1.8,
+          "n_signals": 1,
+          "avg_pnl": 0.5000000000000027,
+          "win_rate": 100.0,
+          "total_pnl": 0.5000000000000027
+        },
+        {
+          "atr_mult": 1.6,
+          "n_signals": 2,
+          "avg_pnl": 0.5000000000000024,
+          "win_rate": 100.0,
+          "total_pnl": 1.0000000000000049
+        },
+        {
+          "atr_mult": 1.5,
+          "n_signals": 2,
+          "avg_pnl": 0.5000000000000017,
+          "win_rate": 100.0,
+          "total_pnl": 1.0000000000000033
+        },
+        {
+          "atr_mult": 0.9,
+          "n_signals": 15,
+          "avg_pnl": 0.0658164528683674,
+          "win_rate": 66.66666666666666,
+          "total_pnl": 0.9872467930255111
+        },
+        {
+          "atr_mult": 0.5,
+          "n_signals": 125,
+          "avg_pnl": -0.0026830593354956168,
+          "win_rate": 50.4,
+          "total_pnl": -0.3353824169369512
+        },
+        {
+          "atr_mult": 0.7,
+          "n_signals": 36,
+          "avg_pnl": -0.018585565851737658,
+          "win_rate": 52.77777777777778,
+          "total_pnl": -0.6690803706625557
+        },
+        {
+          "atr_mult": 0.6,
+          "n_signals": 64,
+          "avg_pnl": -0.03761858419874742,
+          "win_rate": 54.6875,
+          "total_pnl": -2.4075893887198347
+        },
+        {
+          "atr_mult": 1.1,
+          "n_signals": 6,
+          "avg_pnl": -0.09189289143587183,
+          "win_rate": 50.0,
+          "total_pnl": -0.551357348615231
+        },
+        {
+          "atr_mult": 1.0,
+          "n_signals": 8,
+          "avg_pnl": -0.12955629428139415,
+          "win_rate": 37.5,
+          "total_pnl": -1.0364503542511532
+        },
+        {
+          "atr_mult": 0.8,
+          "n_signals": 20,
+          "avg_pnl": -0.2658927571101678,
+          "win_rate": 35.0,
+          "total_pnl": -5.3178551422033555
+        },
+        {
+          "atr_mult": 1.2,
+          "n_signals": 3,
+          "avg_pnl": -0.33333333333334164,
+          "win_rate": 33.33333333333333,
+          "total_pnl": -1.0000000000000249
+        },
+        {
+          "atr_mult": 1.3,
+          "n_signals": 2,
+          "avg_pnl": -0.7500000000000031,
+          "win_rate": 0.0,
+          "total_pnl": -1.5000000000000062
+        },
+        {
+          "atr_mult": 1.4,
+          "n_signals": 2,
+          "avg_pnl": -0.7500000000000031,
+          "win_rate": 0.0,
+          "total_pnl": -1.5000000000000062
+        }
+      ],
+      "best_atr": {
+        "atr_mult": 1.9,
+        "n_signals": 1.0,
+        "avg_pnl": 0.5000000000000029,
+        "win_rate": 100.0,
+        "total_pnl": 0.5000000000000029
+      },
+      "stock_best": {
+        "n_trades": 20,
+        "win_rate": 20.0,
+        "avg_pnl": 0.0665095481007832,
+        "median_pnl": -0.24999999999999217,
+        "total_pnl": 1.330190962015664,
+        "expectancy": 0.0665095481007832,
+        "profit_factor": 1.3396543123851998,
+        "max_drawdown_pct": -2.1663081801449695,
+        "avg_winner": 1.3116247855401517,
+        "avg_loser": -0.24476926125905893,
+        "best_trade": 2.000000000000006,
+        "worst_trade": -0.25000000000000233,
+        "avg_minutes_held": 42.95,
+        "avg_max_favorable": 0.7440089546528365,
+        "avg_max_adverse": 1.32219595619519,
+        "stop_loss": 0.25,
+        "target": 2.0,
+        "time_exit": "EOD",
+        "trailing_stop": NaN,
+        "direction": "above"
+      },
+      "stock_grid_combos": 1050,
+      "stock_grid_positive_exp": 60
+    },
+    "below": {
+      "signal_counts_by_atr": {
+        "0.5": 190,
+        "0.6": 108,
+        "0.7": 63,
+        "0.8": 37,
+        "0.9": 20,
+        "1.0": 13,
+        "1.1": 7,
+        "1.2": 5,
+        "1.3": 5,
+        "1.4": 2,
+        "1.5": 2,
+        "1.6": 2,
+        "1.7": 2,
+        "1.8": 2,
+        "1.9": 1,
+        "2.0": 1
+      },
+      "atr_scan": [
+        {
+          "atr_mult": 1.9,
+          "n_signals": 1,
+          "avg_pnl": 0.49999999999999734,
+          "win_rate": 100.0,
+          "total_pnl": 0.49999999999999734
+        },
+        {
+          "atr_mult": 2.0,
+          "n_signals": 1,
+          "avg_pnl": 0.49999999999999517,
+          "win_rate": 100.0,
+          "total_pnl": 0.49999999999999517
+        },
+        {
+          "atr_mult": 1.7,
+          "n_signals": 2,
+          "avg_pnl": 0.49999999999999034,
+          "win_rate": 100.0,
+          "total_pnl": 0.9999999999999807
+        },
+        {
+          "atr_mult": 1.8,
+          "n_signals": 2,
+          "avg_pnl": 0.27630797301311216,
+          "win_rate": 100.0,
+          "total_pnl": 0.5526159460262243
+        },
+        {
+          "atr_mult": 0.6,
+          "n_signals": 108,
+          "avg_pnl": 0.07156855966716201,
+          "win_rate": 63.888888888888886,
+          "total_pnl": 7.729404444053498
+        },
+        {
+          "atr_mult": 0.5,
+          "n_signals": 190,
+          "avg_pnl": 0.003289689701473822,
+          "win_rate": 57.36842105263158,
+          "total_pnl": 0.6250410432800249
+        },
+        {
+          "atr_mult": 0.7,
+          "n_signals": 63,
+          "avg_pnl": -0.03899381723356048,
+          "win_rate": 50.79365079365079,
+          "total_pnl": -2.4566104857143083
+        },
+        {
+          "atr_mult": 0.8,
+          "n_signals": 37,
+          "avg_pnl": -0.08810985347831396,
+          "win_rate": 43.24324324324324,
+          "total_pnl": -3.2600645786976163
+        },
+        {
+          "atr_mult": 1.0,
+          "n_signals": 13,
+          "avg_pnl": -0.11111118916488391,
+          "win_rate": 46.15384615384615,
+          "total_pnl": -1.4444454591434905
+        },
+        {
+          "atr_mult": 1.5,
+          "n_signals": 2,
+          "avg_pnl": -0.12499999999999895,
+          "win_rate": 50.0,
+          "total_pnl": -0.2499999999999979
+        },
+        {
+          "atr_mult": 1.6,
+          "n_signals": 2,
+          "avg_pnl": -0.12500000000000605,
+          "win_rate": 50.0,
+          "total_pnl": -0.2500000000000121
+        },
+        {
+          "atr_mult": 1.3,
+          "n_signals": 5,
+          "avg_pnl": -0.1371517027863792,
+          "win_rate": 40.0,
+          "total_pnl": -0.685758513931896
+        },
+        {
+          "atr_mult": 1.2,
+          "n_signals": 5,
+          "avg_pnl": -0.15773195876288765,
+          "win_rate": 40.0,
+          "total_pnl": -0.7886597938144382
+        },
+        {
+          "atr_mult": 0.9,
+          "n_signals": 20,
+          "avg_pnl": -0.19340155566371126,
+          "win_rate": 40.0,
+          "total_pnl": -3.8680311132742253
+        },
+        {
+          "atr_mult": 1.1,
+          "n_signals": 7,
+          "avg_pnl": -0.19565597316294775,
+          "win_rate": 42.857142857142854,
+          "total_pnl": -1.3695918121406343
+        },
+        {
+          "atr_mult": 1.4,
+          "n_signals": 2,
+          "avg_pnl": -0.7499999999999954,
+          "win_rate": 0.0,
+          "total_pnl": -1.499999999999991
+        }
+      ],
+      "best_atr": {
+        "atr_mult": 1.9,
+        "n_signals": 1.0,
+        "avg_pnl": 0.49999999999999734,
+        "win_rate": 100.0,
+        "total_pnl": 0.49999999999999734
+      },
+      "stock_best": {
+        "n_trades": 20,
+        "win_rate": 25.0,
+        "avg_pnl": 0.09114848787553112,
+        "median_pnl": -0.24999999999999137,
+        "total_pnl": 1.8229697575106225,
+        "expectancy": 0.09114848787553112,
+        "profit_factor": 1.4861252686695086,
+        "max_drawdown_pct": -2.749999999999946,
+        "avg_winner": 1.1145939515021102,
+        "avg_loser": -0.24999999999999523,
+        "best_trade": 2.755834829443458,
+        "worst_trade": -0.25000000000000294,
+        "avg_minutes_held": 22.05,
+        "avg_max_favorable": 0.639700952566929,
+        "avg_max_adverse": 0.7500024099514296,
+        "stop_loss": 0.25,
+        "target": 3.0,
+        "time_exit": 60,
+        "trailing_stop": NaN,
+        "direction": "below"
+      },
+      "stock_grid_combos": 1050,
+      "stock_grid_positive_exp": 14
+    }
+  }
+}

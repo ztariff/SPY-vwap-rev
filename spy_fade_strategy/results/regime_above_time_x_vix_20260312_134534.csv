@@ -1,0 +1,16 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+afternoon | VIX 15-20,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+afternoon | VIX 20-25,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+afternoon | VIX <15,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+afternoon | VIX nan,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+late_morning | VIX 15-20,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+late_morning | VIX 20-25,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+late_morning | VIX nan,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+midday | VIX 15-20,Time of Day x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0
+midday | VIX 30+,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+open_hour | VIX 30+,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+power_hour | VIX 15-20,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+power_hour | VIX 20-25,Time of Day x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0
+power_hour | VIX 25-30,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+power_hour | VIX <15,Time of Day x VIX,1,0.0,0.0,0.0,0,,0,0,0
+power_hour | VIX nan,Time of Day x VIX,4,0.0,0.0,0.0,0,0.0,0,0,0

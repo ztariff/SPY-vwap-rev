@@ -1,0 +1,8 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+0-1up | VIX 15-20,Consecutive Up x VIX,12,0.0,0.0,0.0,0,0.0,0,0,0
+0-1up | VIX 20-25,Consecutive Up x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0
+0-1up | VIX 30+,Consecutive Up x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0
+0-1up | VIX <15,Consecutive Up x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0
+0-1up | VIX nan,Consecutive Up x VIX,5,0.0,0.0,0.0,0,0.0,0,0,0
+2+up | VIX <15,Consecutive Up x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0
+2+up | VIX nan,Consecutive Up x VIX,2,0.0,0.0,0.0,0,0.0,0,0,0

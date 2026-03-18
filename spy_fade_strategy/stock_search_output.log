@@ -1,0 +1,1449 @@
+======================================================================
+  STOCK MEAN REVERSION — COMPREHENSIVE SEARCH
+  SPY + QQQ | VWAP deviation entries | All stop/target/hold combos
+  Commission: ~0.002% (negligible)
+  All data from real Polygon 1-min bars. No fabrication.
+======================================================================
+
+
+██████████████████████████████████████████████████████████████████████
+  SPY ANALYSIS
+██████████████████████████████████████████████████████████████████████
+Fetching daily bars for SPY (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for SPY
+Fetching daily bars for TLT (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for TLT
+Fetching VIX data (2022-01-01 to 2026-03-12)...
+  Got 1071 VIX daily bars via I:VIX
+Fetching intraday bars for SPY across 1038 dates...
+  Progress: 50/1038 dates...
+  Progress: 100/1038 dates...
+  Progress: 150/1038 dates...
+  Progress: 200/1038 dates...
+  Progress: 250/1038 dates...
+  Progress: 300/1038 dates...
+  Progress: 350/1038 dates...
+  Progress: 400/1038 dates...
+  Progress: 450/1038 dates...
+  Progress: 500/1038 dates...
+  Progress: 550/1038 dates...
+  Progress: 600/1038 dates...
+  Progress: 650/1038 dates...
+  Progress: 700/1038 dates...
+  Progress: 750/1038 dates...
+  Progress: 800/1038 dates...
+  Progress: 850/1038 dates...
+  Progress: 900/1038 dates...
+  Progress: 950/1038 dates...
+  Progress: 1000/1038 dates...
+  Got intraday data for 1038/1038 dates
+
+======================================================================
+  STOCK MEAN REVERSION — SPY
+  Commission: 0.002% RT (essentially free)
+======================================================================
+Scanning 1038 days for signals (2 directions, 10 ATR levels)...
+  Progress: 100/1038 days...
+  Progress: 200/1038 days...
+  Progress: 300/1038 days...
+  Progress: 400/1038 days...
+  Progress: 500/1038 days...
+  Progress: 600/1038 days...
+  Progress: 700/1038 days...
+  Progress: 800/1038 days...
+  Progress: 900/1038 days...
+  Progress: 1000/1038 days...
+
+  Signal Summary:
+
+  ABOVE VWAP (fade/short):
+    0.5x ATR: 127 signals
+    0.6x ATR: 71 signals
+    0.7x ATR: 41 signals
+    0.8x ATR: 26 signals
+    0.9x ATR: 20 signals
+    1.0x ATR: 13 signals
+    1.1x ATR: 9 signals
+    1.2x ATR: 5 signals
+    1.3x ATR: 4 signals
+    1.5x ATR: 2 signals
+
+  BELOW VWAP (buy/long):
+    0.5x ATR: 197 signals
+    0.6x ATR: 113 signals
+    0.7x ATR: 75 signals
+    0.8x ATR: 50 signals
+    0.9x ATR: 27 signals
+    1.0x ATR: 15 signals
+    1.1x ATR: 11 signals
+    1.2x ATR: 6 signals
+    1.3x ATR: 5 signals
+    1.5x ATR: 3 signals
+
+  Pre-computing signal bar data...
+  Cached 816 signal entries across 20 (dir, mult) combos
+
+  Grid: 20 signal combos × 1170 exit combos = 23400 tests
+    [20000/23400] (4277 passed)...
+
+======================================================================
+  SPY GRID COMPLETE: 23400 tested, 4277 positive expectancy
+======================================================================
+
+  TOP 50 (by Sharpe):
+    #   Dir  ATR  Stop   Tgt    T Trail    N  Sharpe    WR     Avg     Tot     MDD    PF  NY
+    1 below  0.8  0.75  0.10   15     -   48   0.472 77.1% +0.047%  +2.28%  -0.31%  2.76   0
+    2 below  0.8  1.00  0.10   15     -   48   0.472 77.1% +0.047%  +2.28%  -0.31%  2.76   0
+    3 below  0.8  1.50  0.10   15     -   48   0.472 77.1% +0.047%  +2.28%  -0.31%  2.76   0
+    4 below  0.8  2.00  0.10   15     -   48   0.472 77.1% +0.047%  +2.28%  -0.31%  2.76   0
+    5 below  0.8  0.50  0.10   10     -   48   0.461 83.3% +0.049%  +2.35%  -0.53%  3.03   0
+    6 below  0.8  0.75  0.10   10     -   48   0.461 83.3% +0.049%  +2.35%  -0.53%  3.03   0
+    7 below  0.8  1.00  0.10   10     -   48   0.461 83.3% +0.049%  +2.35%  -0.53%  3.03   0
+    8 below  0.8  1.50  0.10   10     -   48   0.461 83.3% +0.049%  +2.35%  -0.53%  3.03   0
+    9 below  0.8  2.00  0.10   10     -   48   0.461 83.3% +0.049%  +2.35%  -0.53%  3.03   0
+   10 below  0.9  0.50  0.20    5     -   27   0.432 70.4% +0.056%  +1.52%  -0.45%  2.90   1
+   11 below  0.9  0.75  0.20    5     -   27   0.432 70.4% +0.056%  +1.52%  -0.45%  2.90   1
+   12 below  0.9  1.00  0.20    5     -   27   0.432 70.4% +0.056%  +1.52%  -0.45%  2.90   1
+   13 below  0.9  1.50  0.20    5     -   27   0.432 70.4% +0.056%  +1.52%  -0.45%  2.90   1
+   14 below  0.9  2.00  0.20    5     -   27   0.432 70.4% +0.056%  +1.52%  -0.45%  2.90   1
+   15 below  0.8  0.50  0.10    5     -   48   0.424 70.8% +0.038%  +1.82%  -0.35%  2.69   0
+   16 below  0.8  0.75  0.10    5     -   48   0.424 70.8% +0.038%  +1.82%  -0.35%  2.69   0
+   17 below  0.8  1.00  0.10    5     -   48   0.424 70.8% +0.038%  +1.82%  -0.35%  2.69   0
+   18 below  0.8  1.50  0.10    5     -   48   0.424 70.8% +0.038%  +1.82%  -0.35%  2.69   0
+   19 below  0.8  2.00  0.10    5     -   48   0.424 70.8% +0.038%  +1.82%  -0.35%  2.69   0
+   20 above  0.9  0.15  0.15   30     -   20   0.422 70.0% +0.058%  +1.16%  -0.31%  2.27   2
+   21 above  0.9  0.15  0.15   60     -   20   0.422 70.0% +0.058%  +1.16%  -0.31%  2.27   2
+   22 above  0.9  0.15  0.15  120     -   20   0.422 70.0% +0.058%  +1.16%  -0.31%  2.27   2
+   23 above  0.9  0.15  0.15  EOD     -   20   0.422 70.0% +0.058%  +1.16%  -0.31%  2.27   2
+   24 below  0.9  0.50  0.30    5     -   27   0.408 66.7% +0.065%  +1.76%  -0.57%  3.01   2
+   25 below  0.9  0.75  0.30    5     -   27   0.408 66.7% +0.065%  +1.76%  -0.57%  3.01   2
+   26 below  0.9  1.00  0.30    5     -   27   0.408 66.7% +0.065%  +1.76%  -0.57%  3.01   2
+   27 below  0.9  1.50  0.30    5     -   27   0.408 66.7% +0.065%  +1.76%  -0.57%  3.01   2
+   28 below  0.9  2.00  0.30    5     -   27   0.408 66.7% +0.065%  +1.76%  -0.57%  3.01   2
+   29 below  0.9  0.50  0.50    5     -   27   0.390 66.7% +0.072%  +1.94%  -0.57%  3.22   2
+   30 below  0.9  0.75  0.50    5     -   27   0.390 66.7% +0.072%  +1.94%  -0.57%  3.22   2
+   31 below  0.9  1.00  0.50    5     -   27   0.390 66.7% +0.072%  +1.94%  -0.57%  3.22   2
+   32 below  0.9  1.50  0.50    5     -   27   0.390 66.7% +0.072%  +1.94%  -0.57%  3.22   2
+   33 below  0.9  2.00  0.50    5     -   27   0.390 66.7% +0.072%  +1.94%  -0.57%  3.22   2
+   34 below  0.9  0.10  1.50   60     -   27   0.389 29.6% +0.225%  +6.07%  -0.86%  4.13   2
+   35 below  0.9  0.25  0.20    5     -   27   0.388 70.4% +0.052%  +1.40%  -0.37%  2.53   1
+   36 below  0.9  0.50  0.75    5     -   27   0.386 66.7% +0.081%  +2.19%  -0.57%  3.51   2
+   37 below  0.9  0.75  0.75    5     -   27   0.386 66.7% +0.081%  +2.19%  -0.57%  3.51   2
+   38 below  0.9  1.00  0.75    5     -   27   0.386 66.7% +0.081%  +2.19%  -0.57%  3.51   2
+   39 below  0.9  1.50  0.75    5     -   27   0.386 66.7% +0.081%  +2.19%  -0.57%  3.51   2
+   40 below  0.9  2.00  0.75    5     -   27   0.386 66.7% +0.081%  +2.19%  -0.57%  3.51   2
+   41 below  0.9  0.10  0.20    5     -   27   0.385 63.0% +0.045%  +1.23%  -0.20%  2.44   1
+   42 below  0.9  0.50  0.15    5     -   27   0.385 70.4% +0.045%  +1.20%  -0.45%  2.51   1
+   43 below  0.9  0.75  0.15    5     -   27   0.385 70.4% +0.045%  +1.20%  -0.45%  2.51   1
+   44 below  0.9  1.00  0.15    5     -   27   0.385 70.4% +0.045%  +1.20%  -0.45%  2.51   1
+   45 below  0.9  1.50  0.15    5     -   27   0.385 70.4% +0.045%  +1.20%  -0.45%  2.51   1
+   46 below  0.9  2.00  0.15    5     -   27   0.385 70.4% +0.045%  +1.20%  -0.45%  2.51   1
+   47 below  0.9  0.50  0.25    5     -   27   0.382 66.7% +0.055%  +1.47%  -0.57%  2.69   2
+   48 below  0.9  0.75  0.25    5     -   27   0.382 66.7% +0.055%  +1.47%  -0.57%  2.69   2
+   49 below  0.9  1.00  0.25    5     -   27   0.382 66.7% +0.055%  +1.47%  -0.57%  2.69   2
+   50 below  0.9  1.50  0.25    5     -   27   0.382 66.7% +0.055%  +1.47%  -0.57%  2.69   2
+
+======================================================================
+  WALK-FORWARD (Train < 2024-07-01 | Test >= 2024-07-01)
+======================================================================
+  # 1 below 0.8x s=0.75 t=0.1 T=15 tr=-
+       Train: N= 25 Sh=+0.458 WR= 76.0%
+       Test:  N= 23 Sh=+0.487 WR= 78.3%  → PASS
+  # 2 below 0.8x s=1.0 t=0.1 T=15 tr=-
+       Train: N= 25 Sh=+0.458 WR= 76.0%
+       Test:  N= 23 Sh=+0.487 WR= 78.3%  → PASS
+  # 3 below 0.8x s=1.5 t=0.1 T=15 tr=-
+       Train: N= 25 Sh=+0.458 WR= 76.0%
+       Test:  N= 23 Sh=+0.487 WR= 78.3%  → PASS
+  # 4 below 0.8x s=2.0 t=0.1 T=15 tr=-
+       Train: N= 25 Sh=+0.458 WR= 76.0%
+       Test:  N= 23 Sh=+0.487 WR= 78.3%  → PASS
+  # 5 below 0.8x s=0.5 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.715 WR= 88.0%
+       Test:  N= 23 Sh=+0.315 WR= 78.3%  → PASS
+  # 6 below 0.8x s=0.75 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.715 WR= 88.0%
+       Test:  N= 23 Sh=+0.315 WR= 78.3%  → PASS
+  # 7 below 0.8x s=1.0 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.715 WR= 88.0%
+       Test:  N= 23 Sh=+0.315 WR= 78.3%  → PASS
+  # 8 below 0.8x s=1.5 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.715 WR= 88.0%
+       Test:  N= 23 Sh=+0.315 WR= 78.3%  → PASS
+  # 9 below 0.8x s=2.0 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.715 WR= 88.0%
+       Test:  N= 23 Sh=+0.315 WR= 78.3%  → PASS
+  #15 below 0.8x s=0.5 t=0.1 T=5 tr=-
+       Train: N= 25 Sh=+0.494 WR= 76.0%
+       Test:  N= 23 Sh=+0.347 WR= 65.2%  → PASS
+  #16 below 0.8x s=0.75 t=0.1 T=5 tr=-
+       Train: N= 25 Sh=+0.494 WR= 76.0%
+       Test:  N= 23 Sh=+0.347 WR= 65.2%  → PASS
+  #17 below 0.8x s=1.0 t=0.1 T=5 tr=-
+       Train: N= 25 Sh=+0.494 WR= 76.0%
+       Test:  N= 23 Sh=+0.347 WR= 65.2%  → PASS
+  #18 below 0.8x s=1.5 t=0.1 T=5 tr=-
+       Train: N= 25 Sh=+0.494 WR= 76.0%
+       Test:  N= 23 Sh=+0.347 WR= 65.2%  → PASS
+  #19 below 0.8x s=2.0 t=0.1 T=5 tr=-
+       Train: N= 25 Sh=+0.494 WR= 76.0%
+       Test:  N= 23 Sh=+0.347 WR= 65.2%  → PASS
+  #54 below 0.8x s=0.1 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.449 WR= 76.0%
+       Test:  N= 23 Sh=+0.305 WR= 60.9%  → PASS
+  #69 below 0.8x s=0.5 t=0.1 T=15 tr=-
+       Train: N= 25 Sh=+0.458 WR= 76.0%
+       Test:  N= 23 Sh=+0.302 WR= 78.3%  → PASS
+  #90 below 0.8x s=0.25 t=0.1 T=10 tr=-
+       Train: N= 25 Sh=+0.624 WR= 88.0%
+       Test:  N= 23 Sh=+0.156 WR= 69.6%  → PASS
+
+  WF survivors: 17
+
+======================================================================
+  YEARLY STABILITY
+======================================================================
+
+  below 0.8x s=0.75 t=0.1 T=15 tr=-  WF=PASS
+    2022: Sh=+0.482
+    2023: Sh=+0.809
+    2024: Sh=+0.422
+    2025: Sh=+0.412
+    2026: Sh=+0.456
+    → PROMOTED
+
+  below 0.8x s=1.0 t=0.1 T=15 tr=-  WF=PASS
+    2022: Sh=+0.482
+    2023: Sh=+0.809
+    2024: Sh=+0.422
+    2025: Sh=+0.412
+    2026: Sh=+0.456
+    → PROMOTED
+
+  below 0.8x s=1.5 t=0.1 T=15 tr=-  WF=PASS
+    2022: Sh=+0.482
+    2023: Sh=+0.809
+    2024: Sh=+0.422
+    2025: Sh=+0.412
+    2026: Sh=+0.456
+    → PROMOTED
+
+  below 0.8x s=2.0 t=0.1 T=15 tr=-  WF=PASS
+    2022: Sh=+0.482
+    2023: Sh=+0.809
+    2024: Sh=+0.422
+    2025: Sh=+0.412
+    2026: Sh=+0.456
+    → PROMOTED
+
+  below 0.8x s=0.5 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+1.017
+    2023: Sh=+2.504
+    2024: Sh=+0.168
+    2025: Sh=+0.294
+    2026: Sh=+1.155
+    → PROMOTED
+
+  below 0.8x s=0.75 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+1.017
+    2023: Sh=+2.504
+    2024: Sh=+0.168
+    2025: Sh=+0.294
+    2026: Sh=+1.155
+    → PROMOTED
+
+  below 0.8x s=1.0 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+1.017
+    2023: Sh=+2.504
+    2024: Sh=+0.168
+    2025: Sh=+0.294
+    2026: Sh=+1.155
+    → PROMOTED
+
+  below 0.8x s=1.5 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+1.017
+    2023: Sh=+2.504
+    2024: Sh=+0.168
+    2025: Sh=+0.294
+    2026: Sh=+1.155
+    → PROMOTED
+
+  below 0.8x s=2.0 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+1.017
+    2023: Sh=+2.504
+    2024: Sh=+0.168
+    2025: Sh=+0.294
+    2026: Sh=+1.155
+    → PROMOTED
+
+  below 0.8x s=0.5 t=0.1 T=5 tr=-  WF=PASS
+    2022: Sh=+1.073
+    2023: Sh=+1.439
+    2024: Sh=+0.037
+    2025: Sh=+0.396
+    2026: Sh=+0.612
+    → PROMOTED
+
+  below 0.8x s=0.75 t=0.1 T=5 tr=-  WF=PASS
+    2022: Sh=+1.073
+    2023: Sh=+1.439
+    2024: Sh=+0.037
+    2025: Sh=+0.396
+    2026: Sh=+0.612
+    → PROMOTED
+
+  below 0.8x s=1.0 t=0.1 T=5 tr=-  WF=PASS
+    2022: Sh=+1.073
+    2023: Sh=+1.439
+    2024: Sh=+0.037
+    2025: Sh=+0.396
+    2026: Sh=+0.612
+    → PROMOTED
+
+  below 0.8x s=1.5 t=0.1 T=5 tr=-  WF=PASS
+    2022: Sh=+1.073
+    2023: Sh=+1.439
+    2024: Sh=+0.037
+    2025: Sh=+0.396
+    2026: Sh=+0.612
+    → PROMOTED
+
+  below 0.8x s=2.0 t=0.1 T=5 tr=-  WF=PASS
+    2022: Sh=+1.073
+    2023: Sh=+1.439
+    2024: Sh=+0.037
+    2025: Sh=+0.396
+    2026: Sh=+0.612
+    → PROMOTED
+
+  below 0.8x s=0.1 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+0.644
+    2023: Sh=+0.366
+    2024: Sh=+0.191
+    2025: Sh=+0.316
+    2026: Sh=+1.155
+    → PROMOTED
+
+  below 0.8x s=0.5 t=0.1 T=15 tr=-  WF=PASS
+    2022: Sh=+0.482
+    2023: Sh=+0.809
+    2024: Sh=+0.422
+    2025: Sh=+0.220
+    2026: Sh=+0.456
+    → PROMOTED
+
+  below 0.8x s=0.25 t=0.1 T=10 tr=-  WF=PASS
+    2022: Sh=+1.017
+    2023: Sh=+2.504
+    2024: Sh=+0.070
+    2025: Sh=+0.115
+    2026: Sh=+1.155
+    → PROMOTED
+
+
+██████████████████████████████████████████████████████████████████████
+  QQQ ANALYSIS
+██████████████████████████████████████████████████████████████████████
+Fetching daily bars for QQQ (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for QQQ
+Fetching intraday bars for QQQ across 1038 dates...
+  Progress: 50/1038 dates...
+  Progress: 100/1038 dates...
+  Progress: 150/1038 dates...
+  Progress: 200/1038 dates...
+  Progress: 250/1038 dates...
+  Progress: 300/1038 dates...
+  Progress: 350/1038 dates...
+  Progress: 400/1038 dates...
+  Progress: 450/1038 dates...
+  Progress: 500/1038 dates...
+  Progress: 550/1038 dates...
+  Progress: 600/1038 dates...
+  Progress: 650/1038 dates...
+  Progress: 700/1038 dates...
+  Progress: 750/1038 dates...
+  Progress: 800/1038 dates...
+  Progress: 850/1038 dates...
+  Progress: 900/1038 dates...
+  Progress: 950/1038 dates...
+  Progress: 1000/1038 dates...
+  Got intraday data for 1038/1038 dates
+
+======================================================================
+  STOCK MEAN REVERSION — QQQ
+  Commission: 0.002% RT (essentially free)
+======================================================================
+Scanning 1038 days for signals (2 directions, 10 ATR levels)...
+  Progress: 100/1038 days...
+  Progress: 200/1038 days...
+  Progress: 300/1038 days...
+  Progress: 400/1038 days...
+  Progress: 500/1038 days...
+  Progress: 600/1038 days...
+  Progress: 700/1038 days...
+  Progress: 800/1038 days...
+  Progress: 900/1038 days...
+  Progress: 1000/1038 days...
+
+  Signal Summary:
+
+  ABOVE VWAP (fade/short):
+    0.5x ATR: 125 signals
+    0.6x ATR: 64 signals
+    0.7x ATR: 36 signals
+    0.8x ATR: 20 signals
+    0.9x ATR: 15 signals
+    1.0x ATR: 8 signals
+    1.1x ATR: 6 signals
+    1.2x ATR: 3 signals
+    1.3x ATR: 2 signals
+    1.5x ATR: 2 signals
+
+  BELOW VWAP (buy/long):
+    0.5x ATR: 190 signals
+    0.6x ATR: 108 signals
+    0.7x ATR: 63 signals
+    0.8x ATR: 37 signals
+    0.9x ATR: 20 signals
+    1.0x ATR: 13 signals
+    1.1x ATR: 7 signals
+    1.2x ATR: 5 signals
+    1.3x ATR: 5 signals
+    1.5x ATR: 2 signals
+
+  Pre-computing signal bar data...
+  Cached 728 signal entries across 20 (dir, mult) combos
+
+  Grid: 20 signal combos × 1170 exit combos = 23400 tests
+    [20000/23400] (4019 passed)...
+
+======================================================================
+  QQQ GRID COMPLETE: 23400 tested, 4019 positive expectancy
+======================================================================
+
+  TOP 50 (by Sharpe):
+    #   Dir  ATR  Stop   Tgt    T Trail    N  Sharpe    WR     Avg     Tot     MDD    PF  NY
+    1 below  0.6  1.00  0.30   15     -  108   0.363 71.3% +0.087%  +9.45%  -1.35%  2.35   0
+    2 below  0.6  1.50  0.30   15     -  108   0.363 71.3% +0.087%  +9.45%  -1.35%  2.35   0
+    3 below  0.6  2.00  0.30   15     -  108   0.363 71.3% +0.087%  +9.45%  -1.35%  2.35   0
+    4 below  0.6  1.00  0.25   15     -  108   0.363 72.2% +0.080%  +8.62%  -1.35%  2.32   0
+    5 below  0.6  1.50  0.25   15     -  108   0.363 72.2% +0.080%  +8.62%  -1.35%  2.32   0
+    6 below  0.6  2.00  0.25   15     -  108   0.363 72.2% +0.080%  +8.62%  -1.35%  2.32   0
+    7 above  0.7  0.10  0.20    5     -   36   0.344 52.8% +0.047%  +1.69%  -0.31%  2.14   0
+    8 below  0.6  1.00  0.75   15     -  108   0.328 66.7% +0.095% +10.24%  -1.39%  2.41   0
+    9 below  0.6  1.50  0.75   15     -  108   0.328 66.7% +0.095% +10.24%  -1.39%  2.41   0
+   10 below  0.6  2.00  0.75   15     -  108   0.328 66.7% +0.095% +10.24%  -1.39%  2.41   0
+   11 below  0.6  1.00  0.20   15     -  108   0.328 73.1% +0.067%  +7.28%  -1.35%  2.13   0
+   12 below  0.6  1.50  0.20   15     -  108   0.328 73.1% +0.067%  +7.28%  -1.35%  2.13   0
+   13 below  0.6  2.00  0.20   15     -  108   0.328 73.1% +0.067%  +7.28%  -1.35%  2.13   0
+   14 below  0.6  1.00  0.50   15     -  108   0.323 66.7% +0.086%  +9.25%  -1.39%  2.27   0
+   15 below  0.6  1.50  0.50   15     -  108   0.323 66.7% +0.086%  +9.25%  -1.39%  2.27   0
+   16 below  0.6  2.00  0.50   15     -  108   0.323 66.7% +0.086%  +9.25%  -1.39%  2.27   0
+   17 above  0.7  0.10  0.20   15     -   36   0.322 52.8% +0.046%  +1.64%  -0.31%  2.01   0
+   18 above  0.7  0.10  0.20   10     -   36   0.299 50.0% +0.043%  +1.54%  -0.31%  1.90   0
+   19 above  0.7  0.15  0.20    5     -   36   0.295 55.6% +0.043%  +1.56%  -0.32%  1.93   0
+   20 above  0.7  0.10  0.15    5     -   36   0.286 55.6% +0.032%  +1.16%  -0.33%  1.84   1
+   21 below  0.6  0.75  0.30   15     -  108   0.286 70.4% +0.075%  +8.07%  -1.54%  2.00   0
+   22 below  0.6  1.00  0.75    5     -  108   0.282 63.9% +0.066%  +7.08%  -0.85%  2.26   0
+   23 below  0.6  1.50  0.75    5     -  108   0.282 63.9% +0.066%  +7.08%  -0.85%  2.26   0
+   24 below  0.6  2.00  0.75    5     -  108   0.282 63.9% +0.066%  +7.08%  -0.85%  2.26   0
+   25 below  0.6  0.75  0.25   15     -  108   0.278 71.3% +0.068%  +7.30%  -1.54%  1.96   0
+   26 below  0.6  0.50  0.30   15     -  108   0.278 69.4% +0.071%  +7.68%  -1.40%  1.92   0
+   27 below  0.6  0.30  0.30   15     -  108   0.276 64.8% +0.063%  +6.85%  -1.00%  1.84   0
+   28 below  0.6  0.25  0.30   15     -  108   0.273 63.9% +0.062%  +6.70%  -1.00%  1.81   0
+   29 above  0.7  0.10  0.25    5     -   36   0.273 47.2% +0.041%  +1.48%  -0.31%  1.88   0
+   30 below  0.6  1.00  1.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   31 below  0.6  1.00  1.50    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   32 below  0.6  1.00  2.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   33 below  0.6  1.00  3.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   34 below  0.6  1.50  1.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   35 below  0.6  1.50  1.50    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   36 below  0.6  1.50  2.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   37 below  0.6  1.50  3.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   38 below  0.6  2.00  1.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   39 below  0.6  2.00  1.50    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   40 below  0.6  2.00  2.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   41 below  0.6  2.00  3.00    5     -  108   0.272 63.9% +0.058%  +6.22%  -0.85%  2.11   0
+   42 below  0.6  0.50  0.25   15     -  108   0.271 70.4% +0.064%  +6.91%  -1.40%  1.88   0
+   43 above  0.7  0.10  0.30   15     -   36   0.269 44.4% +0.048%  +1.75%  -0.31%  1.90   0
+   44 below  0.6  1.00  0.50    5     -  108   0.266 63.9% +0.054%  +5.81%  -0.85%  2.04   0
+   45 below  0.6  1.50  0.50    5     -  108   0.266 63.9% +0.054%  +5.81%  -0.85%  2.04   0
+   46 below  0.6  2.00  0.50    5     -  108   0.266 63.9% +0.054%  +5.81%  -0.85%  2.04   0
+   47 above  0.7  0.10  0.25   15     -   36   0.265 47.2% +0.043%  +1.53%  -0.31%  1.83   0
+   48 below  0.6  0.75  0.75   15     -  108   0.263 65.7% +0.080%  +8.67%  -1.58%  2.04   0
+   49 below  0.7  0.10  0.50   10     -   63   0.262 42.9% +0.053%  +3.36%  -0.82%  1.96   1
+   50 below  0.6  1.00  1.00   15     -  108   0.262 65.7% +0.075%  +8.14%  -1.39%  2.02   0
+
+======================================================================
+  WALK-FORWARD (Train < 2024-07-01 | Test >= 2024-07-01)
+======================================================================
+  # 1 below 0.6x s=1.0 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.206 WR= 67.3%
+       Test:  N= 53 Sh=+0.582 WR= 75.5%  → PASS
+  # 2 below 0.6x s=1.5 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.206 WR= 67.3%
+       Test:  N= 53 Sh=+0.582 WR= 75.5%  → PASS
+  # 3 below 0.6x s=2.0 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.206 WR= 67.3%
+       Test:  N= 53 Sh=+0.582 WR= 75.5%  → PASS
+  # 4 below 0.6x s=1.0 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.161 WR= 67.3%
+       Test:  N= 53 Sh=+0.687 WR= 77.4%  → PASS
+  # 5 below 0.6x s=1.5 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.161 WR= 67.3%
+       Test:  N= 53 Sh=+0.687 WR= 77.4%  → PASS
+  # 6 below 0.6x s=2.0 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.161 WR= 67.3%
+       Test:  N= 53 Sh=+0.687 WR= 77.4%  → PASS
+  # 8 below 0.6x s=1.0 t=0.75 T=15 tr=-
+       Train: N= 55 Sh=+0.196 WR= 60.0%
+       Test:  N= 53 Sh=+0.508 WR= 73.6%  → PASS
+  # 9 below 0.6x s=1.5 t=0.75 T=15 tr=-
+       Train: N= 55 Sh=+0.196 WR= 60.0%
+       Test:  N= 53 Sh=+0.508 WR= 73.6%  → PASS
+  #10 below 0.6x s=2.0 t=0.75 T=15 tr=-
+       Train: N= 55 Sh=+0.196 WR= 60.0%
+       Test:  N= 53 Sh=+0.508 WR= 73.6%  → PASS
+  #11 below 0.6x s=1.0 t=0.2 T=15 tr=-
+       Train: N= 55 Sh=+0.157 WR= 69.1%
+       Test:  N= 53 Sh=+0.619 WR= 77.4%  → PASS
+  #12 below 0.6x s=1.5 t=0.2 T=15 tr=-
+       Train: N= 55 Sh=+0.157 WR= 69.1%
+       Test:  N= 53 Sh=+0.619 WR= 77.4%  → PASS
+  #13 below 0.6x s=2.0 t=0.2 T=15 tr=-
+       Train: N= 55 Sh=+0.157 WR= 69.1%
+       Test:  N= 53 Sh=+0.619 WR= 77.4%  → PASS
+  #14 below 0.6x s=1.0 t=0.5 T=15 tr=-
+       Train: N= 55 Sh=+0.175 WR= 60.0%
+       Test:  N= 53 Sh=+0.525 WR= 73.6%  → PASS
+  #15 below 0.6x s=1.5 t=0.5 T=15 tr=-
+       Train: N= 55 Sh=+0.175 WR= 60.0%
+       Test:  N= 53 Sh=+0.525 WR= 73.6%  → PASS
+  #16 below 0.6x s=2.0 t=0.5 T=15 tr=-
+       Train: N= 55 Sh=+0.175 WR= 60.0%
+       Test:  N= 53 Sh=+0.525 WR= 73.6%  → PASS
+  #21 below 0.6x s=0.75 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.174 WR= 67.3%
+       Test:  N= 53 Sh=+0.426 WR= 73.6%  → PASS
+  #22 below 0.6x s=1.0 t=0.75 T=5 tr=-
+       Train: N= 55 Sh=+0.292 WR= 63.6%
+       Test:  N= 53 Sh=+0.276 WR= 64.2%  → PASS
+  #23 below 0.6x s=1.5 t=0.75 T=5 tr=-
+       Train: N= 55 Sh=+0.292 WR= 63.6%
+       Test:  N= 53 Sh=+0.276 WR= 64.2%  → PASS
+  #24 below 0.6x s=2.0 t=0.75 T=5 tr=-
+       Train: N= 55 Sh=+0.292 WR= 63.6%
+       Test:  N= 53 Sh=+0.276 WR= 64.2%  → PASS
+  #25 below 0.6x s=0.75 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.129 WR= 67.3%
+       Test:  N= 53 Sh=+0.483 WR= 75.5%  → PASS
+  #26 below 0.6x s=0.5 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.229 WR= 67.3%
+       Test:  N= 53 Sh=+0.329 WR= 71.7%  → PASS
+  #27 below 0.6x s=0.3 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.310 WR= 65.5%
+       Test:  N= 53 Sh=+0.243 WR= 64.2%  → PASS
+  #28 below 0.6x s=0.25 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.261 WR= 63.6%
+       Test:  N= 53 Sh=+0.286 WR= 64.2%  → PASS
+  #30 below 0.6x s=1.0 t=1.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #31 below 0.6x s=1.0 t=1.5 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #32 below 0.6x s=1.0 t=2.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #33 below 0.6x s=1.0 t=3.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #34 below 0.6x s=1.5 t=1.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #35 below 0.6x s=1.5 t=1.5 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #36 below 0.6x s=1.5 t=2.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #37 below 0.6x s=1.5 t=3.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #38 below 0.6x s=2.0 t=1.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #39 below 0.6x s=2.0 t=1.5 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #40 below 0.6x s=2.0 t=2.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #41 below 0.6x s=2.0 t=3.0 T=5 tr=-
+       Train: N= 55 Sh=+0.278 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #42 below 0.6x s=0.5 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.184 WR= 67.3%
+       Test:  N= 53 Sh=+0.366 WR= 73.6%  → PASS
+  #44 below 0.6x s=1.0 t=0.5 T=5 tr=-
+       Train: N= 55 Sh=+0.266 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #45 below 0.6x s=1.5 t=0.5 T=5 tr=-
+       Train: N= 55 Sh=+0.266 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #46 below 0.6x s=2.0 t=0.5 T=5 tr=-
+       Train: N= 55 Sh=+0.266 WR= 63.6%
+       Test:  N= 53 Sh=+0.269 WR= 64.2%  → PASS
+  #48 below 0.6x s=0.75 t=0.75 T=15 tr=-
+       Train: N= 55 Sh=+0.171 WR= 60.0%
+       Test:  N= 53 Sh=+0.382 WR= 71.7%  → PASS
+  #49 below 0.7x s=0.1 t=0.5 T=10 tr=-
+       Train: N= 35 Sh=+0.209 WR= 42.9%
+       Test:  N= 28 Sh=+0.322 WR= 42.9%  → PASS
+  #50 below 0.6x s=1.0 t=1.0 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.494 WR= 73.6%  → PASS
+  #51 below 0.6x s=1.5 t=1.0 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.494 WR= 73.6%  → PASS
+  #52 below 0.6x s=2.0 t=1.0 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.494 WR= 73.6%  → PASS
+  #53 below 0.6x s=1.0 t=1.5 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.454 WR= 73.6%  → PASS
+  #54 below 0.6x s=1.5 t=1.5 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.454 WR= 73.6%  → PASS
+  #55 below 0.6x s=2.0 t=1.5 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.454 WR= 73.6%  → PASS
+  #56 below 0.7x s=0.1 t=0.75 T=10 tr=-
+       Train: N= 35 Sh=+0.184 WR= 42.9%
+       Test:  N= 28 Sh=+0.342 WR= 42.9%  → PASS
+  #58 below 0.6x s=0.3 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.266 WR= 65.5%
+       Test:  N= 53 Sh=+0.257 WR= 66.0%  → PASS
+  #59 below 0.6x s=1.0 t=0.3 T=5 tr=-
+       Train: N= 55 Sh=+0.225 WR= 63.6%
+       Test:  N= 53 Sh=+0.298 WR= 64.2%  → PASS
+  #60 below 0.6x s=1.5 t=0.3 T=5 tr=-
+       Train: N= 55 Sh=+0.225 WR= 63.6%
+       Test:  N= 53 Sh=+0.298 WR= 64.2%  → PASS
+  #61 below 0.6x s=2.0 t=0.3 T=5 tr=-
+       Train: N= 55 Sh=+0.225 WR= 63.6%
+       Test:  N= 53 Sh=+0.298 WR= 64.2%  → PASS
+  #62 below 0.7x s=0.75 t=1.5 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.375 WR= 64.3%  → PASS
+  #63 below 0.7x s=1.0 t=1.5 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.375 WR= 64.3%  → PASS
+  #64 below 0.7x s=1.5 t=1.5 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.375 WR= 64.3%  → PASS
+  #65 below 0.7x s=2.0 t=1.5 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.375 WR= 64.3%  → PASS
+  #67 below 0.7x s=0.1 t=1.0 T=10 tr=-
+       Train: N= 35 Sh=+0.193 WR= 42.9%
+       Test:  N= 28 Sh=+0.326 WR= 42.9%  → PASS
+  #68 below 0.7x s=0.75 t=2.0 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.371 WR= 64.3%  → PASS
+  #69 below 0.7x s=1.0 t=2.0 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.371 WR= 64.3%  → PASS
+  #70 below 0.7x s=1.5 t=2.0 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.371 WR= 64.3%  → PASS
+  #71 below 0.7x s=2.0 t=2.0 T=10 tr=-
+       Train: N= 35 Sh=+0.126 WR= 48.6%
+       Test:  N= 28 Sh=+0.371 WR= 64.3%  → PASS
+  #72 below 0.6x s=1.0 t=2.0 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.415 WR= 73.6%  → PASS
+  #73 below 0.6x s=1.5 t=2.0 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.415 WR= 73.6%  → PASS
+  #74 below 0.6x s=2.0 t=2.0 T=15 tr=-
+       Train: N= 55 Sh=+0.052 WR= 58.2%
+       Test:  N= 53 Sh=+0.415 WR= 73.6%  → PASS
+  #75 below 0.6x s=0.5 t=0.75 T=15 tr=-
+       Train: N= 55 Sh=+0.213 WR= 60.0%
+       Test:  N= 53 Sh=+0.302 WR= 69.8%  → PASS
+  #76 below 0.6x s=0.25 t=0.25 T=15 tr=-
+       Train: N= 55 Sh=+0.214 WR= 63.6%
+       Test:  N= 53 Sh=+0.298 WR= 66.0%  → PASS
+  #77 below 0.7x s=0.75 t=1.0 T=10 tr=-
+       Train: N= 35 Sh=+0.137 WR= 48.6%
+       Test:  N= 28 Sh=+0.376 WR= 64.3%  → PASS
+  #78 below 0.7x s=1.0 t=1.0 T=10 tr=-
+       Train: N= 35 Sh=+0.137 WR= 48.6%
+       Test:  N= 28 Sh=+0.376 WR= 64.3%  → PASS
+  #79 below 0.7x s=1.5 t=1.0 T=10 tr=-
+       Train: N= 35 Sh=+0.137 WR= 48.6%
+       Test:  N= 28 Sh=+0.376 WR= 64.3%  → PASS
+  #80 below 0.7x s=2.0 t=1.0 T=10 tr=-
+       Train: N= 35 Sh=+0.137 WR= 48.6%
+       Test:  N= 28 Sh=+0.376 WR= 64.3%  → PASS
+  #81 below 0.6x s=0.25 t=0.75 T=5 tr=-
+       Train: N= 55 Sh=+0.310 WR= 63.6%
+       Test:  N= 53 Sh=+0.183 WR= 62.3%  → PASS
+  #82 below 0.6x s=0.75 t=0.5 T=15 tr=-
+       Train: N= 55 Sh=+0.147 WR= 60.0%
+       Test:  N= 53 Sh=+0.386 WR= 71.7%  → PASS
+  #84 below 0.6x s=0.15 t=0.3 T=60 tr=-
+       Train: N= 55 Sh=+0.259 WR= 47.3%
+       Test:  N= 53 Sh=+0.242 WR= 47.2%  → PASS
+  #85 below 0.7x s=0.1 t=1.5 T=10 tr=-
+       Train: N= 35 Sh=+0.187 WR= 42.9%
+       Test:  N= 28 Sh=+0.320 WR= 42.9%  → PASS
+  #86 below 0.7x s=0.75 t=0.75 T=10 tr=-
+       Train: N= 35 Sh=+0.121 WR= 48.6%
+       Test:  N= 28 Sh=+0.381 WR= 64.3%  → PASS
+  #87 below 0.7x s=1.0 t=0.75 T=10 tr=-
+       Train: N= 35 Sh=+0.121 WR= 48.6%
+       Test:  N= 28 Sh=+0.381 WR= 64.3%  → PASS
+  #88 below 0.7x s=1.5 t=0.75 T=10 tr=-
+       Train: N= 35 Sh=+0.121 WR= 48.6%
+       Test:  N= 28 Sh=+0.381 WR= 64.3%  → PASS
+  #89 below 0.7x s=2.0 t=0.75 T=10 tr=-
+       Train: N= 35 Sh=+0.121 WR= 48.6%
+       Test:  N= 28 Sh=+0.381 WR= 64.3%  → PASS
+  #90 below 0.6x s=0.15 t=0.3 T=EOD tr=-
+       Train: N= 55 Sh=+0.252 WR= 47.3%
+       Test:  N= 53 Sh=+0.244 WR= 47.2%  → PASS
+  #91 below 0.7x s=0.1 t=2.0 T=10 tr=-
+       Train: N= 35 Sh=+0.187 WR= 42.9%
+       Test:  N= 28 Sh=+0.317 WR= 42.9%  → PASS
+  #92 below 0.6x s=0.25 t=1.0 T=5 tr=-
+       Train: N= 55 Sh=+0.299 WR= 63.6%
+       Test:  N= 53 Sh=+0.183 WR= 62.3%  → PASS
+  #93 below 0.6x s=0.25 t=1.5 T=5 tr=-
+       Train: N= 55 Sh=+0.299 WR= 63.6%
+       Test:  N= 53 Sh=+0.183 WR= 62.3%  → PASS
+  #94 below 0.6x s=0.25 t=2.0 T=5 tr=-
+       Train: N= 55 Sh=+0.299 WR= 63.6%
+       Test:  N= 53 Sh=+0.183 WR= 62.3%  → PASS
+  #95 below 0.6x s=0.25 t=3.0 T=5 tr=-
+       Train: N= 55 Sh=+0.299 WR= 63.6%
+       Test:  N= 53 Sh=+0.183 WR= 62.3%  → PASS
+  #96 below 0.7x s=0.25 t=0.5 T=10 tr=-
+       Train: N= 35 Sh=+0.147 WR= 48.6%
+       Test:  N= 28 Sh=+0.364 WR= 64.3%  → PASS
+  #99 below 0.6x s=0.15 t=0.3 T=15 tr=-
+       Train: N= 55 Sh=+0.221 WR= 52.7%
+       Test:  N= 53 Sh=+0.270 WR= 54.7%  → PASS
+  #100 below 0.6x s=0.25 t=0.3 T=10 tr=-
+       Train: N= 55 Sh=+0.251 WR= 63.6%
+       Test:  N= 53 Sh=+0.238 WR= 58.5%  → PASS
+
+  WF survivors: 87
+
+======================================================================
+  YEARLY STABILITY
+======================================================================
+
+  below 0.6x s=1.0 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.418
+    2023: Sh=+0.165
+    2024: Sh=+0.263
+    2025: Sh=+0.588
+    2026: Sh=+0.331
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.418
+    2023: Sh=+0.165
+    2024: Sh=+0.263
+    2025: Sh=+0.588
+    2026: Sh=+0.331
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.418
+    2023: Sh=+0.165
+    2024: Sh=+0.263
+    2025: Sh=+0.588
+    2026: Sh=+0.331
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.368
+    2023: Sh=+0.115
+    2024: Sh=+0.227
+    2025: Sh=+0.807
+    2026: Sh=+0.241
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.368
+    2023: Sh=+0.115
+    2024: Sh=+0.227
+    2025: Sh=+0.807
+    2026: Sh=+0.241
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.368
+    2023: Sh=+0.115
+    2024: Sh=+0.227
+    2025: Sh=+0.807
+    2026: Sh=+0.241
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.75 T=15 tr=-  WF=PASS
+    2022: Sh=+0.418
+    2023: Sh=+0.125
+    2024: Sh=+0.201
+    2025: Sh=+0.539
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.75 T=15 tr=-  WF=PASS
+    2022: Sh=+0.418
+    2023: Sh=+0.125
+    2024: Sh=+0.201
+    2025: Sh=+0.539
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.75 T=15 tr=-  WF=PASS
+    2022: Sh=+0.418
+    2023: Sh=+0.125
+    2024: Sh=+0.201
+    2025: Sh=+0.539
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.2 T=15 tr=-  WF=PASS
+    2022: Sh=+0.335
+    2023: Sh=+0.170
+    2024: Sh=+0.155
+    2025: Sh=+0.755
+    2026: Sh=+0.132
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.2 T=15 tr=-  WF=PASS
+    2022: Sh=+0.335
+    2023: Sh=+0.170
+    2024: Sh=+0.155
+    2025: Sh=+0.755
+    2026: Sh=+0.132
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.2 T=15 tr=-  WF=PASS
+    2022: Sh=+0.335
+    2023: Sh=+0.170
+    2024: Sh=+0.155
+    2025: Sh=+0.755
+    2026: Sh=+0.132
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.376
+    2023: Sh=+0.143
+    2024: Sh=+0.221
+    2025: Sh=+0.543
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.376
+    2023: Sh=+0.143
+    2024: Sh=+0.221
+    2025: Sh=+0.543
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.376
+    2023: Sh=+0.143
+    2024: Sh=+0.221
+    2025: Sh=+0.543
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=0.75 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.368
+    2023: Sh=+0.165
+    2024: Sh=+0.208
+    2025: Sh=+0.364
+    2026: Sh=+0.331
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.75 T=5 tr=-  WF=PASS
+    2022: Sh=+0.535
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.298
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.75 T=5 tr=-  WF=PASS
+    2022: Sh=+0.535
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.298
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.75 T=5 tr=-  WF=PASS
+    2022: Sh=+0.535
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.298
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.75 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.318
+    2023: Sh=+0.115
+    2024: Sh=+0.173
+    2025: Sh=+0.470
+    2026: Sh=+0.241
+    → PROMOTED
+
+  below 0.6x s=0.5 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.464
+    2023: Sh=+0.202
+    2024: Sh=+0.250
+    2025: Sh=+0.235
+    2026: Sh=+0.331
+    → PROMOTED
+
+  below 0.6x s=0.3 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.436
+    2023: Sh=+0.331
+    2024: Sh=+0.155
+    2025: Sh=+0.219
+    2026: Sh=+0.369
+    → PROMOTED
+
+  below 0.6x s=0.25 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.437
+    2023: Sh=+0.183
+    2024: Sh=+0.196
+    2025: Sh=+0.300
+    2026: Sh=+0.229
+    → PROMOTED
+
+  below 0.6x s=1.0 t=1.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.0 t=1.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.0 t=2.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.0 t=3.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.5 t=1.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.5 t=1.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.5 t=2.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.5 t=3.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=2.0 t=1.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=2.0 t=1.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=2.0 t=2.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=2.0 t=3.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.511
+    2023: Sh=+0.153
+    2024: Sh=+0.063
+    2025: Sh=+0.290
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.5 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.416
+    2023: Sh=+0.150
+    2024: Sh=+0.214
+    2025: Sh=+0.308
+    2026: Sh=+0.241
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.489
+    2023: Sh=+0.153
+    2024: Sh=+0.045
+    2025: Sh=+0.293
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.489
+    2023: Sh=+0.153
+    2024: Sh=+0.045
+    2025: Sh=+0.293
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.489
+    2023: Sh=+0.153
+    2024: Sh=+0.045
+    2025: Sh=+0.293
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.75 t=0.75 T=15 tr=-  WF=PASS
+    2022: Sh=+0.387
+    2023: Sh=+0.125
+    2024: Sh=+0.157
+    2025: Sh=+0.354
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.7x s=0.1 t=0.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.027
+    2023: Sh=+0.599
+    2024: Sh=+0.316
+    2025: Sh=+0.358
+    2026: Sh=-2.547 ← NEG
+    → PROMOTED
+
+  below 0.6x s=1.0 t=1.0 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.215
+    2025: Sh=+0.528
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.5 t=1.0 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.215
+    2025: Sh=+0.528
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=2.0 t=1.0 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.215
+    2025: Sh=+0.528
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.0 t=1.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.226
+    2025: Sh=+0.489
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.5 t=1.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.226
+    2025: Sh=+0.489
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=2.0 t=1.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.226
+    2025: Sh=+0.489
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.7x s=0.1 t=0.75 T=10 tr=-  WF=PASS
+    2022: Sh=+0.096
+    2023: Sh=+0.553
+    2024: Sh=+0.326
+    2025: Sh=+0.375
+    2026: Sh=-2.547 ← NEG
+    → PROMOTED
+
+  below 0.6x s=0.3 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.387
+    2023: Sh=+0.282
+    2024: Sh=+0.121
+    2025: Sh=+0.273
+    2026: Sh=+0.280
+    → PROMOTED
+
+  below 0.6x s=1.0 t=0.3 T=5 tr=-  WF=PASS
+    2022: Sh=+0.382
+    2023: Sh=+0.191
+    2024: Sh=+0.046
+    2025: Sh=+0.319
+    2026: Sh=+0.547
+    → PROMOTED
+
+  below 0.6x s=1.5 t=0.3 T=5 tr=-  WF=PASS
+    2022: Sh=+0.382
+    2023: Sh=+0.191
+    2024: Sh=+0.046
+    2025: Sh=+0.319
+    2026: Sh=+0.547
+    → PROMOTED
+
+  below 0.6x s=2.0 t=0.3 T=5 tr=-  WF=PASS
+    2022: Sh=+0.382
+    2023: Sh=+0.191
+    2024: Sh=+0.046
+    2025: Sh=+0.319
+    2026: Sh=+0.547
+    → PROMOTED
+
+  below 0.7x s=0.75 t=1.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.286
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.0 t=1.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.286
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.5 t=1.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.286
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=2.0 t=1.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.286
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=0.1 t=1.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.140
+    2023: Sh=+0.553
+    2024: Sh=+0.325
+    2025: Sh=+0.340
+    2026: Sh=-2.547 ← NEG
+    → PROMOTED
+
+  below 0.7x s=0.75 t=2.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.287
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.0 t=2.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.287
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.5 t=2.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.287
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=2.0 t=2.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.220
+    2023: Sh=+0.216
+    2024: Sh=+0.287
+    2025: Sh=+0.399
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.6x s=1.0 t=2.0 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.228
+    2025: Sh=+0.448
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=1.5 t=2.0 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.228
+    2025: Sh=+0.448
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=2.0 t=2.0 T=15 tr=-  WF=PASS
+    2022: Sh=+0.091
+    2023: Sh=+0.125
+    2024: Sh=+0.228
+    2025: Sh=+0.448
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=0.5 t=0.75 T=15 tr=-  WF=PASS
+    2022: Sh=+0.446
+    2023: Sh=+0.159
+    2024: Sh=+0.191
+    2025: Sh=+0.245
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=0.25 t=0.25 T=15 tr=-  WF=PASS
+    2022: Sh=+0.388
+    2023: Sh=+0.128
+    2024: Sh=+0.162
+    2025: Sh=+0.357
+    2026: Sh=+0.136
+    → PROMOTED
+
+  below 0.7x s=0.75 t=1.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.238
+    2023: Sh=+0.216
+    2024: Sh=+0.276
+    2025: Sh=+0.398
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.0 t=1.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.238
+    2023: Sh=+0.216
+    2024: Sh=+0.276
+    2025: Sh=+0.398
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.5 t=1.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.238
+    2023: Sh=+0.216
+    2024: Sh=+0.276
+    2025: Sh=+0.398
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=2.0 t=1.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.238
+    2023: Sh=+0.216
+    2024: Sh=+0.276
+    2025: Sh=+0.398
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.6x s=0.25 t=0.75 T=5 tr=-  WF=PASS
+    2022: Sh=+0.612
+    2023: Sh=+0.082
+    2024: Sh=+0.083
+    2025: Sh=+0.156
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.75 t=0.5 T=15 tr=-  WF=PASS
+    2022: Sh=+0.339
+    2023: Sh=+0.143
+    2024: Sh=+0.173
+    2025: Sh=+0.339
+    2026: Sh=+0.179
+    → PROMOTED
+
+  below 0.6x s=0.15 t=0.3 T=60 tr=-  WF=PASS
+    2022: Sh=+0.272
+    2023: Sh=+0.079
+    2024: Sh=+0.285
+    2025: Sh=+0.285
+    2026: Sh=+0.472
+    → PROMOTED
+
+  below 0.7x s=0.1 t=1.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.111
+    2023: Sh=+0.553
+    2024: Sh=+0.314
+    2025: Sh=+0.327
+    2026: Sh=-2.547 ← NEG
+    → PROMOTED
+
+  below 0.7x s=0.75 t=0.75 T=10 tr=-  WF=PASS
+    2022: Sh=+0.212
+    2023: Sh=+0.216
+    2024: Sh=+0.261
+    2025: Sh=+0.413
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.0 t=0.75 T=10 tr=-  WF=PASS
+    2022: Sh=+0.212
+    2023: Sh=+0.216
+    2024: Sh=+0.261
+    2025: Sh=+0.413
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=1.5 t=0.75 T=10 tr=-  WF=PASS
+    2022: Sh=+0.212
+    2023: Sh=+0.216
+    2024: Sh=+0.261
+    2025: Sh=+0.413
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.7x s=2.0 t=0.75 T=10 tr=-  WF=PASS
+    2022: Sh=+0.212
+    2023: Sh=+0.216
+    2024: Sh=+0.261
+    2025: Sh=+0.413
+    2026: Sh=-0.372 ← NEG
+    → PROMOTED
+
+  below 0.6x s=0.15 t=0.3 T=EOD tr=-  WF=PASS
+    2022: Sh=+0.272
+    2023: Sh=+0.060
+    2024: Sh=+0.285
+    2025: Sh=+0.287
+    2026: Sh=+0.472
+    → PROMOTED
+
+  below 0.7x s=0.1 t=2.0 T=10 tr=-  WF=PASS
+    2022: Sh=+0.111
+    2023: Sh=+0.553
+    2024: Sh=+0.303
+    2025: Sh=+0.327
+    2026: Sh=-2.547 ← NEG
+    → PROMOTED
+
+  below 0.6x s=0.25 t=1.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.599
+    2023: Sh=+0.082
+    2024: Sh=+0.083
+    2025: Sh=+0.156
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.25 t=1.5 T=5 tr=-  WF=PASS
+    2022: Sh=+0.599
+    2023: Sh=+0.082
+    2024: Sh=+0.083
+    2025: Sh=+0.156
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.25 t=2.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.599
+    2023: Sh=+0.082
+    2024: Sh=+0.083
+    2025: Sh=+0.156
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.6x s=0.25 t=3.0 T=5 tr=-  WF=PASS
+    2022: Sh=+0.599
+    2023: Sh=+0.082
+    2024: Sh=+0.083
+    2025: Sh=+0.156
+    2026: Sh=+0.522
+    → PROMOTED
+
+  below 0.7x s=0.25 t=0.5 T=10 tr=-  WF=PASS
+    2022: Sh=+0.050
+    2023: Sh=+0.385
+    2024: Sh=+0.327
+    2025: Sh=+0.453
+    2026: Sh=-0.513 ← NEG
+    → PROMOTED
+
+  below 0.6x s=0.15 t=0.3 T=15 tr=-  WF=PASS
+    2022: Sh=+0.272
+    2023: Sh=+0.182
+    2024: Sh=+0.247
+    2025: Sh=+0.218
+    2026: Sh=+0.472
+    → PROMOTED
+
+  below 0.6x s=0.25 t=0.3 T=10 tr=-  WF=PASS
+    2022: Sh=+0.492
+    2023: Sh=+0.183
+    2024: Sh=+0.080
+    2025: Sh=+0.185
+    2026: Sh=+0.546
+    → PROMOTED
+
+
+======================================================================
+  ALL COMPLETE — 980s (16.3m)
+  SPY promoted: 17
+  QQQ promoted: 87
+======================================================================

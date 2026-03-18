@@ -1,0 +1,118 @@
+{
+  "above": {
+    "0-1up | VIX 15-20": {
+      "risk_multiplier": 3.29,
+      "avg_pnl": 0.8143,
+      "n_trades": 4,
+      "win_rate": 75.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX 20-25": {
+      "risk_multiplier": 2.06,
+      "avg_pnl": 0.3451,
+      "n_trades": 4,
+      "win_rate": 50.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX nan": {
+      "risk_multiplier": 0.7,
+      "avg_pnl": -0.1731,
+      "n_trades": 5,
+      "win_rate": 20.0,
+      "confidence": "low"
+    },
+    "2+up | VIX 15-20": {
+      "risk_multiplier": 0.5,
+      "avg_pnl": -0.25,
+      "n_trades": 1,
+      "win_rate": 0.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX 25-30": {
+      "risk_multiplier": 0.5,
+      "avg_pnl": -0.25,
+      "n_trades": 1,
+      "win_rate": 0.0,
+      "confidence": "low"
+    },
+    "2+up | VIX <15": {
+      "risk_multiplier": 0.5,
+      "avg_pnl": -0.25,
+      "n_trades": 1,
+      "win_rate": 0.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX 30+": {
+      "risk_multiplier": 0.5,
+      "avg_pnl": -0.25,
+      "n_trades": 2,
+      "win_rate": 0.0,
+      "confidence": "low"
+    },
+    "2+up | VIX nan": {
+      "risk_multiplier": 0.5,
+      "avg_pnl": -0.25,
+      "n_trades": 1,
+      "win_rate": 0.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX <15": {
+      "risk_multiplier": 0.46,
+      "avg_pnl": -0.2643,
+      "n_trades": 1,
+      "win_rate": 0.0,
+      "confidence": "low"
+    }
+  },
+  "below": {
+    "0-1up | VIX nan": {
+      "risk_multiplier": 1.99,
+      "avg_pnl": 0.6434,
+      "n_trades": 5,
+      "win_rate": 60.0,
+      "confidence": "low"
+    },
+    "2+up | VIX nan": {
+      "risk_multiplier": 1.98,
+      "avg_pnl": 0.6355,
+      "n_trades": 2,
+      "win_rate": 50.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX 30+": {
+      "risk_multiplier": 1.95,
+      "avg_pnl": 0.625,
+      "n_trades": 2,
+      "win_rate": 50.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX 20-25": {
+      "risk_multiplier": 0.97,
+      "avg_pnl": 0.2286,
+      "n_trades": 2,
+      "win_rate": 50.0,
+      "confidence": "low"
+    },
+    "0-1up | VIX 15-20": {
+      "risk_multiplier": 0.54,
+      "avg_pnl": 0.053,
+      "n_trades": 12,
+      "win_rate": 33.3,
+      "confidence": "low"
+    },
+    "0-1up | VIX <15": {
+      "risk_multiplier": 0.25,
+      "avg_pnl": -0.25,
+      "n_trades": 2,
+      "win_rate": 0.0,
+      "confidence": "low"
+    },
+    "2+up | VIX <15": {
+      "risk_multiplier": 0.25,
+      "avg_pnl": -0.25,
+      "n_trades": 2,
+      "win_rate": 0.0,
+      "confidence": "low"
+    }
+  }
+}

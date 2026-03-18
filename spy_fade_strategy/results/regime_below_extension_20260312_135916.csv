@@ -1,0 +1,6 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+1.0x ATR,ATR Extension,27,37.03703703703704,0.2159562024101399,-0.2499999999999878,5.830817465073777,0.678411727679191,1.499999999999999,-0.25000000000000056,0.31832616330044017
+1.0-1.25x,ATR Extension,0,0.0,,,0.0,,,,0.0
+1.25-1.5x,ATR Extension,0,0.0,,,0.0,,,,0.0
+1.5-2.0x,ATR Extension,0,0.0,,,0.0,,,,0.0
+2.0x+,ATR Extension,0,0.0,,,0.0,,,,0.0

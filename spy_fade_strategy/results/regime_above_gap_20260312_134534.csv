@@ -1,0 +1,6 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+Big gap down,Gap at Open,4,0.0,0.0,0.0,0,0.0,0,0,0
+Small gap down,Gap at Open,3,0.0,0.0,0.0,0,0.0,0,0,0
+Flat open,Gap at Open,3,0.0,0.0,0.0,0,0.0,0,0,0
+Small gap up,Gap at Open,6,0.0,0.0,0.0,0,0.0,0,0,0
+Big gap up,Gap at Open,4,0.0,0.0,0.0,0,0.0,0,0,0

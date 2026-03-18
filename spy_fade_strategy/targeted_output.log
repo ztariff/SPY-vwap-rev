@@ -1,0 +1,213 @@
+Fetching daily bars for SPY (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for SPY
+Fetching daily bars for TLT (2022-01-01 to 2026-03-12)...
+  Got 1051 daily bars for TLT
+Fetching VIX data (2022-01-01 to 2026-03-12)...
+  Got 1071 VIX daily bars via I:VIX
+Fetching intraday bars for SPY across 1038 dates...
+  Progress: 50/1038 dates...
+  Progress: 100/1038 dates...
+  Progress: 150/1038 dates...
+  Progress: 200/1038 dates...
+  Progress: 250/1038 dates...
+  Progress: 300/1038 dates...
+  Progress: 350/1038 dates...
+  Progress: 400/1038 dates...
+  Progress: 450/1038 dates...
+  Progress: 500/1038 dates...
+  Progress: 550/1038 dates...
+  Progress: 600/1038 dates...
+  Progress: 650/1038 dates...
+  Progress: 700/1038 dates...
+  Progress: 750/1038 dates...
+  Progress: 800/1038 dates...
+  Progress: 850/1038 dates...
+  Progress: 900/1038 dates...
+  Progress: 950/1038 dates...
+  Progress: 1000/1038 dates...
+  Got intraday data for 1038/1038 dates
+SPY: 1037 days
+  below 0.3x: 526
+  below 0.4x: 384
+  below 0.5x: 236
+  below 0.6x: 139
+  above 0.3x: 488
+  above 0.4x: 285
+  above 0.5x: 155
+  above 0.6x: 93
+Grid: 3888
+  [2000/3888] 1611 passed
+
+WF pass/soft: 3220
+Promoted: 2894
+
+TOP 30 (score=Sharpe*sqrt(N)):
+  1 above 0.4x s=0.1  t=0.75 T=15  N=285 Sh=0.283 WR=48% Avg=+0.0649% Tot=+18.5% PF=2.4 TrSh=+0.326 TeSh=+0.187 NY=0 PROMOTED
+  2 above 0.4x s=0.1  t=0.75 T=10  N=285 Sh=0.280 WR=50% Avg=+0.0605% Tot=+17.3% PF=2.5 TrSh=+0.332 TeSh=+0.154 NY=0 PROMOTED
+  3 above 0.4x s=0.1  t=0.75 T=5   N=285 Sh=0.274 WR=51% Avg=+0.0543% Tot=+15.5% PF=2.6 TrSh=+0.311 TeSh=+0.194 NY=0 PROMOTED
+  4 above 0.4x s=0.1  t=1.0  T=15  N=285 Sh=0.273 WR=47% Avg=+0.0695% Tot=+19.8% PF=2.5 TrSh=+0.312 TeSh=+0.188 NY=0 PROMOTED
+  5 above 0.4x s=0.2  t=0.75 T=15  N=285 Sh=0.269 WR=54% Avg=+0.0668% Tot=+19.0% PF=2.2 TrSh=+0.300 TeSh=+0.201 NY=0 PROMOTED
+  6 above 0.4x s=0.1  t=1.0  T=10  N=285 Sh=0.268 WR=50% Avg=+0.0649% Tot=+18.5% PF=2.6 TrSh=+0.316 TeSh=+0.156 NY=0 PROMOTED
+  7 above 0.4x s=0.1  t=0.5  T=10  N=285 Sh=0.267 WR=50% Avg=+0.0468% Tot=+13.3% PF=2.1 TrSh=+0.315 TeSh=+0.155 NY=0 PROMOTED
+  8 above 0.4x s=0.1  t=0.5  T=5   N=285 Sh=0.266 WR=51% Avg=+0.0431% Tot=+12.3% PF=2.3 TrSh=+0.299 TeSh=+0.194 NY=0 PROMOTED
+  9 above 0.4x s=0.1  t=0.5  T=15  N=285 Sh=0.266 WR=48% Avg=+0.0502% Tot=+14.3% PF=2.1 TrSh=+0.303 TeSh=+0.186 NY=0 PROMOTED
+ 10 below 0.4x s=1.0  t=1.0  T=5   N=384 Sh=0.229 WR=54% Avg=+0.0572% Tot=+21.9% PF=2.2 TrSh=+0.293 TeSh=+0.135 NY=1 PROMOTED
+ 11 below 0.4x s=1.5  t=1.0  T=5   N=384 Sh=0.229 WR=54% Avg=+0.0572% Tot=+21.9% PF=2.2 TrSh=+0.293 TeSh=+0.135 NY=1 PROMOTED
+ 12 below 0.4x s=2.0  t=1.0  T=5   N=384 Sh=0.229 WR=54% Avg=+0.0572% Tot=+21.9% PF=2.2 TrSh=+0.293 TeSh=+0.135 NY=1 PROMOTED
+ 13 below 0.4x s=0.75 t=1.0  T=5   N=384 Sh=0.228 WR=54% Avg=+0.0569% Tot=+21.9% PF=2.2 TrSh=+0.293 TeSh=+0.131 NY=1 PROMOTED
+ 14 above 0.4x s=0.1  t=1.0  T=5   N=285 Sh=0.263 WR=51% Avg=+0.0603% Tot=+17.2% PF=2.8 TrSh=+0.298 TeSh=+0.191 NY=0 PROMOTED
+ 15 above 0.4x s=0.2  t=1.0  T=15  N=285 Sh=0.261 WR=53% Avg=+0.0710% Tot=+20.2% PF=2.3 TrSh=+0.288 TeSh=+0.203 NY=0 PROMOTED
+ 16 above 0.4x s=0.15 t=0.75 T=15  N=285 Sh=0.260 WR=51% Avg=+0.0623% Tot=+17.7% PF=2.2 TrSh=+0.304 TeSh=+0.160 NY=0 PROMOTED
+ 17 above 0.4x s=0.2  t=0.75 T=10  N=285 Sh=0.260 WR=55% Avg=+0.0597% Tot=+17.0% PF=2.2 TrSh=+0.307 TeSh=+0.147 NY=0 PROMOTED
+ 18 below 0.4x s=1.0  t=1.0  T=10  N=384 Sh=0.223 WR=57% Avg=+0.0609% Tot=+23.4% PF=2.1 TrSh=+0.253 TeSh=+0.180 NY=1 PROMOTED
+ 19 below 0.4x s=1.5  t=1.0  T=10  N=384 Sh=0.223 WR=57% Avg=+0.0609% Tot=+23.4% PF=2.1 TrSh=+0.253 TeSh=+0.180 NY=1 PROMOTED
+ 20 below 0.4x s=2.0  t=1.0  T=10  N=384 Sh=0.223 WR=57% Avg=+0.0609% Tot=+23.4% PF=2.1 TrSh=+0.253 TeSh=+0.180 NY=1 PROMOTED
+ 21 below 0.4x s=0.75 t=1.0  T=10  N=384 Sh=0.222 WR=57% Avg=+0.0608% Tot=+23.3% PF=2.1 TrSh=+0.253 TeSh=+0.179 NY=1 PROMOTED
+ 22 below 0.4x s=0.5  t=1.0  T=5   N=384 Sh=0.222 WR=54% Avg=+0.0557% Tot=+21.4% PF=2.2 TrSh=+0.276 TeSh=+0.141 NY=1 PROMOTED
+ 23 above 0.4x s=0.15 t=0.75 T=5   N=285 Sh=0.257 WR=53% Avg=+0.0530% Tot=+15.1% PF=2.4 TrSh=+0.302 TeSh=+0.154 NY=0 PROMOTED
+ 24 above 0.4x s=0.15 t=0.75 T=10  N=285 Sh=0.257 WR=53% Avg=+0.0577% Tot=+16.5% PF=2.2 TrSh=+0.315 TeSh=+0.112 NY=0 PROMOTED
+ 25 below 0.4x s=1.0  t=0.75 T=5   N=384 Sh=0.221 WR=54% Avg=+0.0486% Tot=+18.7% PF=2.1 TrSh=+0.291 TeSh=+0.118 NY=1 PROMOTED
+ 26 below 0.4x s=1.5  t=0.75 T=5   N=384 Sh=0.221 WR=54% Avg=+0.0486% Tot=+18.7% PF=2.1 TrSh=+0.291 TeSh=+0.118 NY=1 PROMOTED
+ 27 below 0.4x s=2.0  t=0.75 T=5   N=384 Sh=0.221 WR=54% Avg=+0.0486% Tot=+18.7% PF=2.1 TrSh=+0.291 TeSh=+0.118 NY=1 PROMOTED
+ 28 above 0.4x s=0.5  t=1.0  T=5   N=285 Sh=0.256 WR=56% Avg=+0.0650% Tot=+18.5% PF=2.6 TrSh=+0.288 TeSh=+0.190 NY=0 PROMOTED
+ 29 below 0.4x s=0.75 t=0.75 T=5   N=384 Sh=0.219 WR=54% Avg=+0.0484% Tot=+18.6% PF=2.1 TrSh=+0.291 TeSh=+0.114 NY=1 PROMOTED
+ 30 above 0.4x s=0.5  t=0.75 T=5   N=285 Sh=0.254 WR=56% Avg=+0.0569% Tot=+16.2% PF=2.4 TrSh=+0.285 TeSh=+0.190 NY=0 PROMOTED
+
+YEARLY DETAIL (top promoted):
+
+  above 0.4x s=0.1 t=0.75 T=15 N=285 Sh=0.283
+  WF: Train=+0.326(185N) Test=+0.187(100N)
+    2022: +0.472
+    2023: +0.228
+    2024: +0.179
+    2025: +0.186
+    2026: +0.392
+  ~68 trades/yr, Annual: ~+4.41% ($+4,406 on $100K)
+
+  above 0.4x s=0.1 t=0.75 T=10 N=285 Sh=0.280
+  WF: Train=+0.332(185N) Test=+0.154(100N)
+    2022: +0.453
+    2023: +0.268
+    2024: +0.187
+    2025: +0.113
+    2026: +0.412
+  ~68 trades/yr, Annual: ~+4.11% ($+4,107 on $100K)
+
+  above 0.4x s=0.1 t=0.75 T=5 N=285 Sh=0.274
+  WF: Train=+0.311(185N) Test=+0.194(100N)
+    2022: +0.429
+    2023: +0.254
+    2024: +0.172
+    2025: +0.144
+    2026: +0.646
+  ~68 trades/yr, Annual: ~+3.69% ($+3,688 on $100K)
+
+  above 0.4x s=0.1 t=1.0 T=15 N=285 Sh=0.273
+  WF: Train=+0.312(185N) Test=+0.188(100N)
+    2022: +0.478
+    2023: +0.180
+    2024: +0.178
+    2025: +0.189
+    2026: +0.392
+  ~68 trades/yr, Annual: ~+4.71% ($+4,715 on $100K)
+
+  above 0.4x s=0.2 t=0.75 T=15 N=285 Sh=0.269
+  WF: Train=+0.300(185N) Test=+0.201(100N)
+    2022: +0.471
+    2023: +0.169
+    2024: +0.165
+    2025: +0.221
+    2026: +0.358
+  ~68 trades/yr, Annual: ~+4.53% ($+4,533 on $100K)
+
+  above 0.4x s=0.1 t=1.0 T=10 N=285 Sh=0.268
+  WF: Train=+0.316(185N) Test=+0.156(100N)
+    2022: +0.449
+    2023: +0.233
+    2024: +0.186
+    2025: +0.124
+    2026: +0.412
+  ~68 trades/yr, Annual: ~+4.40% ($+4,404 on $100K)
+
+  above 0.4x s=0.1 t=0.5 T=10 N=285 Sh=0.267
+  WF: Train=+0.315(185N) Test=+0.155(100N)
+    2022: +0.423
+    2023: +0.257
+    2024: +0.191
+    2025: +0.095
+    2026: +0.412
+  ~68 trades/yr, Annual: ~+3.18% ($+3,179 on $100K)
+
+  above 0.4x s=0.1 t=0.5 T=5 N=285 Sh=0.266
+  WF: Train=+0.299(185N) Test=+0.194(100N)
+    2022: +0.398
+    2023: +0.255
+    2024: +0.173
+    2025: +0.131
+    2026: +0.646
+  ~68 trades/yr, Annual: ~+2.92% ($+2,924 on $100K)
+
+  above 0.4x s=0.1 t=0.5 T=15 N=285 Sh=0.266
+  WF: Train=+0.303(185N) Test=+0.186(100N)
+    2022: +0.435
+    2023: +0.209
+    2024: +0.174
+    2025: +0.179
+    2026: +0.392
+  ~68 trades/yr, Annual: ~+3.40% ($+3,404 on $100K)
+
+  below 0.4x s=1.0 t=1.0 T=5 N=384 Sh=0.229
+  WF: Train=+0.293(217N) Test=+0.135(167N)
+    2022: +0.256
+    2023: +0.321
+    2024: +0.242
+    2025: +0.161
+    2026: -0.122 NEG
+  ~91 trades/yr, Annual: ~+5.23% ($+5,225 on $100K)
+
+  below 0.4x s=1.5 t=1.0 T=5 N=384 Sh=0.229
+  WF: Train=+0.293(217N) Test=+0.135(167N)
+    2022: +0.256
+    2023: +0.321
+    2024: +0.242
+    2025: +0.161
+    2026: -0.122 NEG
+  ~91 trades/yr, Annual: ~+5.23% ($+5,225 on $100K)
+
+  below 0.4x s=2.0 t=1.0 T=5 N=384 Sh=0.229
+  WF: Train=+0.293(217N) Test=+0.135(167N)
+    2022: +0.256
+    2023: +0.321
+    2024: +0.242
+    2025: +0.161
+    2026: -0.122 NEG
+  ~91 trades/yr, Annual: ~+5.23% ($+5,225 on $100K)
+
+  below 0.4x s=0.75 t=1.0 T=5 N=384 Sh=0.228
+  WF: Train=+0.293(217N) Test=+0.131(167N)
+    2022: +0.256
+    2023: +0.321
+    2024: +0.242
+    2025: +0.155
+    2026: -0.122 NEG
+  ~91 trades/yr, Annual: ~+5.20% ($+5,205 on $100K)
+
+  above 0.4x s=0.1 t=1.0 T=5 N=285 Sh=0.263
+  WF: Train=+0.298(185N) Test=+0.191(100N)
+    2022: +0.436
+    2023: +0.215
+    2024: +0.172
+    2025: +0.150
+    2026: +0.646
+  ~68 trades/yr, Annual: ~+4.09% ($+4,089 on $100K)
+
+  above 0.4x s=0.2 t=1.0 T=15 N=285 Sh=0.261
+  WF: Train=+0.288(185N) Test=+0.203(100N)
+    2022: +0.480
+    2023: +0.114
+    2024: +0.164
+    2025: +0.225
+    2026: +0.358
+  ~68 trades/yr, Annual: ~+4.82% ($+4,818 on $100K)
+
+Done: 578s

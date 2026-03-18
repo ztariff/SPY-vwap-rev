@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Filter Impact Analysis — SPY Credit Spread Strategy</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        background: #0e1117;
+        color: #e0e0e0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        padding: 32px;
+    }
+    h1 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #fff;
+    }
+    .subtitle {
+        color: #888;
+        font-size: 13px;
+        margin-bottom: 32px;
+    }
+    .chart-section {
+        margin-bottom: 40px;
+    }
+    .chart-title {
+        font-size: 15px;
+        font-weight: 600;
+        color: #ccc;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .chart-container {
+        background: #1a1d2e;
+        border: 1px solid #2a2e3d;
+        border-radius: 8px;
+        padding: 24px;
+    }
+    .bar-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .bar-label {
+        width: 220px;
+        font-size: 13px;
+        color: #bbb;
+        text-align: right;
+        padding-right: 16px;
+        flex-shrink: 0;
+    }
+    .bar-label.baseline {
+        color: #ff9800;
+        font-weight: 600;
+    }
+    .bar-track {
+        flex: 1;
+        height: 32px;
+        background: #111320;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+    }
+    .bar-fill {
+        height: 100%;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        transition: width 0.6s ease;
+        min-width: 60px;
+    }
+    .bar-fill.trades { background: linear-gradient(90deg, #2962ff, #448aff); }
+    .bar-fill.winrate { background: linear-gradient(90deg, #26a69a, #4dd0a1); }
+    .bar-fill.sharpe { background: linear-gradient(90deg, #ff9800, #ffc107); }
+    .bar-fill.losses { background: linear-gradient(90deg, #ef5350, #ff8a80); }
+    .bar-fill.baseline-bar { opacity: 0.5; }
+
+    .bar-value-outside {
+        position: absolute;
+        right: -60px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 12px;
+        font-weight: 600;
+        color: #aaa;
+    }
+
+    .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-bottom: 32px;
+    }
+    .summary-card {
+        background: #1a1d2e;
+        border: 1px solid #2a2e3d;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+    }
+    .summary-card .label {
+        font-size: 11px;
+        color: #888;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    .summary-card .value {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .summary-card .delta {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .positive { color: #26a69a; }
+    .negative { color: #ef5350; }
+    .neutral { color: #ff9800; }
+
+    .takeaway {
+        background: #1a1d2e;
+        border: 1px solid #2a2e3d;
+        border-left: 3px solid #ff9800;
+        border-radius: 0 8px 8px 0;
+        padding: 16px 20px;
+        margin-top: 32px;
+        font-size: 13px;
+        line-height: 1.6;
+        color: #bbb;
+    }
+    .takeaway strong { color: #fff; }
+</style>
+</head>
+<body>
+
+<h1>Filter Impact Analysis</h1>
+<div class="subtitle">How each actionable filter affects trade count, win rate, Sharpe ratio, and losses eliminated</div>
+
+<div class="summary-grid">
+    <div class="summary-card">
+        <div class="label">Best Single Filter</div>
+        <div class="value neutral">CR ≥ 15%</div>
+        <div class="delta positive">Sharpe 3.3 → 7.5</div>
+    </div>
+    <div class="summary-card">
+        <div class="label">Best Combo Filter</div>
+        <div class="value neutral">CR≥15% + no 0.40δ</div>
+        <div class="delta positive">96.4% WR, 7 losses</div>
+    </div>
+    <div class="summary-card">
+        <div class="label">Most Aggressive</div>
+        <div class="value neutral">CR ≥ 20%</div>
+        <div class="delta positive">Sharpe 14.2, 95.6% WR</div>
+    </div>
+    <div class="summary-card">
+        <div class="label">Max Losses Eliminated</div>
+        <div class="value neutral">CR≥15% + no 0.40δ</div>
+        <div class="delta positive">211 of 218 losses gone</div>
+    </div>
+</div>
+
+<div id="charts"></div>
+
+<div class="takeaway">
+    <strong>Key insight:</strong> Credit ratio is the single most powerful filter. Going from no filter (CR ≥ 0%) to CR ≥ 15%
+    eliminates 170 losses (78%) while only cutting trades from 1,511 → 575, and more than doubles the Sharpe ratio.
+    Adding the 0.40/0.30δ exclusion further eliminates 41 more losses at the cost of trade volume,
+    leaving only 7 losses across the entire 4+ year backtest. The tradeoff is always fewer trades —
+    but the remaining trades are dramatically higher quality.
+</div>
+
+<script>
+const data = {
+    'Baseline (no filter)':     { count: 1511, wr: 85.6, sharpe: 3.32, losses: 218 },
+    'CR ≥ 15%':                 { count: 575,  wr: 91.7, sharpe: 7.45, losses: 48 },
+    'CR ≥ 20%':                 { count: 274,  wr: 95.6, sharpe: 14.22, losses: 12 },
+    'Drop 0.40/0.30δ':         { count: 637,  wr: 90.3, sharpe: 3.65, losses: 62 },
+    'Bull Puts only':           { count: 936,  wr: 87.4, sharpe: 4.16, losses: 118 },
+    'CR≥15% + no 0.40/0.30δ':  { count: 193,  wr: 96.4, sharpe: 8.83, losses: 7 },
+    'CR≥15% + VIX≠15-20':      { count: 538,  wr: 92.0, sharpe: 7.68, losses: 43 },
+};
+
+const order = [
+    'Baseline (no filter)',
+    'Bull Puts only',
+    'Drop 0.40/0.30δ',
+    'CR ≥ 15%',
+    'CR≥15% + VIX≠15-20',
+    'CR ≥ 20%',
+    'CR≥15% + no 0.40/0.30δ',
+];
+
+const metrics = [
+    { key: 'count',  label: 'Trade Count',  cssClass: 'trades',  max: 1600, suffix: '', decimals: 0 },
+    { key: 'wr',     label: 'Win Rate',     cssClass: 'winrate', max: 100,  suffix: '%', decimals: 1 },
+    { key: 'sharpe', label: 'Sharpe Ratio',  cssClass: 'sharpe',  max: 16,  suffix: '', decimals: 2 },
+    { key: 'losses', label: 'Losses Remaining', cssClass: 'losses', max: 230, suffix: '', decimals: 0 },
+];
+
+const container = document.getElementById('charts');
+
+metrics.forEach(metric => {
+    const section = document.createElement('div');
+    section.className = 'chart-section';
+
+    const title = document.createElement('div');
+    title.className = 'chart-title';
+    title.textContent = metric.label;
+    section.appendChild(title);
+
+    const chartBox = document.createElement('div');
+    chartBox.className = 'chart-container';
+
+    order.forEach(name => {
+        const d = data[name];
+        const val = d[metric.key];
+        const pct = Math.max((val / metric.max) * 100, 4);
+        const isBaseline = name === 'Baseline (no filter)';
+
+        const row = document.createElement('div');
+        row.className = 'bar-row';
+
+        const label = document.createElement('div');
+        label.className = 'bar-label' + (isBaseline ? ' baseline' : '');
+        label.textContent = name;
+        row.appendChild(label);
+
+        const track = document.createElement('div');
+        track.className = 'bar-track';
+
+        const fill = document.createElement('div');
+        fill.className = 'bar-fill ' + metric.cssClass + (isBaseline ? ' baseline-bar' : '');
+        fill.style.width = pct + '%';
+
+        const valStr = metric.decimals === 0 ? val.toFixed(0) : val.toFixed(metric.decimals);
+        fill.textContent = valStr + metric.suffix;
+
+        track.appendChild(fill);
+        row.appendChild(track);
+        chartBox.appendChild(row);
+    });
+
+    section.appendChild(chartBox);
+    container.appendChild(section);
+});
+</script>
+</body>
+</html>

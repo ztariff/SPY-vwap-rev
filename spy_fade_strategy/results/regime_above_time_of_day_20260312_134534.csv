@@ -1,0 +1,6 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+afternoon,Time of Day,4,0.0,0.0,0.0,0,0.0,0,0,0
+late_morning,Time of Day,3,0.0,0.0,0.0,0,0.0,0,0,0
+midday,Time of Day,3,0.0,0.0,0.0,0,0.0,0,0,0
+open_hour,Time of Day,1,0.0,0.0,0.0,0,,0,0,0
+power_hour,Time of Day,9,0.0,0.0,0.0,0,0.0,0,0,0

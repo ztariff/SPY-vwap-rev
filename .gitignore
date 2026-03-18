@@ -1,0 +1,22 @@
+# Polygon API cached data (37,000+ files, regenerable from API)
+spy_fade_strategy/data_cache/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary/working files
+*.tmp
+nohup.out

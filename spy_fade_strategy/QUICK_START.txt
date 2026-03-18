@@ -1,0 +1,201 @@
+================================================================================
+STOCK DASHBOARD — QUICK START GUIDE
+================================================================================
+
+WHAT YOU HAVE:
+✓ stock_dashboard.html (3.4 MB) — Self-contained calendar dashboard
+✓ build_stock_dashboard.py — Python builder script to regenerate HTML
+✓ All 2,750 trades embedded with real Polygon data
+✓ Dark theme matching existing VWAP Deviation dashboard
+
+OPEN THE DASHBOARD:
+1. Download stock_dashboard.html to your computer
+2. Double-click to open in browser (or right-click → Open With → Browser)
+3. No internet required — fully self-contained!
+
+WHAT YOU'LL SEE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TOP BAR (Dark blue header):
+  Stock Frontside Mean Reversion — Calendar Dashboard
+  [Trade count] [Strategies] [Days] [Avg P&L] [Win %] [Total $] [Total %]
+
+CONTROLS:
+  < [Month/Year] >
+  [All] [Buy Dip] [Fade] [0.3x] [0.4x] [0.5x] [0.8x] [Winners] [Losers]
+
+MONTHLY P&L CHART:
+  Running cumulative profit/loss line for the selected month
+
+CALENDAR GRID:
+  Full month view with colored pills:
+    🟢 Green pill = winning trade
+    🔴 Red pill = losing trade
+  Pill shows: Strategy abbreviation + Dollar P&L
+  Day total in corner (green/red)
+  Click any day to see trade details
+
+WHEN YOU CLICK A DAY:
+  ↓ Trade detail panel appears with:
+    • SPY intraday chart (1-min bars with VWAP)
+    • Entry/exit markers
+    • Entry threshold, target, stop levels
+    • Full trade metadata (prices, times, VIX, etc.)
+
+STRATEGY SUMMARY:
+  Table at bottom showing each strategy's:
+  - Number of trades
+  - Win rate
+  - Average P&L
+  - Total P&L %
+  - Sharpe ratio
+  - Profit factor
+
+FILTER USAGE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Click any filter button to isolate trades:
+
+Direction:
+  [Buy Dip] — Show only long trades (below VWAP)
+  [Fade] — Show only short trades (above VWAP)
+
+ATR Multiplier:
+  [0.3x], [0.4x], [0.5x], [0.8x] — Entry sensitivity
+
+Outcome:
+  [Winners] — Only profitable trades
+  [Losers] — Only losing trades
+
+All filters update in real-time. Click another filter to switch.
+Click [All] to reset.
+
+NAVIGATION:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+< > buttons: Previous/next month
+Scroll: Page scrolls to see more trades
+Click day: Jump to trade detail
+
+INTERPRETING THE INTRADAY CHART:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Candlesticks:
+  Green = price close > open (bullish bar)
+  Red = price close < open (bearish bar)
+
+Lines:
+  Orange = VWAP (volume-weighted average price)
+  Blue dashed = Entry threshold (VWAP ± ATR*multiplier)
+  Green dotted = Target level (exit goal)
+  Red dotted = Stop level (risk limit)
+
+Markers:
+  Blue circle = Trade entry signal + price
+  Green circle = Profitable exit
+  Red circle = Loss exit
+
+Volume:
+  Below chart = green/red bars showing trading volume
+
+Hover crosshair:
+  Move mouse over chart to see exact OHLC values at any time
+
+DATA QUALITY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ All 2,750 trades present
+✓ Real Polygon 1-min bars (no simulation)
+✓ Entry/exit prices from limit order fills
+✓ IBKR commission modeled
+✓ VIX values at trade entry
+✓ No fabricated or synthetic data
+✓ 54.3% win rate
+✓ +$652.40 total P&L across all strategies
+
+STRATEGIES INCLUDED:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Fade (Short Above VWAP):
+  F.4x t.50%  — 285 trades (0.4x ATR, 0.5% target)
+  F.4x t.75%  — 285 trades (0.4x ATR, 0.75% target)
+  F.4x t1.0%  — 285 trades (0.4x ATR, 1.0% target)
+  F.5x t1.0%  — 155 trades (0.5x ATR, 1.0% target)
+
+Buy Dip (Long Below VWAP):
+  B.3x t.50%  — 526 trades (0.3x ATR, 0.5% target)
+  B.4x t.75%  — 384 trades (0.4x ATR, 0.75% target)
+  B.4x t1.0%  — 384 trades (0.4x ATR, 1.0% target)
+  B.4x t1.0%  — 384 trades (0.4x ATR, 1.0% target, 5m timeout)
+  B.8x t.05%  — 62 trades (0.8x ATR, 0.05% target)
+
+PERFORMANCE STATS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total Trades: 2,750
+Win Rate: 54.3% (1,492 winners, 1,258 losers)
+Avg Trade: +$0.24
+Total P&L: +$652.40
+Unique Days: 678
+Date Range: 2022-01-24 through 2026-03-11
+
+TECHNICAL NOTES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Browser Compatibility:
+  ✓ Chrome/Edge (latest)
+  ✓ Firefox (latest)
+  ✓ Safari (latest)
+  ✗ Internet Explorer (unsupported)
+
+Chart fetching:
+  • First time you click a day, it fetches SPY 1-min bars from Polygon
+  • Results are cached (subsequent views load instantly)
+  • Requires internet connection for first load of each date
+  • Polygon API key pre-configured (top-tier plan)
+
+File Size:
+  3.4 MB — Fully embedded, no lazy-load of trade data
+  Loads instantly once browser caches the file
+
+CUSTOMIZATION (For Developers):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+To rebuild dashboard with updated trade data:
+  1. Update stock_frontside_trades.json with new trades
+  2. Run: python3 build_stock_dashboard.py
+  3. New stock_dashboard.html will be generated
+
+To modify colors:
+  Edit CSS in build_stock_dashboard.py (look for #0f1117, #26a69a, #ef5350)
+  or directly in stock_dashboard.html <style> section
+
+To add new filters:
+  Edit STRAT_LABELS in build_stock_dashboard.py
+  Add new filter buttons in <div class="filter-group">
+  Implement filter logic in getFiltered() function
+
+TROUBLESHOOTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"No trades this month":
+  → Apply different filter or navigate to month with trades
+  → Check header stats to see where trades are
+
+"Chart won't load":
+  → Check internet connection (Polygon API needs access)
+  → Check browser console (F12 → Console tab) for errors
+  → Verify API key is valid (cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF)
+
+"File is too large":
+  → Normal — 3.4 MB with all 2,750 trades embedded
+  → Once downloaded/cached, loads instantly
+
+Browser slow with many pills:
+  → Filter to smaller subset (e.g., [Winners] or [Fade])
+  → Rendering optimized for ~300+ pills per month max
+
+================================================================================
+Questions? Check the included STOCK_DASHBOARD_README.txt for full details.
+Built 2026-03-18 | Data through 2026-03-11 | Frontside limit orders
+================================================================================

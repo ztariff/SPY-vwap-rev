@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2022-01-01",
+    "type": "daily",
+    "url": "https://api.polygon.io/v2/aggs/ticker/QQQ/range/1/day/2022-01-01/2023-01-01?adjusted=true&apiKey=cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF&limit=50000&sort=asc",
+    "cache_key": "a20f4debb2885b5cc3971b30d1757cc0"
+  },
+  {
+    "date": "2023-01-02",
+    "type": "daily",
+    "url": "https://api.polygon.io/v2/aggs/ticker/QQQ/range/1/day/2023-01-02/2024-01-02?adjusted=true&apiKey=cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF&limit=50000&sort=asc",
+    "cache_key": "23f99b2db7d6a3fe236e0ab7bd47d128"
+  },
+  {
+    "date": "2024-01-03",
+    "type": "daily",
+    "url": "https://api.polygon.io/v2/aggs/ticker/QQQ/range/1/day/2024-01-03/2025-01-02?adjusted=true&apiKey=cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF&limit=50000&sort=asc",
+    "cache_key": "dd818a86c08d7f6a1558f7fb74f449c4"
+  },
+  {
+    "date": "2025-01-03",
+    "type": "daily",
+    "url": "https://api.polygon.io/v2/aggs/ticker/QQQ/range/1/day/2025-01-03/2026-01-03?adjusted=true&apiKey=cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF&limit=50000&sort=asc",
+    "cache_key": "aed7486ecf74954460ab7cd662159f9a"
+  },
+  {
+    "date": "2026-01-04",
+    "type": "daily",
+    "url": "https://api.polygon.io/v2/aggs/ticker/QQQ/range/1/day/2026-01-04/2026-03-12?adjusted=true&apiKey=cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF&limit=50000&sort=asc",
+    "cache_key": "78cf98157c1b9e0205a90556d303e28c"
+  }
+]

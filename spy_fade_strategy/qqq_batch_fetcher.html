@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head><title>QQQ Batch Data Fetcher</title>
+<style>
+body { background: #111; color: #eee; font-family: monospace; padding: 20px; }
+#status { white-space: pre-wrap; max-height: 600px; overflow-y: auto; font-size: 12px; }
+.ok { color: #4caf50; }
+.err { color: #f44336; }
+.info { color: #2196f3; }
+button { padding: 10px 20px; margin: 5px; font-size: 14px; cursor: pointer; }
+</style>
+</head>
+<body>
+<h2>QQQ Polygon Data Batch Fetcher</h2>
+<div>
+<button onclick="fetchDaily()">1. Fetch Daily Bars (5 requests)</button>
+<button onclick="fetchIntraday()">2. Fetch Intraday Bars (1051 requests)</button>
+<button onclick="downloadResults()">3. Download All Results</button>
+</div>
+<div id="progress" style="margin:10px 0; font-size:16px;"></div>
+<div id="status"></div>
+
+<script>
+const API_KEY = 'cBE5Kbq9yllt0Yj29mDQjBcIKfAYQlHF';
+const BASE = 'https://api.polygon.io';
+const results = {};
+let totalFetched = 0;
+let totalErrors = 0;
+
+function log(msg, cls='') {
+    const el = document.getElementById('status');
+    el.innerHTML += `<span class="${cls}">${msg}</span>\n`;
+    el.scrollTop = el.scrollHeight;
+}
+
+function updateProgress(done, total, type) {
+    document.getElementById('progress').innerHTML =
+        `<b>${type}:</b> ${done}/${total} fetched | ${totalErrors} errors | ${Object.keys(results).length} cached`;
+}
+
+async function fetchUrl(url, params, label) {
+    const fullUrl = url + '?' + new URLSearchParams({...params, apiKey: API_KEY}).toString();
+    // Cache key must match Python: url + json.dumps(params_with_apiKey, sort_keys=True)
+    const cacheParams = {...params, apiKey: API_KEY};
+    const cacheKeyStr = url + JSON.stringify(cacheParams, Object.keys(cacheParams).sort());
+
+    try {
+        const resp = await fetch(fullUrl);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+        const count = data.results ? data.results.length : 0;
+        results[cacheKeyStr] = data;
+        totalFetched++;
+        log(`  OK: ${label} (${count} bars)`, 'ok');
+        return data;
+    } catch(e) {
+        totalErrors++;
+        log(`  ERR: ${label}: ${e.message}`, 'err');
+        return null;
+    }
+}
+
+async function fetchDaily() {
+    log('=== Fetching QQQ Daily Bars ===', 'info');
+    const chunks = [
+        ['2022-01-01', '2023-01-01'],
+        ['2023-01-02', '2024-01-02'],
+        ['2024-01-03', '2025-01-02'],
+        ['2025-01-03', '2026-01-03'],
+        ['2026-01-04', '2026-03-12'],
+    ];
+
+    for (let i = 0; i < chunks.length; i++) {
+        const [s, e] = chunks[i];
+        const url = `${BASE}/v2/aggs/ticker/QQQ/range/1/day/${s}/${e}`;
+        const params = {adjusted: 'true', sort: 'asc', limit: '50000'};
+        await fetchUrl(url, params, `daily ${s} to ${e}`);
+        updateProgress(i+1, chunks.length, 'Daily');
+    }
+    log('=== Daily fetch complete ===', 'info');
+}
+
+async function fetchIntraday() {
+    log('=== Fetching QQQ Intraday Bars ===', 'info');
+
+    // First, get trading dates from the daily data we just fetched
+    const allDates = [];
+    for (const key in results) {
+        if (key.includes('/range/1/day/')) {
+            const data = results[key];
+            if (data && data.results) {
+                for (const r of data.results) {
+                    const d = new Date(r.t);
+                    const dateStr = d.toISOString().split('T')[0];
+                    allDates.push(dateStr);
+                }
+            }
+        }
+    }
+    allDates.sort();
+    log(`  Found ${allDates.length} trading dates from daily data`, 'info');
+
+    if (allDates.length === 0) {
+        log('  ERROR: No daily data found. Run "Fetch Daily Bars" first!', 'err');
+        return;
+    }
+
+    // Fetch intraday bars with rate limiting (batch of 10, then small pause)
+    const BATCH_SIZE = 10;
+    const PAUSE_MS = 200;  // Polygon paid tier allows 300/min
+
+    for (let i = 0; i < allDates.length; i += BATCH_SIZE) {
+        const batch = allDates.slice(i, Math.min(i + BATCH_SIZE, allDates.length));
+        const promises = batch.map(d => {
+            const url = `${BASE}/v2/aggs/ticker/QQQ/range/1/minute/${d}/${d}`;
+            const params = {adjusted: 'true', sort: 'asc', limit: '50000'};
+            return fetchUrl(url, params, `intraday ${d}`);
+        });
+        await Promise.all(promises);
+        updateProgress(Math.min(i + BATCH_SIZE, allDates.length), allDates.length, 'Intraday');
+
+        if (i + BATCH_SIZE < allDates.length) {
+            await new Promise(r => setTimeout(r, PAUSE_MS));
+        }
+    }
+    log(`=== Intraday fetch complete: ${totalFetched} OK, ${totalErrors} errors ===`, 'info');
+}
+
+function downloadResults() {
+    // Convert results to the format needed: {cacheKey: data}
+    // We need to compute MD5 cache keys matching Python's implementation
+    // Since we can't easily compute MD5 in browser, we'll download the raw mapping
+    // and let Python compute the cache keys and save files
+
+    const output = {};
+    for (const [keyStr, data] of Object.entries(results)) {
+        output[keyStr] = data;
+    }
+
+    const blob = new Blob([JSON.stringify(output)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'qqq_raw_data.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    log(`Downloaded ${Object.keys(output).length} cached responses`, 'info');
+}
+</script>
+</body>
+</html>

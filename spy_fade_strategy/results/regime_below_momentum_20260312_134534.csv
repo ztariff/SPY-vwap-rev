@@ -1,0 +1,6 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+Strong 5d down,5-Day Momentum,7,0.0,0.0,0.0,0,0.0,0,0,0
+Mild 5d down,5-Day Momentum,4,0.0,0.0,0.0,0,0.0,0,0,0
+Flat 5d,5-Day Momentum,8,0.0,0.0,0.0,0,0.0,0,0,0
+Mild 5d up,5-Day Momentum,6,0.0,0.0,0.0,0,0.0,0,0,0
+Strong 5d up,5-Day Momentum,2,0.0,0.0,0.0,0,0.0,0,0,0

@@ -1,0 +1,93 @@
+{
+  "title": "VWAP Deviation Strategy \u2014 Commission-Aware Re-Analysis",
+  "date": "2026-03-17",
+  "methodology": {
+    "commission_model": "IBKR Tiered ($0.73/leg = $2.92 RT per contract)",
+    "risk_per_trade": "$100,000",
+    "grid_searched": "8,448 configs (12 ATR mults \u00d7 2 dirs \u00d7 13 delta pairs \u00d7 ~64 exit combos)",
+    "data": "Real Polygon prices, 2022-01-01 to 2026-03-12",
+    "no_fabrication": true
+  },
+  "grid_search_summary": {
+    "total_tested": 8448,
+    "survive_commissions": 1788,
+    "survive_walk_forward": 0,
+    "note": "All top configs by adj_sharpe had N=15-18 (0.9x-1.0x ATR). None had enough trades for walk-forward validation."
+  },
+  "direction_analysis": {
+    "Bear Calls (above VWAP)": {
+      "n_trades": 55,
+      "adj_sharpe": 0.194,
+      "adj_win_rate": 38.2,
+      "adj_total_dollar": 66974.0,
+      "avg_credit": 0.268,
+      "status": "SURVIVES"
+    },
+    "Bull Puts (below VWAP)": {
+      "n_trades": 382,
+      "adj_sharpe": -0.243,
+      "adj_win_rate": 17.5,
+      "adj_total_dollar": -203113.0,
+      "avg_credit": 0.083,
+      "status": "DEAD"
+    }
+  },
+  "final_verdict": {
+    "wf_train_sharpe": 0.43,
+    "wf_train_n": 26,
+    "wf_test_sharpe": -0.052,
+    "wf_test_n": 29,
+    "walk_forward": "SOFT PASS",
+    "honest_assessment": "The bear call side (fading above VWAP) shows a real but thin edge after commissions. Train period (pre-Jul 2024) has positive Sharpe (+0.43), but the test period is essentially flat (-0.05). 2022-2023 carried the results; 2024-2026 has been break-even or slightly negative. This is a DEGRADING edge, not a robust one. Bull puts are completely dead after commissions at every delta configuration tested. The 0.9x ATR bear calls show the strongest per-trade edge but have too few trades (N=18) to validate. Net conclusion: the VWAP deviation strategy has a detectable but fragile edge that is being eroded, and commission drag makes all but the best configurations unprofitable."
+  },
+  "strategies": {
+    "spy_bear_call_0.5x_025_015": {
+      "n": 35,
+      "adj_sharpe": 0.153,
+      "adj_avg_pnl": 1.043,
+      "adj_total": 36415.0,
+      "status": "SURVIVES",
+      "avg_credit": 0.271
+    },
+    "spy_bear_call_0.7x_025_015": {
+      "n": 20,
+      "adj_sharpe": 0.294,
+      "adj_avg_pnl": 1.53,
+      "adj_total": 30559.0,
+      "status": "SURVIVES",
+      "avg_credit": 0.262
+    },
+    "spy_bull_put_0.5x_025_015": {
+      "n": 120,
+      "adj_sharpe": -0.424,
+      "adj_avg_pnl": -0.558,
+      "adj_total": -67079.0,
+      "status": "DEAD",
+      "avg_credit": 0.069
+    },
+    "spy_bull_put_0.5x_030_020": {
+      "n": 148,
+      "adj_sharpe": -0.31,
+      "adj_avg_pnl": -0.586,
+      "adj_total": -86795.0,
+      "status": "DEAD",
+      "avg_credit": 0.093
+    },
+    "spy_bull_put_0.6x_020_010": {
+      "n": 66,
+      "adj_sharpe": -0.426,
+      "adj_avg_pnl": -0.527,
+      "adj_total": -34819.0,
+      "status": "DEAD",
+      "avg_credit": 0.073
+    },
+    "spy_bull_put_0.7x_020_010": {
+      "n": 48,
+      "adj_sharpe": -0.066,
+      "adj_avg_pnl": -0.299,
+      "adj_total": -14420.0,
+      "status": "DEAD",
+      "avg_credit": 0.104
+    }
+  }
+}

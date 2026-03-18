@@ -1,0 +1,6 @@
+regime,regime_type,n_trades,win_rate,avg_pnl,median_pnl,total_pnl,std_pnl,best_trade,worst_trade,sharpe_per_trade
+0 (down/flat),Consecutive Up Days,14,0.0,0.0,0.0,0,0.0,0.0,0.0,0
+1 day up,Consecutive Up Days,9,0.0,0.0,0.0,0,0.0,0.0,0.0,0
+2 days up,Consecutive Up Days,3,0.0,0.0,0.0,0,0.0,0.0,0.0,0
+3 days up,Consecutive Up Days,1,0.0,0.0,0.0,0,,0.0,0.0,0
+4+ days up,Consecutive Up Days,0,0.0,,,0,,,,0
