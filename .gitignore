@@ -1,6 +1,3 @@
-# Polygon API cached data (37,000+ files, regenerable from API)
-spy_fade_strategy/data_cache/
-
 # Python bytecode
 __pycache__/
 *.pyc

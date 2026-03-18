@@ -1,0 +1,1 @@
+{"ticker": "O:SPXW251210C07060000", "queryCount": 2, "resultsCount": 2, "adjusted": true, "results": [{"v": 1, "vw": 0.05, "o": 0.05, "c": 0.05, "h": 0.05, "l": 0.05, "t": 1765397760000, "n": 1}, {"v": 2, "vw": 0.05, "o": 0.05, "c": 0.05, "h": 0.05, "l": 0.05, "t": 1765397820000, "n": 1}], "status": "OK", "request_id": "54ecc93d7c10e89c09846f03b1326376", "count": 2}

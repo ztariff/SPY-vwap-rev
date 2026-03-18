@@ -1,0 +1,1 @@
+{"ticker": "O:SPY240620C00564000", "queryCount": 2, "resultsCount": 2, "adjusted": true, "results": [{"v": 6, "vw": 0.01, "o": 0.01, "c": 0.01, "h": 0.01, "l": 0.01, "t": 1718890200000, "n": 1}, {"v": 3, "vw": 0.01, "o": 0.01, "c": 0.01, "h": 0.01, "l": 0.01, "t": 1718890320000, "n": 3}], "status": "OK", "request_id": "810338823f864bdb50636ecb91bcec1b", "count": 2}
