@@ -85,6 +85,14 @@ body{background:#0f1117;color:#DDD;font-family:-apple-system,BlinkMacSystemFont,
 .rank-1{background:rgba(255,215,0,.2);color:#ffd700}
 .rank-2{background:rgba(192,192,192,.2);color:#c0c0c0}
 .rank-3{background:rgba(205,127,50,.2);color:#cd7f32}
+
+.refresh-wrap{display:flex;align-items:center;gap:10px}
+.refresh-status{font-size:11px;color:#555}
+.refresh-btn{background:#1a1e2e;color:#aaa;border:1px solid #3a3f52;border-radius:6px;padding:7px 16px;font-size:12px;cursor:pointer;font-weight:600;transition:all .2s;white-space:nowrap}
+.refresh-btn:hover{background:#2a2e3d;color:#fff;border-color:#4a5068}
+.refresh-btn.running{border-color:#f59e0b88;color:#f59e0b;opacity:.7;cursor:wait}
+.refresh-btn.done{border-color:#22c55e;color:#22c55e}
+.refresh-btn.error{border-color:#ef5350;color:#ef5350}
 </style>
 </head>
 <body>
@@ -100,6 +108,10 @@ body{background:#0f1117;color:#DDD;font-family:-apple-system,BlinkMacSystemFont,
     <span><span class="sl">PF</span><span class="sv" id="s-pf">-</span></span>
     <span><span class="sl">Max DD</span><span class="sv" id="s-dd">-</span></span>
     <span><span class="sl">Month P&L</span><span class="sv" id="s-mo">-</span></span>
+  </div>
+  <div class="refresh-wrap">
+    <span class="refresh-status" id="refresh-status"></span>
+    <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">&#x21bb; Refresh Data</button>
   </div>
 </div>
 
@@ -548,6 +560,64 @@ document.querySelectorAll('.fbtn').forEach(b => b.onclick = () => {
 document.getElementById('strat-sel').onchange = (e) => { switchStrat(e.target.value); };
 
 function refresh() { updateStats(); renderEquity(); renderCal(); renderStratPanel(); }
+
+// REFRESH DATA
+let lastTradeCount = Object.values(ALL_DATA).reduce((s, arr) => s + arr.length, 0);
+
+async function refreshData() {
+  const btn = document.getElementById('refresh-btn');
+  const status = document.getElementById('refresh-status');
+  if (btn.classList.contains('running')) return;
+
+  btn.className = 'refresh-btn running';
+  btn.innerHTML = '&#x21bb; Refreshing…';
+  status.textContent = '';
+  status.style.color = '#555';
+
+  try {
+    const r = await fetch('/api/refresh', { method: 'POST' });
+    if (!r.ok) throw new Error('Server returned ' + r.status);
+    const d = await r.json();
+    if (d.error) throw new Error(d.error);
+
+    // Update global data
+    for (const [name, trades] of Object.entries(d.trades)) {
+      ALL_DATA[name] = trades;
+    }
+    for (const [name, meta] of Object.entries(d.meta)) {
+      STRAT_META[name] = meta;
+    }
+
+    // Calculate diff
+    const newCount = d.total_trades;
+    const diff = newCount - lastTradeCount;
+    let diffMsg;
+    if (diff > 0) diffMsg = '+' + diff + ' new trade' + (diff > 1 ? 's' : '');
+    else if (diff < 0) diffMsg = Math.abs(diff) + ' trade' + (Math.abs(diff) > 1 ? 's' : '') + ' removed';
+    else diffMsg = 'no new trades';
+    lastTradeCount = newCount;
+
+    status.textContent = 'Last refreshed ' + d.timestamp + ' · ' + newCount + ' trades total · ' + diffMsg;
+    status.style.color = diff > 0 ? '#22c55e' : '#555';
+
+    btn.className = 'refresh-btn done';
+    btn.innerHTML = '&#x21bb; Refresh Data';
+    setTimeout(() => { btn.className = 'refresh-btn'; }, 3000);
+
+    // Re-render everything
+    selDate = null;
+    document.getElementById('detail').innerHTML = '';
+    detailCharts.forEach(c => c.remove()); detailCharts = [];
+    refresh();
+
+  } catch (e) {
+    status.textContent = 'Refresh failed: ' + e.message;
+    status.style.color = '#ef5350';
+    btn.className = 'refresh-btn error';
+    btn.innerHTML = '&#x21bb; Refresh Data';
+    setTimeout(() => { btn.className = 'refresh-btn'; }, 5000);
+  }
+}
 
 // INIT
 (function init() {

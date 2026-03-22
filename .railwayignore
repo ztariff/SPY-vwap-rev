@@ -1,0 +1,4 @@
+data_cache/
+kite_data/
+spy_fade_strategy/data_cache/
+*.tmp
