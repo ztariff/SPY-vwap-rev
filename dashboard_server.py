@@ -35,6 +35,15 @@ _total_trades = 0
 _last_refresh = None
 _refresh_lock = threading.Lock()
 _is_refreshing = False
+_server_logs = []
+
+def slog(msg):
+    """Server log — stores in memory buffer + prints."""
+    entry = f'[{time.strftime("%H:%M:%S")}] {msg}'
+    _server_logs.append(entry)
+    if len(_server_logs) > 200:
+        _server_logs.pop(0)
+    print(entry, flush=True)
 
 
 # ----- trade processing -----
@@ -116,7 +125,7 @@ def kite_fetch_trades(submission_hash):
             # API returns raw CSV (not JSON) with TATH-Token auth
             return parse_csv_trades(data)
     except Exception as e:
-        print(f'  Error fetching {submission_hash[:12]}: {e}')
+        slog(f'  Error fetching {submission_hash[:12]}: {type(e).__name__}: {e}')
         return []
 
 
@@ -150,7 +159,7 @@ def fetch_all_strategy_trades():
         all_data[strat_name] = trades
         strat_meta[strat_name] = compute_meta(trades)
         total += len(trades)
-        print(f'  {strat_name}: {len(trades)} trades from {len(hashes)} batches ({errors} errors)')
+        slog(f'  {strat_name}: {len(trades)} trades from {len(hashes)} batches ({errors} errors)')
 
     # Update cache
     _trade_cache = all_data
@@ -213,6 +222,12 @@ class DashboardHandler(BaseHTTPRequestHandler):
         if path == 'api/data':
             return self._json_ok(self._current_payload())
 
+        if path == 'api/test':
+            return self._handle_test()
+
+        if path == 'api/logs':
+            return self._json_ok({'logs': _server_logs[-50:]})
+
         # Serve static files
         fpath = os.path.join(BASE, path)
         if os.path.isfile(fpath) and self._is_safe_file(path):
@@ -240,6 +255,43 @@ class DashboardHandler(BaseHTTPRequestHandler):
             'is_refreshing': _is_refreshing,
         }
 
+    def _handle_test(self):
+        """Diagnostic endpoint: test KITE API connectivity with a single hash."""
+        result = {'kite_api': KITE_API, 'token_set': bool(KITE_TOKEN), 'token_preview': KITE_TOKEN[:8] + '...' if KITE_TOKEN else 'MISSING'}
+        test_hash = None
+        for hashes in STRATEGY_HASHES.values():
+            if hashes:
+                test_hash = hashes[0]
+                break
+        if not test_hash:
+            result['error'] = 'No strategy hashes found'
+            return self._json_ok(result)
+
+        result['test_hash'] = test_hash
+        url = f'{KITE_API}/pta/trades?submission={test_hash}'
+        result['url'] = url
+        try:
+            t0 = time.time()
+            req = urllib.request.Request(url, headers={'TATH-Token': KITE_TOKEN})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                status = resp.status
+                data = resp.read().decode('utf-8')
+                elapsed = round(time.time() - t0, 2)
+                lines = data.strip().split('\n')
+                result['status'] = status
+                result['elapsed_sec'] = elapsed
+                result['response_lines'] = len(lines)
+                result['first_line'] = lines[0][:120] if lines else ''
+                result['trades_found'] = len(lines) - 1  # minus header
+                result['success'] = True
+        except Exception as e:
+            result['success'] = False
+            result['error'] = f'{type(e).__name__}: {str(e)}'
+            result['elapsed_sec'] = round(time.time() - t0, 2)
+
+        slog(f'API test: success={result.get("success")} elapsed={result.get("elapsed_sec")}s trades={result.get("trades_found", 0)}')
+        return self._json_ok(result)
+
     def _handle_refresh(self):
         global _is_refreshing
         if _is_refreshing:
@@ -250,12 +302,12 @@ class DashboardHandler(BaseHTTPRequestHandler):
 
         _is_refreshing = True
         try:
-            print(f'\n[{time.strftime("%H:%M:%S")}] Refresh triggered — fetching from KITE API...')
+            slog('Refresh triggered — fetching from KITE API...')
             fetch_all_strategy_trades()
-            print(f'[{time.strftime("%H:%M:%S")}] Refresh complete — {_total_trades} total trades\n')
+            slog(f'Refresh complete — {_total_trades} total trades')
             return self._json_ok(self._current_payload())
         except Exception as e:
-            print(f'Refresh error: {e}')
+            slog(f'Refresh error: {type(e).__name__}: {e}')
             return self._json_err(str(e))
         finally:
             _is_refreshing = False
