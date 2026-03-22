@@ -1,0 +1,21 @@
+guid: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+name: premarket_check
+description: 'Diagnostic: check if pre-market bars fire'
+language: python
+options:
+    deploy_time: "04:00:00"
+    pause_time: "20:00:00"
+    low_latency: false
+    single_instance: true
+    unload_on_restart: false
+    account: 203129
+    save_to_cloudquant: true
+parameters:
+    - name: buy_algo
+      type: voodoo_buy
+      default: 10b39bea-8f18-4838-9207-cca44e05794d
+      description: Buy-side algo
+    - name: sell_algo
+      type: voodoo_sell
+      default: 8cfeb551-7c2a-4a9a-8888-601324d0fcd2
+      description: Sell-side algo

@@ -75,6 +75,9 @@ Two distinct edges survived everything:
 - Fade strategies (0.10% stop) max out at $5M notional → actual risk ~$5K per trade (can't reach $25K risk without $25M+ position)
 - Buy strategies (1.0% stop) at $5M notional → actual risk ~$50K per trade
 
+## Execution Assumptions — SPY/QQQ Are ETFs
+SPY and QQQ are among the most liquid instruments on the planet. If a resting limit order is sitting at a price and the market trades through that price, **you fill at your resting price. Period.** There is no slippage, no partial fill risk, no "price skipped through your order." This is not a small-cap stock. Do not model or worry about slippage on resting limit orders in SPY/QQQ. The frontside fill model (fill at exact limit price when bar low/high touches) is accurate for live execution.
+
 ## Honest Concerns (per "Surface problems" rule)
 - Per-trade edge is small: 0.04-0.09% avg return
 - The 0.3x ATR level fires 526 times but has the weakest per-trade edge (Sharpe ~0.04)

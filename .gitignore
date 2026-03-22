@@ -17,3 +17,16 @@ Thumbs.db
 # Temporary/working files
 *.tmp
 nohup.out
+
+# Large data directories
+kite_data/
+data_cache/
+
+# Batch date files (temporary backtest batches)
+clean_c2_*.txt
+clean_c3_*.txt
+strat_*.txt
+dates_*.txt
+
+# Temporary console/debug output
+kite_2024_console.txt

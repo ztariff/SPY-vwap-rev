@@ -1,0 +1,516 @@
+{
+  "baseline": {
+    "n": 526,
+    "sharpe": 2.587,
+    "wr": 0.578,
+    "pf": 1.92,
+    "total": 1522149.0,
+    "avg": 2893.82,
+    "max_dd": 103161.0,
+    "neg_years": 1
+  },
+  "sizing_tests": {
+    "VEL: 1.5x if vel<5b, 0.7x if >=5b": {
+      "n": 526,
+      "sharpe": 2.782,
+      "wr": 0.578,
+      "pf": 2.38,
+      "total": 1834229.0,
+      "avg": 3487.13,
+      "max_dd": 101568.0,
+      "neg_years": 1
+    },
+    "VEL: 2.0x if vel<5b, 0.5x if >=5b": {
+      "n": 526,
+      "sharpe": 2.721,
+      "wr": 0.578,
+      "pf": 2.91,
+      "total": 2202433.0,
+      "avg": 4187.13,
+      "max_dd": 109031.0,
+      "neg_years": 1
+    },
+    "VEL: 1.5x if vel<10b, 1.0x if >=10b": {
+      "n": 526,
+      "sharpe": 2.618,
+      "wr": 0.578,
+      "pf": 2.07,
+      "total": 2076842.0,
+      "avg": 3948.37,
+      "max_dd": 154474.0,
+      "neg_years": 0
+    },
+    "VEL: 1.0x if vel<10b, 0.5x if >=10b": {
+      "n": 526,
+      "sharpe": 2.597,
+      "wr": 0.578,
+      "pf": 2.17,
+      "total": 1315767.0,
+      "avg": 2501.46,
+      "max_dd": 102893.0,
+      "neg_years": 0
+    },
+    "VEL: 1.5x if vel<10b, 0.7x if >=10b": {
+      "n": 526,
+      "sharpe": 2.589,
+      "wr": 0.578,
+      "pf": 2.2,
+      "total": 1953012.0,
+      "avg": 3712.95,
+      "max_dd": 154312.0,
+      "neg_years": 0
+    },
+    "VEL: 2.0x if vel<15b, 0.7x if >=15b": {
+      "n": 526,
+      "sharpe": 2.543,
+      "wr": 0.578,
+      "pf": 2.18,
+      "total": 2608134.0,
+      "avg": 4958.43,
+      "max_dd": 224408.0,
+      "neg_years": 0
+    },
+    "TOD: 1.5x if <30m, 1.0x after": {
+      "n": 526,
+      "sharpe": 2.523,
+      "wr": 0.578,
+      "pf": 1.95,
+      "total": 1726555.0,
+      "avg": 3282.42,
+      "max_dd": 124438.0,
+      "neg_years": 0
+    },
+    "VIX: 1.0x if VIX<25, 2.0x if VIX>=25": {
+      "n": 526,
+      "sharpe": 2.506,
+      "wr": 0.578,
+      "pf": 1.92,
+      "total": 1600251.0,
+      "avg": 3042.3,
+      "max_dd": 103161.0,
+      "neg_years": 1
+    },
+    "VEL: 2.0x if vel<10b, 0.5x if >=10b": {
+      "n": 526,
+      "sharpe": 2.5,
+      "wr": 0.578,
+      "pf": 2.41,
+      "total": 2425152.0,
+      "avg": 4610.55,
+      "max_dd": 205517.0,
+      "neg_years": 0
+    },
+    "VIX: 1.0x if VIX<20, 1.5x if VIX>=20": {
+      "n": 526,
+      "sharpe": 2.474,
+      "wr": 0.578,
+      "pf": 1.89,
+      "total": 1611594.0,
+      "avg": 3063.87,
+      "max_dd": 103161.0,
+      "neg_years": 0
+    },
+    "VEL: 2.0x if vel<20b, 0.5x if >=20b": {
+      "n": 526,
+      "sharpe": 2.473,
+      "wr": 0.578,
+      "pf": 2.12,
+      "total": 2659218.0,
+      "avg": 5055.55,
+      "max_dd": 193134.0,
+      "neg_years": 0
+    },
+    "TOD: 1.5x if <15m, 0.5x after": {
+      "n": 526,
+      "sharpe": 2.434,
+      "wr": 0.578,
+      "pf": 2.12,
+      "total": 1042543.0,
+      "avg": 1982.02,
+      "max_dd": 54755.0,
+      "neg_years": 0
+    },
+    "GAP: 1.5x if gap<-0.3%, 1.0x if >=-0.3%": {
+      "n": 526,
+      "sharpe": 2.422,
+      "wr": 0.578,
+      "pf": 1.86,
+      "total": 1655912.0,
+      "avg": 3148.12,
+      "max_dd": 127809.0,
+      "neg_years": 1
+    },
+    "TOD: 2.0x if <30m, 1.0x after": {
+      "n": 526,
+      "sharpe": 2.413,
+      "wr": 0.578,
+      "pf": 1.98,
+      "total": 1930961.0,
+      "avg": 3671.03,
+      "max_dd": 145714.0,
+      "neg_years": 0
+    },
+    "TOD: 1.5x if <30m, 0.7x after": {
+      "n": 526,
+      "sharpe": 2.38,
+      "wr": 0.578,
+      "pf": 1.98,
+      "total": 1392554.0,
+      "avg": 2647.44,
+      "max_dd": 106255.0,
+      "neg_years": 0
+    },
+    "COMBO TOD*VEL: low=0.25x mid=0.5x hi=1.0x": {
+      "n": 526,
+      "sharpe": 2.376,
+      "wr": 0.578,
+      "pf": 2.22,
+      "total": 846699.0,
+      "avg": 1609.69,
+      "max_dd": 69042.0,
+      "neg_years": 0
+    },
+    "COMBO TOD*VEL: low=0.35x mid=0.7x hi=1.4x": {
+      "n": 526,
+      "sharpe": 2.376,
+      "wr": 0.578,
+      "pf": 2.22,
+      "total": 1185379.0,
+      "avg": 2253.57,
+      "max_dd": 96659.0,
+      "neg_years": 0
+    },
+    "COMBO TOD*VEL: low=0.5x mid=1.0x hi=2.0x": {
+      "n": 526,
+      "sharpe": 2.376,
+      "wr": 0.578,
+      "pf": 2.22,
+      "total": 1693399.0,
+      "avg": 3219.39,
+      "max_dd": 138084.0,
+      "neg_years": 0
+    },
+    "VIX: 0.5x if VIX<25, 1.5x if VIX>=25": {
+      "n": 526,
+      "sharpe": 2.347,
+      "wr": 0.578,
+      "pf": 1.91,
+      "total": 839176.0,
+      "avg": 1595.39,
+      "max_dd": 51581.0,
+      "neg_years": 1
+    },
+    "VIX: 0.7x if VIX<18, 1.5x if VIX>=18": {
+      "n": 526,
+      "sharpe": 2.329,
+      "wr": 0.578,
+      "pf": 1.87,
+      "total": 1350776.0,
+      "avg": 2568.01,
+      "max_dd": 72628.0,
+      "neg_years": 0
+    },
+    "GAP: 1.5x if gap<0%, 0.7x if >=0%": {
+      "n": 526,
+      "sharpe": 2.251,
+      "wr": 0.578,
+      "pf": 1.84,
+      "total": 1533415.0,
+      "avg": 2915.24,
+      "max_dd": 89824.0,
+      "neg_years": 1
+    },
+    "VIX: 0.5x if VIX<16, 1.5x if VIX>=16": {
+      "n": 526,
+      "sharpe": 2.218,
+      "wr": 0.578,
+      "pf": 1.84,
+      "total": 1262178.0,
+      "avg": 2399.58,
+      "max_dd": 81885.0,
+      "neg_years": 1
+    },
+    "COMBO TOD*VIX: low=0.25x mid=0.5x hi=1.0x": {
+      "n": 526,
+      "sharpe": 2.206,
+      "wr": 0.578,
+      "pf": 1.94,
+      "total": 557368.0,
+      "avg": 1059.64,
+      "max_dd": 36429.0,
+      "neg_years": 0
+    },
+    "COMBO TOD*VIX: low=0.35x mid=0.7x hi=1.4x": {
+      "n": 526,
+      "sharpe": 2.206,
+      "wr": 0.578,
+      "pf": 1.94,
+      "total": 780315.0,
+      "avg": 1483.49,
+      "max_dd": 51000.0,
+      "neg_years": 0
+    },
+    "COMBO TOD*VIX: low=0.5x mid=1.0x hi=2.0x": {
+      "n": 526,
+      "sharpe": 2.206,
+      "wr": 0.578,
+      "pf": 1.94,
+      "total": 1114736.0,
+      "avg": 2119.27,
+      "max_dd": 72857.0,
+      "neg_years": 0
+    },
+    "GAP: 1.5x if gap<-0.3%, 0.7x if >=-0.3%": {
+      "n": 526,
+      "sharpe": 2.19,
+      "wr": 0.578,
+      "pf": 1.8,
+      "total": 1279525.0,
+      "avg": 2432.56,
+      "max_dd": 111650.0,
+      "neg_years": 1
+    },
+    "TOD: 1.0x if <60m, 0.5x after": {
+      "n": 526,
+      "sharpe": 2.135,
+      "wr": 0.578,
+      "pf": 1.79,
+      "total": 996076.0,
+      "avg": 1893.68,
+      "max_dd": 76405.0,
+      "neg_years": 0
+    },
+    "TOD: 1.5x if <60m, 0.7x after": {
+      "n": 526,
+      "sharpe": 2.086,
+      "wr": 0.578,
+      "pf": 1.78,
+      "total": 1441507.0,
+      "avg": 2740.51,
+      "max_dd": 111932.0,
+      "neg_years": 0
+    },
+    "VIX: 0.5x if VIX<20, 1.5x if VIX>=20": {
+      "n": 526,
+      "sharpe": 2.039,
+      "wr": 0.578,
+      "pf": 1.81,
+      "total": 939965.0,
+      "avg": 1787.01,
+      "max_dd": 52515.0,
+      "neg_years": 0
+    },
+    "TOD: 2.0x if <30m, 0.5x after": {
+      "n": 526,
+      "sharpe": 2.031,
+      "wr": 0.578,
+      "pf": 2.04,
+      "total": 1374292.0,
+      "avg": 2612.72,
+      "max_dd": 130801.0,
+      "neg_years": 0
+    },
+    "GAP: 2.0x if gap<0%, 0.5x if >=0%": {
+      "n": 526,
+      "sharpe": 1.935,
+      "wr": 0.578,
+      "pf": 1.78,
+      "total": 1638407.0,
+      "avg": 3114.84,
+      "max_dd": 139803.0,
+      "neg_years": 1
+    },
+    "TOD: 2.5x if <30m, 0.5x after": {
+      "n": 526,
+      "sharpe": 1.912,
+      "wr": 0.578,
+      "pf": 2.06,
+      "total": 1578698.0,
+      "avg": 3001.33,
+      "max_dd": 162107.0,
+      "neg_years": 0
+    },
+    "TOD: 3.0x if <30m, 0.5x after": {
+      "n": 526,
+      "sharpe": 1.823,
+      "wr": 0.578,
+      "pf": 2.08,
+      "total": 1783104.0,
+      "avg": 3389.93,
+      "max_dd": 193413.0,
+      "neg_years": 0
+    },
+    "VIX: 0.5x if VIX<20, 2.0x if VIX>=20": {
+      "n": 526,
+      "sharpe": 1.81,
+      "wr": 0.578,
+      "pf": 1.78,
+      "total": 1029410.0,
+      "avg": 1957.05,
+      "max_dd": 65124.0,
+      "neg_years": 0
+    },
+    "TOD: 2.0x if <30m, 0.3x after": {
+      "n": 526,
+      "sharpe": 1.776,
+      "wr": 0.578,
+      "pf": 2.09,
+      "total": 1151625.0,
+      "avg": 2189.4,
+      "max_dd": 128570.0,
+      "neg_years": 0
+    },
+    "TOD: 2.0x if <60m, 0.5x after": {
+      "n": 526,
+      "sharpe": 1.697,
+      "wr": 0.578,
+      "pf": 1.69,
+      "total": 1466079.0,
+      "avg": 2787.22,
+      "max_dd": 150932.0,
+      "neg_years": 0
+    },
+    "GAP: 2.0x if gap<-0.5%, 0.5x if >=-0.5%": {
+      "n": 526,
+      "sharpe": 1.666,
+      "wr": 0.578,
+      "pf": 1.71,
+      "total": 1040408.0,
+      "avg": 1977.96,
+      "max_dd": 126241.0,
+      "neg_years": 1
+    },
+    "VIX: 0.3x if VIX<22, 2.0x if VIX>=22": {
+      "n": 526,
+      "sharpe": 1.566,
+      "wr": 0.578,
+      "pf": 1.82,
+      "total": 696431.0,
+      "avg": 1324.01,
+      "max_dd": 91215.0,
+      "neg_years": 0
+    }
+  },
+  "filter_tests": [
+    [
+      "Skip if entry > 120m from open",
+      307,
+      1.598,
+      0.544,
+      1.66,
+      0.0531
+    ],
+    [
+      "Skip if entry > 60m from open",
+      200,
+      1.079,
+      0.515,
+      1.51,
+      0.04935
+    ],
+    [
+      "Skip if entry > 30m from open",
+      98,
+      1.145,
+      0.531,
+      1.86,
+      0.08234
+    ],
+    [
+      "Skip if VIX < 15",
+      257,
+      1.606,
+      0.576,
+      1.78,
+      0.0484
+    ],
+    [
+      "Skip if VIX < 13",
+      304,
+      2.07,
+      0.586,
+      2.01,
+      0.05879
+    ],
+    [
+      "Skip if velocity > 50 bars",
+      408,
+      2.568,
+      0.578,
+      2.04,
+      0.07764
+    ],
+    [
+      "Skip if velocity > 20 bars",
+      273,
+      2.517,
+      0.601,
+      2.28,
+      0.10519
+    ],
+    [
+      "Skip if gap > +1%",
+      499,
+      2.473,
+      0.577,
+      1.91,
+      0.06082
+    ],
+    [
+      "Skip if gap < -1%",
+      482,
+      2.805,
+      0.589,
+      2.1,
+      0.0696
+    ],
+    [
+      "Skip if vol ratio < 0.5",
+      502,
+      2.388,
+      0.574,
+      1.85,
+      0.05886
+    ],
+    [
+      "Skip Fridays",
+      411,
+      2.424,
+      0.584,
+      1.99,
+      0.06473
+    ],
+    [
+      "Only Mon-Wed",
+      296,
+      2.174,
+      0.584,
+      2.09,
+      0.06965
+    ],
+    [
+      "Skip if 3d trend > +2%",
+      473,
+      2.478,
+      0.579,
+      1.95,
+      0.06382
+    ],
+    [
+      "Only entry < 60m AND VIX >= 16",
+      78,
+      0.687,
+      0.538,
+      1.53,
+      0.04343
+    ],
+    [
+      "Only entry < 30m AND velocity < 10",
+      53,
+      1.316,
+      0.566,
+      2.53,
+      0.1488
+    ]
+  ]
+}

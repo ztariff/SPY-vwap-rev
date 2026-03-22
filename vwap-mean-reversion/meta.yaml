@@ -1,0 +1,61 @@
+guid: 9ff93779-6671-4a8d-b718-ee497f3e2113
+name: vwap_mean_reversion
+description: 'C-Shark VWAP mean reversion - velocity-tiered sizing + gap filter + TOD overlay'
+language: python
+options:
+    deploy_time: "09:30:00"
+    pause_time: "16:00:00"
+    low_latency: false
+    single_instance: true
+    unload_on_restart: false
+    account: 203129
+    save_to_cloudquant: true
+parameters:
+    - name: direction
+      type: string
+      default: buy
+      description: Trade direction - buy, fade, or both
+    - name: entry_pct
+      type: float
+      default: "0.4"
+      description: Entry threshold as % deviation from VWAP
+    - name: stop_pct
+      type: float
+      default: "1.0"
+      description: Stop loss percentage from entry
+    - name: target_pct
+      type: float
+      default: "0.75"
+      description: Profit target percentage from entry
+    - name: time_exit_minutes
+      type: int
+      default: "15"
+      description: Max minutes to hold (0 = no time exit, EOD only)
+    - name: sizing_mode
+      type: int
+      default: "0"
+      description: Sizing mode 0=flat 1=G1 2=G3 3=G4 4=F6
+    - name: risk_budget
+      type: float
+      default: "100000"
+      description: Static risk budget when dynamic sizing is off
+    - name: min_bars_for_vwap
+      type: int
+      default: "5"
+      description: Min bars before VWAP is tradeable
+    - name: eod_exit_hour
+      type: int
+      default: "15"
+      description: Hour for EOD exit cutoff
+    - name: eod_exit_minute
+      type: int
+      default: "55"
+      description: Minute for EOD exit cutoff
+    - name: buy_algo
+      type: voodoo_buy
+      default: 10b39bea-8f18-4838-9207-cca44e05794d
+      description: Buy-side order routing algorithm
+    - name: sell_algo
+      type: voodoo_sell
+      default: 8cfeb551-7c2a-4a9a-8888-601324d0fcd2
+      description: Sell-side order routing algorithm
