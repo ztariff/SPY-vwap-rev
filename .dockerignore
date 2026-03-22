@@ -1,0 +1,9 @@
+data_cache/
+kite_data/
+spy_fade_strategy/data_cache/
+__pycache__/
+*.pyc
+.git/
+clean_c*.txt
+strat_*.txt
+dates_*.txt
