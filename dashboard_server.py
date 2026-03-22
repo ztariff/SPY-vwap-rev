@@ -7,10 +7,9 @@ Local:   python dashboard_server.py
 Railway: Deployed via Procfile, uses $PORT and $KITE_TOKEN env vars.
 """
 
-import json, os, time, mimetypes, csv, io, threading
+import json, os, time, mimetypes, csv, io, threading, math
 import urllib.request
 import urllib.error
-import numpy as np
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
@@ -99,14 +98,23 @@ def compute_meta(trades):
     avg = total / n
     wins = sum(1 for p in pnls if p > 0)
     wr = wins / n * 100
-    std = float(np.std(pnls, ddof=1)) if n > 1 else 1
-    sharpe = avg / std * np.sqrt(n / 4.2) if std > 0 else 0
+    variance = sum((p - avg) ** 2 for p in pnls) / (n - 1) if n > 1 else 1
+    std = math.sqrt(variance)
+    sharpe = avg / std * math.sqrt(n / 4.2) if std > 0 else 0
     gain_sum = sum(p for p in pnls if p > 0)
     loss_sum = abs(sum(p for p in pnls if p < 0))
     pf = gain_sum / loss_sum if loss_sum > 0 else 99
-    cum = np.cumsum(pnls)
-    peak = np.maximum.accumulate(cum)
-    max_dd = float(np.max(peak - cum))
+    # max drawdown from cumulative P&L
+    cum = 0
+    peak = 0
+    max_dd = 0
+    for p in pnls:
+        cum += p
+        if cum > peak:
+            peak = cum
+        dd = peak - cum
+        if dd > max_dd:
+            max_dd = dd
     return {
         'n': n, 'total': round(total, 0), 'avg': round(avg, 0), 'wr': round(wr, 1),
         'sharpe': round(float(sharpe), 3), 'pf': round(float(pf), 2), 'max_dd': round(max_dd, 0)
@@ -221,6 +229,9 @@ class DashboardHandler(BaseHTTPRequestHandler):
 
         if path == 'api/data':
             return self._json_ok(self._current_payload())
+
+        if path == 'api/health':
+            return self._json_ok({'status': 'ok', 'trades': _total_trades, 'timestamp': _last_refresh})
 
         if path == 'api/test':
             return self._handle_test()
