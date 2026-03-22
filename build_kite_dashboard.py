@@ -645,12 +645,20 @@ async function refreshData() {
   if (btn.classList.contains('running')) return;
 
   btn.className = 'refresh-btn running';
-  btn.innerHTML = '&#x21bb; Refreshing\u2026';
-  status.textContent = '';
-  status.style.color = '#555';
+  btn.innerHTML = '&#x21bb; Fetching from KITE\u2026';
+  status.textContent = 'Pulling 240 batches from KITE API \u2014 this takes ~60-90 seconds\u2026';
+  status.style.color = '#f59e0b';
+
+  // Timer to show elapsed time
+  const startTime = Date.now();
+  const timer = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - startTime) / 1000);
+    status.textContent = 'Fetching from KITE API\u2026 ' + elapsed + 's elapsed';
+  }, 1000);
 
   try {
-    const r = await fetch('/api/refresh', { method: 'POST' });
+    const r = await fetch('/api/refresh', { method: 'POST', signal: AbortSignal.timeout(180000) });
+    clearInterval(timer);
     if (!r.ok) throw new Error('Server returned ' + r.status);
     const d = await r.json();
     if (d.error) throw new Error(d.error);
@@ -686,6 +694,7 @@ async function refreshData() {
     refresh();
 
   } catch (e) {
+    clearInterval(timer);
     status.textContent = 'Refresh failed: ' + e.message;
     status.style.color = '#ef5350';
     btn.className = 'refresh-btn error';
