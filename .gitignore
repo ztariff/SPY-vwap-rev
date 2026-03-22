@@ -18,10 +18,6 @@ Thumbs.db
 *.tmp
 nohup.out
 
-# Large data directories
-kite_data/
-data_cache/
-
 # Batch date files (temporary backtest batches)
 clean_c2_*.txt
 clean_c3_*.txt

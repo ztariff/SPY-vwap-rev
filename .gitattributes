@@ -1,0 +1,2 @@
+data_cache/** filter=lfs diff=lfs merge=lfs -text
+kite_data/** filter=lfs diff=lfs merge=lfs -text
